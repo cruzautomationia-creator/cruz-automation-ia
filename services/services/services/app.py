@@ -216,4 +216,123 @@ elif pagina == "💰 Finanzas":
     pagos = db.obtener_pagos()
     if pagos:
         df = pd.DataFrame(pagos)[["cliente_nombre","monto","fecha","metodo","notas"]]
-        df.columns = ["Cli
+        df.columns = ["Cliente","Monto","Fecha","Método","Notas"]
+        st.dataframe(df, use_container_width=True)
+    else:
+        st.info("No hay pagos registrados.")
+
+elif pagina == "🎨 Marketing IA":
+    st.title("🎨 Agente de Marketing IA")
+    st.markdown("---")
+    clientes = db.obtener_clientes()
+    opciones_clientes = {c["nombre"]: c["id"] for c in clientes} if clientes else {}
+    col1, col2 = st.columns([1,1])
+    with col1:
+        nicho = st.selectbox("Nicho", ["Automatización IA / Tecnología", "E-commerce / Tienda online", "Restaurante / Gastronomía", "Marca personal / Coach", "Salud y bienestar", "Educación / Cursos online", "Servicios profesionales", "Otro"])
+        if opciones_clientes:
+            cliente_mkt = st.selectbox("Cliente (opcional)", ["-- Sin asociar --"] + list(opciones_clientes.keys()))
+        contexto = st.text_area("Contexto del cliente", placeholder="Ej: vende cursos de Excel, quiere crecer en Instagram...")
+    with col2:
+        st.markdown("**El agente genera:**")
+        st.markdown("- 🎠 3 carruseles con slides\n- 🎬 Guión de reel\n- 📅 Estrategia semanal\n- 💡 3 ideas virales")
+    if st.button("🚀 Generar contenido con IA", type="primary"):
+        if not contexto:
+            st.warning("Agrega contexto del cliente.")
+        else:
+            with st.spinner("Generando..."):
+                try:
+                    resultado = ai.generar_contenido_marketing(nicho, contexto)
+                    cliente_id = opciones_clientes.get(cliente_mkt if "cliente_mkt" in dir() and cliente_mkt != "-- Sin asociar --" else None)
+                    db.guardar_contenido(cliente_id, "completo", nicho, json.dumps(resultado, ensure_ascii=False))
+                    st.success("✅ Contenido generado")
+                    st.subheader("🎠 Carruseles")
+                    for i, carrusel in enumerate(resultado.get("carruseles",[]), 1):
+                        with st.expander(f"Carrusel {i}: {carrusel['titulo']}"):
+                            for j, slide in enumerate(carrusel.get("slides",[]), 1):
+                                st.markdown(f"**Slide {j}:** {slide}")
+                    col1, col2 = st.columns(2)
+                    with col1:
+                        st.subheader("🎬 Guión de Reel")
+                        guion = resultado.get("guion_reel",{})
+                        st.markdown(f"**Hook:** {guion.get('hook','')}")
+                        st.markdown(f"**Desarrollo:** {guion.get('desarrollo','')}")
+                        st.markdown(f"**CTA:** {guion.get('cta','')}")
+                    with col2:
+                        st.subheader("📅 Estrategia Semanal")
+                        for dia, accion in resultado.get("estrategia_semanal",{}).items():
+                            st.markdown(f"**{dia.capitalize()}:** {accion}")
+                    st.subheader("💡 Ideas Virales")
+                    for idea in resultado.get("ideas_virales",[]):
+                        st.markdown(f"- {idea}")
+                except Exception as ex:
+                    st.error(f"Error: {ex}")
+
+elif pagina == "🔍 Tendencias":
+    st.title("🔍 Agente de Tendencias")
+    st.markdown("---")
+    if st.button("🔄 Investigar tendencias con IA", type="primary"):
+        with st.spinner("Investigando..."):
+            try:
+                resultado = ai.investigar_tendencias()
+                for t in resultado.get("tendencias",[]):
+                    db.guardar_tendencia(t["titulo"], t["descripcion"], t["oportunidad"])
+                st.success("✅ Tendencias actualizadas")
+                st.info(f"**Resumen:** {resultado.get('resumen','')}")
+                st.warning(f"**Acción inmediata:** {resultado.get('accion_inmediata','')}")
+            except Exception as ex:
+                st.error(f"Error: {ex}")
+    st.markdown("---")
+    tendencias = db.obtener_tendencias()
+    if tendencias:
+        for t in tendencias:
+            with st.container(border=True):
+                st.markdown(f"#### {t['titulo']}")
+                st.write(t["descripcion"])
+                st.success(f"💡 {t['oportunidad']}")
+                st.caption(f"📅 {t['fecha'][:10]}")
+    else:
+        st.info("Haz click en el botón para investigar tendencias.")
+
+elif pagina == "📧 Notificaciones":
+    st.title("📧 Centro de Notificaciones")
+    st.markdown("---")
+    clientes = db.obtener_clientes()
+    pendientes = [c for c in clientes if c["estado"] == "pendiente"]
+    st.subheader(f"⚠️ Clientes pendientes ({len(pendientes)})")
+    if not pendientes:
+        st.success("✅ No hay cobros pendientes.")
+    else:
+        for c in pendientes:
+            with st.container(border=True):
+                col1, col2, col3 = st.columns([2,1,1])
+                with col1:
+                    st.markdown(f"**{c['nombre']}** — {c['servicio']}")
+                    st.caption(f"${c['mensualidad']}/mes · {c['email'] or 'Sin email'}")
+                with col2:
+                    if c["email"] and st.button("📧 Recordatorio", key=f"rec_{c['id']}"):
+                        ok, msg = notifications.email_recordatorio_pago(c["nombre"], c["email"], c["mensualidad"], c["servicio"], c["fecha_pago"] or "fecha acordada")
+                        st.success("Enviado") if ok else st.error(msg)
+                with col3:
+                    if st.button("🤖 Mensaje IA", key=f"ia_{c['id']}"):
+                        with st.spinner("Generando..."):
+                            try:
+                                msg = ai.generar_mensaje_cobro(c["nombre"], c["mensualidad"], c["servicio"])
+                                st.text_area("Copia:", msg, key=f"msg_{c['id']}")
+                            except Exception as ex:
+                                st.error(f"Error: {ex}")
+
+elif pagina == "⚙️ Configuración":
+    st.title("⚙️ Configuración")
+    st.markdown("---")
+    st.subheader("🔑 Secrets de Streamlit Cloud")
+    st.info("Ve a tu app → Settings → Secrets y agrega:")
+    st.code("""
+ANTHROPIC_API_KEY = "sk-ant-..."
+SMTP_EMAIL = "tucorreo@gmail.com"
+SMTP_PASSWORD = "tu-app-password-gmail"
+    """, language="toml")
+    clientes = db.obtener_clientes()
+    pagos = db.obtener_pagos()
+    col1, col2 = st.columns(2)
+    col1.metric("Clientes", len(clientes))
+    col2.metric("Pagos", len(pagos))
