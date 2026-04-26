@@ -33,7 +33,7 @@ def registrar_pago(cliente_id, monto, fecha, metodo, notas):
 
 def obtener_pagos():
     sb = get_client()
-    res = sb.table("pagos").select("*, clientes(nombre)").order("id", desc=True).execute()
+    res = sb.table("pagos").select("*, clientes(nombre)").execute()
     pagos = []
     for p in res.data or []:
         p["cliente_nombre"] = p.get("clientes", {}).get("nombre", "Sin cliente") if p.get("clientes") else "Sin cliente"
@@ -42,8 +42,9 @@ def obtener_pagos():
 
 def ingresos_del_mes(mes):
     sb = get_client()
-    res = sb.table("pagos").select("monto").like("fecha", f"{mes}%").execute()
-    return sum(p["monto"] for p in res.data or [])
+    res = sb.table("pagos").select("monto, fecha").execute()
+    data = [p for p in res.data or [] if str(p.get("fecha", "")).startswith(mes)]
+    return sum(p["monto"] for p in data)
 
 def guardar_contenido(cliente_id, tipo, nicho, contenido):
     sb = get_client()
@@ -51,7 +52,7 @@ def guardar_contenido(cliente_id, tipo, nicho, contenido):
 
 def obtener_contenido():
     sb = get_client()
-    res = sb.table("contenido_generado").select("*, clientes(nombre)").order("id", desc=True).limit(50).execute()
+    res = sb.table("contenido_generado").select("*, clientes(nombre)").execute()
     contenido = []
     for c in res.data or []:
         c["cliente_nombre"] = c.get("clientes", {}).get("nombre", "Sin cliente") if c.get("clientes") else "Sin cliente"
@@ -64,7 +65,7 @@ def guardar_tendencia(titulo, descripcion, oportunidad):
 
 def obtener_tendencias():
     sb = get_client()
-    res = sb.table("tendencias").select("*").order("id", desc=True).limit(20).execute()
+    res = sb.table("tendencias").select("*").execute()
     return res.data or []
 
 def guardar_meta(mes, meta_ingresos, meta_clientes):
