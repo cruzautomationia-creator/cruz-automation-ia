@@ -3,10 +3,7 @@ import plotly.express as px
 from datetime import date, datetime
 import pandas as pd
 import json
-import sys
 import os
-
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import db
 from services import ai, notifications
@@ -20,7 +17,7 @@ st.set_page_config(
 
 st.markdown("""
 <style>
-    [data-testid="stSidebar"] { background: #FAFAFA; border-right: 1px solid #EFEFEF; }
+    [data-testid="stSidebar"] { background: #FAFAFA; }
     h1, h2, h3 { color: #1A1A2E !important; }
     .stButton > button { border-radius: 8px; font-weight: 500; }
 </style>
@@ -244,35 +241,15 @@ elif pagina == "📅 Planificación":
                     plan = ai.generar_plan_contenido(cliente_sel, cliente_data["servicio"], mes)
                     st.success("✅ Plan generado")
                     for semana, posts in plan.items():
-                        if semana.startswith("semana"):
+                        if semana.startswith("semana") and isinstance(posts, list):
                             num = semana.split("_")[1]
                             st.subheader(f"Semana {num}")
-                            if isinstance(posts, list):
-                                df_semana = pd.DataFrame(posts)
-                                st.dataframe(df_semana, use_container_width=True)
+                            st.dataframe(pd.DataFrame(posts), use_container_width=True)
                     if plan.get("estrategia_general"):
                         st.info(f"**Estrategia general:** {plan['estrategia_general']}")
                     db.guardar_contenido(cliente_data["id"], "plan_mensual", cliente_data["servicio"], json.dumps(plan, ensure_ascii=False))
                 except Exception as ex:
                     st.error(f"Error: {ex}")
-        st.markdown("---")
-        st.subheader("📋 Planes guardados")
-        contenido = db.obtener_contenido()
-        planes = [c for c in contenido if c.get("tipo") == "plan_mensual"]
-        if planes:
-            for p in planes[:5]:
-                with st.expander(f"📄 {p.get('cliente_nombre','Sin cliente')} — {p['nicho']} — {p['fecha'][:10]}"):
-                    try:
-                        data = json.loads(p["contenido"])
-                        for semana, posts in data.items():
-                            if semana.startswith("semana") and isinstance(posts, list):
-                                num = semana.split("_")[1]
-                                st.markdown(f"**Semana {num}**")
-                                st.dataframe(pd.DataFrame(posts), use_container_width=True)
-                    except:
-                        st.write(p["contenido"])
-        else:
-            st.info("No hay planes guardados aún.")
 
 elif pagina == "🔍 Tendencias":
     st.title("🔍 Agente de Tendencias")
@@ -332,9 +309,19 @@ elif pagina == "⚙️ Configuración":
     st.title("⚙️ Configuración")
     st.markdown("---")
     st.subheader("🔑 Secrets de Streamlit Cloud")
-    st.info("Ve a tu app → Settings → Secrets y agrega:")
+    st.info("Ve a tu app en Streamlit Cloud → Settings → Secrets y agrega:")
     st.code("""
 ANTHROPIC_API_KEY = "sk-ant-..."
+SMTP_EMAIL = "tucorreo@gmail.com"
+SMTP_PASSWORD = "tu-app-password-gmail"
+SUPABASE_URL = "https://xxx.supabase.co"
+SUPABASE_KEY = "tu-service-role-key"
+    """, language="toml")
+    clientes = db.obtener_clientes()
+    pagos = db.obtener_pagos()
+    col1, col2 = st.columns(2)
+    col1.metric("Clientes", len(clientes))
+    col2.metric("Pagos", len(pagos))
 SMTP_EMAIL = "tucorreo@gmail.com"
 SMTP_PASSWORD = "tu-app-password-gmail"
     """, language="toml")
