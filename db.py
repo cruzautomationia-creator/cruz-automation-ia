@@ -16,7 +16,7 @@ def agregar_cliente(nombre, email, whatsapp, servicio, mensualidad, fecha_pago, 
 
 def obtener_clientes():
     sb = get_client()
-    res = sb.table("clientes").select("*").order("id", desc=True).execute()
+    res = sb.table("clientes").select("*").execute()
     return res.data or []
 
 def actualizar_estado_cliente(cliente_id, nuevo_estado):
