@@ -8,35 +8,20 @@ import os
 import db
 from services import ai, notifications
 
-st.set_page_config(
-    page_title="Cruz Automation IA",
-    page_icon="⚡",
-    layout="wide",
-    initial_sidebar_state="expanded"
-)
+st.set_page_config(page_title="Cruz Automation IA", page_icon="⚡", layout="wide", initial_sidebar_state="expanded")
 
-st.markdown("""
-<style>
-    [data-testid="stSidebar"] { background: #FAFAFA; }
-    h1, h2, h3 { color: #1A1A2E !important; }
-    .stButton > button { border-radius: 8px; font-weight: 500; }
-</style>
-""", unsafe_allow_html=True)
+st.markdown("""<style>
+[data-testid="stSidebar"] { background: #FAFAFA; }
+h1, h2, h3 { color: #1A1A2E !important; }
+.stButton > button { border-radius: 8px; font-weight: 500; }
+</style>""", unsafe_allow_html=True)
 
 db.init_db()
 
 with st.sidebar:
     st.markdown("## ⚡ Cruz Automation IA")
     st.markdown("---")
-    pagina = st.radio("Navegación", [
-        "🏠 Dashboard",
-        "👥 Clientes",
-        "💰 Finanzas",
-        "📅 Planificación",
-        "🔍 Tendencias",
-        "📧 Notificaciones",
-        "⚙️ Configuración"
-    ], label_visibility="collapsed")
+    pagina = st.radio("Navegación", ["🏠 Dashboard","👥 Clientes","💰 Finanzas","📅 Planificación","🔍 Tendencias","📧 Notificaciones","⚙️ Configuración"], label_visibility="collapsed")
     st.markdown("---")
     st.markdown("<small style='color:#aaa'>Cruz Automation IA v1.0</small>", unsafe_allow_html=True)
 
@@ -49,13 +34,7 @@ def calcular_resumen():
     pendientes = [c for c in clientes if c["estado"] == "pendiente"]
     ingresos = db.ingresos_del_mes(get_mes_actual())
     pendiente_total = sum(c["mensualidad"] for c in pendientes)
-    return {
-        "total_clientes": len(clientes),
-        "activos": len(activos),
-        "pendientes": len(pendientes),
-        "ingresos_mes": ingresos,
-        "pendiente_cobro": pendiente_total
-    }
+    return {"total_clientes": len(clientes), "activos": len(activos), "pendientes": len(pendientes), "ingresos_mes": ingresos, "pendiente_cobro": pendiente_total}
 
 if pagina == "🏠 Dashboard":
     st.title("🏠 Resumen General")
@@ -139,7 +118,7 @@ elif pagina == "👥 Clientes":
                 email = st.text_input("Email")
                 whatsapp = st.text_input("WhatsApp")
             with col2:
-                servicio = st.selectbox("Servicio", ["Sitio web", "Portafolio / Marca personal", "Automatización WhatsApp", "Automatización Instagram", "Automatización TikTok", "Carruseles mensuales", "Gestión de contenido", "Paquete completo", "Otro"])
+                servicio = st.selectbox("Servicio", ["Sitio web","Portafolio / Marca personal","Automatización WhatsApp","Automatización Instagram","Automatización TikTok","Carruseles mensuales","Gestión de contenido","Paquete completo","Otro"])
                 mensualidad = st.number_input("Mensualidad ($)", min_value=0.0, value=150.0)
                 fecha_pago = st.date_input("Próxima fecha de pago", value=date.today())
                 estado = st.selectbox("Estado", ["activo", "pendiente"])
@@ -163,7 +142,7 @@ elif pagina == "👥 Clientes":
                 cliente_data = next(c for c in clientes if c["nombre"] == cliente_sel)
                 monto = st.number_input("Monto ($)", value=float(cliente_data["mensualidad"]))
                 fecha = st.date_input("Fecha del pago", value=date.today())
-                metodo = st.selectbox("Método", ["Transferencia", "Efectivo", "PayPal", "Otro"])
+                metodo = st.selectbox("Método", ["Transferencia","Efectivo","PayPal","Otro"])
                 notas_pago = st.text_input("Notas")
                 if st.form_submit_button("💾 Registrar pago"):
                     db.registrar_pago(opciones[cliente_sel], monto, str(fecha), metodo, notas_pago)
@@ -222,7 +201,6 @@ elif pagina == "💰 Finanzas":
 
 elif pagina == "📅 Planificación":
     st.title("📅 Planificación de Contenido")
-    st.markdown("Organiza el contenido mensual de cada cliente")
     st.markdown("---")
     clientes = db.obtener_clientes()
     if not clientes:
@@ -308,23 +286,7 @@ elif pagina == "📧 Notificaciones":
 elif pagina == "⚙️ Configuración":
     st.title("⚙️ Configuración")
     st.markdown("---")
-    st.subheader("🔑 Secrets de Streamlit Cloud")
-    st.info("Ve a tu app en Streamlit Cloud → Settings → Secrets y agrega:")
-    st.code("""
-ANTHROPIC_API_KEY = "sk-ant-..."
-SMTP_EMAIL = "tucorreo@gmail.com"
-SMTP_PASSWORD = "tu-app-password-gmail"
-SUPABASE_URL = "https://xxx.supabase.co"
-SUPABASE_KEY = "tu-service-role-key"
-    """, language="toml")
-    clientes = db.obtener_clientes()
-    pagos = db.obtener_pagos()
-    col1, col2 = st.columns(2)
-    col1.metric("Clientes", len(clientes))
-    col2.metric("Pagos", len(pagos))
-SMTP_EMAIL = "tucorreo@gmail.com"
-SMTP_PASSWORD = "tu-app-password-gmail"
-    """, language="toml")
+    st.subheader("Estado del sistema")
     clientes = db.obtener_clientes()
     pagos = db.obtener_pagos()
     col1, col2 = st.columns(2)
