@@ -20,7 +20,7 @@ def agregar_cliente(nombre, email, whatsapp, servicio, mensualidad, fecha_pago, 
 
 def obtener_clientes():
     sb = get_client()
-    res = sb.table("clientes").select("*").order("fecha_registro", desc=True).execute()
+    res = sb.table("clientes").select("*").order("id", desc=True).execute()
     return res.data or []
 
 def actualizar_estado_cliente(cliente_id, nuevo_estado):
@@ -40,7 +40,7 @@ def registrar_pago(cliente_id, monto, fecha, metodo, notas):
 
 def obtener_pagos():
     sb = get_client()
-    res = sb.table("pagos").select("*, clientes(nombre)").order("fecha", desc=True).execute()
+    res = sb.table("pagos").select("*, clientes(nombre)").order("id", desc=True).execute()
     pagos = []
     for p in res.data or []:
         p["cliente_nombre"] = p.get("clientes", {}).get("nombre", "Sin cliente") if p.get("clientes") else "Sin cliente"
@@ -61,7 +61,7 @@ def guardar_contenido(cliente_id, tipo, nicho, contenido):
 
 def obtener_contenido():
     sb = get_client()
-    res = sb.table("contenido_generado").select("*, clientes(nombre)").order("fecha", desc=True).limit(50).execute()
+    res = sb.table("contenido_generado").select("*, clientes(nombre)").order("id", desc=True).limit(50).execute()
     contenido = []
     for c in res.data or []:
         c["cliente_nombre"] = c.get("clientes", {}).get("nombre", "Sin cliente") if c.get("clientes") else "Sin cliente"
@@ -76,7 +76,7 @@ def guardar_tendencia(titulo, descripcion, oportunidad):
 
 def obtener_tendencias():
     sb = get_client()
-    res = sb.table("tendencias").select("*").order("fecha", desc=True).limit(20).execute()
+    res = sb.table("tendencias").select("*").order("id", desc=True).limit(20).execute()
     return res.data or []
 
 def guardar_meta(mes, meta_ingresos, meta_clientes):
@@ -86,6 +86,15 @@ def guardar_meta(mes, meta_ingresos, meta_clientes):
         sb.table("metas").update({
             "meta_ingresos": meta_ingresos, "meta_clientes": meta_clientes
         }).eq("mes", mes).execute()
+    else:
+        sb.table("metas").insert({
+            "mes": mes, "meta_ingresos": meta_ingresos, "meta_clientes": meta_clientes
+        }).execute()
+
+def obtener_meta(mes):
+    sb = get_client()
+    res = sb.table("metas").select("*").eq("mes", mes).execute()
+    return res.data[0] if res.data else {"meta_ingresos": 2500, "meta_clientes": 10}
     else:
         sb.table("metas").insert({
             "mes": mes, "meta_ingresos": meta_ingresos, "meta_clientes": meta_clientes
