@@ -10,9 +10,26 @@ def get_client():
 def init_db():
     pass
 
-def agregar_cliente(nombre, email, whatsapp, servicio, mensualidad, fecha_pago, estado, notas):
+def agregar_prospecto(nombre, email, whatsapp, pais, servicio_interes, presupuesto, canal, notas):
     sb = get_client()
-    sb.table("clientes").insert({"nombre": nombre, "email": email, "whatsapp": whatsapp, "servicio": servicio, "mensualidad": mensualidad, "fecha_pago": fecha_pago, "estado": estado, "notas": notas}).execute()
+    sb.table("prospectos").insert({"nombre": nombre, "email": email, "whatsapp": whatsapp, "pais": pais, "servicio_interes": servicio_interes, "presupuesto": presupuesto, "canal": canal, "notas": notas}).execute()
+
+def obtener_prospectos():
+    sb = get_client()
+    res = sb.table("prospectos").select("*").execute()
+    return res.data or []
+
+def actualizar_estado_prospecto(prospecto_id, estado):
+    sb = get_client()
+    sb.table("prospectos").update({"estado": estado}).eq("id", prospecto_id).execute()
+
+def eliminar_prospecto(prospecto_id):
+    sb = get_client()
+    sb.table("prospectos").delete().eq("id", prospecto_id).execute()
+
+def agregar_cliente(nombre, email, whatsapp, pais, servicio, mensualidad, fecha_pago, estado, notas, tipo_proyecto, monto_proyecto, pago_inicial, pago_final, estado_proyecto):
+    sb = get_client()
+    sb.table("clientes").insert({"nombre": nombre, "email": email, "whatsapp": whatsapp, "pais": pais, "servicio": servicio, "mensualidad": mensualidad, "fecha_pago": fecha_pago, "estado": estado, "notas": notas, "tipo_proyecto": tipo_proyecto, "monto_proyecto": monto_proyecto, "pago_inicial": pago_inicial, "pago_final": pago_final, "estado_proyecto": estado_proyecto}).execute()
 
 def obtener_clientes():
     sb = get_client()
@@ -22,6 +39,18 @@ def obtener_clientes():
 def actualizar_estado_cliente(cliente_id, nuevo_estado):
     sb = get_client()
     sb.table("clientes").update({"estado": nuevo_estado}).eq("id", cliente_id).execute()
+
+def actualizar_estado_proyecto(cliente_id, estado_proyecto):
+    sb = get_client()
+    sb.table("clientes").update({"estado_proyecto": estado_proyecto}).eq("id", cliente_id).execute()
+
+def registrar_pago_inicial(cliente_id, monto):
+    sb = get_client()
+    sb.table("clientes").update({"pago_inicial": monto, "estado_proyecto": "en_proceso"}).eq("id", cliente_id).execute()
+
+def registrar_pago_final(cliente_id, monto):
+    sb = get_client()
+    sb.table("clientes").update({"pago_final": monto, "estado_proyecto": "entregado"}).eq("id", cliente_id).execute()
 
 def eliminar_cliente(cliente_id):
     sb = get_client()
@@ -80,3 +109,33 @@ def obtener_meta(mes):
     sb = get_client()
     res = sb.table("metas").select("*").eq("mes", mes).execute()
     return res.data[0] if res.data else {"meta_ingresos": 2500, "meta_clientes": 10}
+
+def agregar_nota(cliente_id, prospecto_id, contenido):
+    sb = get_client()
+    sb.table("notas").insert({"cliente_id": cliente_id, "prospecto_id": prospecto_id, "contenido": contenido}).execute()
+
+def obtener_notas(cliente_id=None, prospecto_id=None):
+    sb = get_client()
+    if cliente_id:
+        res = sb.table("notas").select("*").eq("cliente_id", cliente_id).execute()
+    elif prospecto_id:
+        res = sb.table("notas").select("*").eq("prospecto_id", prospecto_id).execute()
+    else:
+        res = sb.table("notas").select("*").execute()
+    return res.data or []
+
+def agregar_tarea(cliente_id, titulo, fecha_vencimiento):
+    sb = get_client()
+    sb.table("tareas").insert({"cliente_id": cliente_id, "titulo": titulo, "fecha_vencimiento": fecha_vencimiento}).execute()
+
+def obtener_tareas(cliente_id=None):
+    sb = get_client()
+    if cliente_id:
+        res = sb.table("tareas").select("*").eq("cliente_id", cliente_id).execute()
+    else:
+        res = sb.table("tareas").select("*").execute()
+    return res.data or []
+
+def completar_tarea(tarea_id):
+    sb = get_client()
+    sb.table("tareas").update({"completada": True}).eq("id", tarea_id).execute()
