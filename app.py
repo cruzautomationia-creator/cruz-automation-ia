@@ -21,17 +21,7 @@ db.init_db()
 with st.sidebar:
     st.markdown("## ⚡ Cruz Automation IA")
     st.markdown("---")
-    pagina = st.radio("Navegación", [
-        "🏠 Dashboard",
-        "⭐ Prospectos",
-        "👥 Clientes",
-        "💰 Finanzas",
-        "📅 Planificación",
-        "🤖 Agentes IA",
-        "🔍 Tendencias",
-        "📧 Notificaciones",
-        "⚙️ Configuración"
-    ], label_visibility="collapsed")
+    pagina = st.radio("Navegación", ["🏠 Dashboard","⭐ Prospectos","👥 Clientes","💰 Finanzas","📅 Planificación","🤖 Agentes IA","🔍 Tendencias","📧 Notificaciones","⚙️ Configuración"], label_visibility="collapsed")
     st.markdown("---")
     st.markdown("<small style='color:#aaa'>Cruz Automation IA v2.0</small>", unsafe_allow_html=True)
 
@@ -46,14 +36,7 @@ def calcular_resumen():
     prospectos_nuevos = [p for p in prospectos if p["estado"] == "nuevo"]
     ingresos = db.ingresos_del_mes(get_mes_actual())
     pendiente_total = sum(c["mensualidad"] for c in pendientes if c.get("mensualidad"))
-    return {
-        "total_clientes": len(clientes),
-        "activos": len(activos),
-        "pendientes": len(pendientes),
-        "prospectos_nuevos": len(prospectos_nuevos),
-        "ingresos_mes": ingresos,
-        "pendiente_cobro": pendiente_total
-    }
+    return {"total_clientes": len(clientes), "activos": len(activos), "pendientes": len(pendientes), "prospectos_nuevos": len(prospectos_nuevos), "ingresos_mes": ingresos, "pendiente_cobro": pendiente_total}
 
 if pagina == "🏠 Dashboard":
     st.title("🏠 Resumen General")
@@ -77,14 +60,14 @@ if pagina == "🏠 Dashboard":
     st.subheader("🤖 Agentes IA")
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.info("#### 💜 Agente Financiero\nAnaliza tus ingresos y sugiere estrategias")
-        st.info("#### 🟠 Agente de Precios\nCotiza proyectos con tus precios reales")
+        st.info("**💜 Agente Financiero**\nAnaliza ingresos y sugiere estrategias")
+        st.info("**🟠 Agente de Precios**\nCotiza proyectos con tus precios reales")
     with col2:
-        st.info("#### 🟢 Agente de Tendencias\nBusca oportunidades en internet hoy")
-        st.info("#### 📄 Agente de Propuestas\nGenera propuestas con tu marca")
+        st.info("**🟢 Agente de Tendencias**\nBusca oportunidades en internet hoy")
+        st.info("**📄 Agente de Propuestas**\nGenera propuestas con tu marca")
     with col3:
-        st.info("#### 📝 Agente de Acuerdos\nAcuerdos de servicio profesionales")
-        st.info("#### 🔴 Agente de Cobros\nMensajes de cobro para WhatsApp")
+        st.info("**📝 Agente de Acuerdos**\nAcuerdos de servicio profesionales")
+        st.info("**🔴 Agente de Cobros**\nMensajes de cobro para WhatsApp")
     st.markdown("---")
     pagos = db.obtener_pagos()
     if pagos:
@@ -154,10 +137,10 @@ elif pagina == "⭐ Prospectos":
                     with col3:
                         if st.button("✅ Convertir", key=f"conv_{p['id']}"):
                             db.actualizar_estado_prospecto(p["id"], "convertido")
-                            st.success("Convertido. Ve a Clientes para completar.")
+                            st.success("Convertido. Ve a Clientes.")
                             st.rerun()
-                    nueva_nota = st.text_input("Agregar nota", key=f"nota_{p['id']}")
-                    if st.button("💾 Guardar nota", key=f"savnota_{p['id']}"):
+                    nueva_nota = st.text_input("Agregar nota", key=f"nota_p_{p['id']}")
+                    if st.button("💾 Guardar nota", key=f"savnota_p_{p['id']}"):
                         if nueva_nota:
                             db.agregar_nota(None, p["id"], nueva_nota)
                             st.rerun()
@@ -203,14 +186,14 @@ elif pagina == "👥 Clientes":
                         st.write(f"💰 Monto proyecto: ${c.get('monto_proyecto',0)}")
                     with col3:
                         nuevo_estado = "pendiente" if c["estado"] == "activo" else "activo"
-                        if st.button(f"Cambiar a {nuevo_estado}", key=f"est_{c['id']}"):
+                        if st.button(f"Cambiar a {nuevo_estado}", key=f"est_c_{c['id']}"):
                             db.actualizar_estado_cliente(c["id"], nuevo_estado)
                             st.rerun()
                         if c.get("estado_proyecto") == "en_proceso":
-                            if st.button("✅ Marcar entregado", key=f"entr_{c['id']}"):
+                            if st.button("✅ Marcar entregado", key=f"entr_c_{c['id']}"):
                                 db.actualizar_estado_proyecto(c["id"], "entregado")
                                 st.rerun()
-                        if st.button("🗑️ Eliminar", key=f"del_{c['id']}"):
+                        if st.button("🗑️ Eliminar", key=f"del_c_{c['id']}"):
                             db.eliminar_cliente(c["id"])
                             st.rerun()
                     notas = db.obtener_notas(cliente_id=c["id"])
@@ -218,8 +201,8 @@ elif pagina == "👥 Clientes":
                         st.markdown("**📋 Notas:**")
                         for nota in notas:
                             st.markdown(f"- {nota['fecha'][:10]}: {nota['contenido']}")
-                    nueva_nota = st.text_input("Agregar nota", key=f"nota_{c['id']}")
-                    if st.button("💾 Guardar nota", key=f"savnota_{c['id']}"):
+                    nueva_nota = st.text_input("Agregar nota", key=f"nota_c_{c['id']}")
+                    if st.button("💾 Guardar nota", key=f"savnota_c_{c['id']}"):
                         if nueva_nota:
                             db.agregar_nota(c["id"], None, nueva_nota)
                             st.rerun()
@@ -361,10 +344,10 @@ elif pagina == "🤖 Agentes IA":
         st.subheader("Agente de Precios")
         col1, col2 = st.columns(2)
         with col1:
-            nombre_cot = st.text_input("Nombre del cliente")
-            pais_cot = st.text_input("País")
+            nombre_cot = st.text_input("Nombre del cliente", key="cot_nombre")
+            pais_cot = st.text_input("País", key="cot_pais")
         with col2:
-            descripcion = st.text_area("Describe el proyecto")
+            descripcion = st.text_area("Describe el proyecto", key="cot_desc")
         if st.button("💰 Cotizar", type="primary"):
             if descripcion:
                 with st.spinner("Calculando..."):
@@ -412,14 +395,14 @@ elif pagina == "🤖 Agentes IA":
         st.subheader("Agente de Acuerdos")
         col1, col2 = st.columns(2)
         with col1:
-            nombre_ac = st.text_input("Nombre del cliente")
-            email_ac = st.text_input("Email")
-            pais_ac = st.text_input("País")
+            nombre_ac = st.text_input("Nombre del cliente", key="ac_nombre")
+            email_ac = st.text_input("Email", key="ac_email")
+            pais_ac = st.text_input("País", key="ac_pais")
         with col2:
-            servicio_ac = st.text_input("Servicio acordado")
-            monto_ac = st.number_input("Monto total ($)", min_value=0.0, value=120.0)
-            fecha_ac = st.date_input("Fecha inicio", value=date.today())
-        incluye_ac = st.text_area("¿Qué incluye?")
+            servicio_ac = st.text_input("Servicio acordado", key="ac_servicio")
+            monto_ac = st.number_input("Monto total ($)", min_value=0.0, value=120.0, key="ac_monto")
+            fecha_ac = st.date_input("Fecha inicio", value=date.today(), key="ac_fecha")
+        incluye_ac = st.text_area("¿Qué incluye?", key="ac_incluye")
         if st.button("📝 Generar acuerdo", type="primary"):
             if nombre_ac and servicio_ac:
                 with st.spinner("Generando..."):
@@ -479,15 +462,15 @@ elif pagina == "📧 Notificaciones":
         with st.expander(f"{c['nombre']} — ${c.get('mensualidad',0)}/mes"):
             col1, col2 = st.columns(2)
             with col1:
-                if c["email"] and st.button("📧 Email", key=f"rec_{c['id']}"):
+                if c["email"] and st.button("📧 Email", key=f"rec_n_{c['id']}"):
                     ok, msg = notifications.email_recordatorio_pago(c["nombre"], c["email"], c.get("mensualidad",0), c["servicio"], c["fecha_pago"] or "fecha acordada")
                     st.success("Enviado") if ok else st.error(msg)
             with col2:
-                if st.button("🤖 Mensaje WhatsApp", key=f"wa_{c['id']}"):
+                if st.button("🤖 Mensaje WhatsApp", key=f"wa_n_{c['id']}"):
                     with st.spinner("..."):
                         try:
                             msg = ai.generar_mensaje_cobro(c["nombre"], c.get("mensualidad",0), c["servicio"])
-                            st.text_area("Copia:", msg, key=f"msg_{c['id']}")
+                            st.text_area("Copia:", msg, key=f"msg_n_{c['id']}")
                         except Exception as ex:
                             st.error(f"Error: {ex}")
     if proyectos_cobrar:
@@ -495,11 +478,11 @@ elif pagina == "📧 Notificaciones":
         for c in proyectos_cobrar:
             pendiente = (c.get("monto_proyecto",0) or 0) - (c.get("pago_inicial",0) or 0) - (c.get("pago_final",0) or 0)
             with st.expander(f"{c['nombre']} — ${pendiente} pendiente"):
-                if st.button("🤖 Mensaje cobro final", key=f"fin_{c['id']}"):
+                if st.button("🤖 Mensaje cobro final", key=f"fin_n_{c['id']}"):
                     with st.spinner("..."):
                         try:
                             msg = ai.generar_mensaje_cobro(c["nombre"], pendiente, c["servicio"], "pago final")
-                            st.text_area("Copia:", msg, key=f"msgfin_{c['id']}")
+                            st.text_area("Copia:", msg, key=f"msgfin_n_{c['id']}")
                         except Exception as ex:
                             st.error(f"Error: {ex}")
 
@@ -514,4 +497,4 @@ elif pagina == "⚙️ Configuración":
     col2.metric("Prospectos", len(prospectos))
     col3.metric("Pagos", len(pagos))
     st.markdown("---")
-    st.info("Cruz Automation IA v2.0 — Dashboard empresarial con IA")
+    st.info("Cruz Automation IA v2.0")
