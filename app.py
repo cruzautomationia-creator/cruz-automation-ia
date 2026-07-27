@@ -6,7 +6,7 @@ import json
 import os
 
 import db
-from services import ai, notifications
+from services import ai, notifications, video
 
 st.set_page_config(page_title="Cruz Automation IA", page_icon="⚡", layout="wide", initial_sidebar_state="expanded")
 
@@ -21,7 +21,7 @@ db.init_db()
 with st.sidebar:
     st.markdown("## ⚡ Cruz Automation IA")
     st.markdown("---")
-    pagina = st.radio("Navegación", ["🏠 Dashboard","⭐ Prospectos","👥 Clientes","💰 Finanzas","📅 Planificación","🤖 Agentes IA","🔍 Tendencias","📧 Notificaciones","⚙️ Configuración"], label_visibility="collapsed")
+    pagina = st.radio("Navegación", ["🏠 Dashboard","⭐ Prospectos","👥 Clientes","💰 Finanzas","📅 Planificación","🤖 Agentes IA","🎬 Guion de Videos","🔍 Tendencias","📧 Notificaciones","⚙️ Configuración"], label_visibility="collapsed")
     st.markdown("---")
     st.markdown("<small style='color:#aaa'>Cruz Automation IA v2.0</small>", unsafe_allow_html=True)
 
@@ -420,6 +420,37 @@ elif pagina == "🤖 Agentes IA":
                                 st.markdown(f"**{key.upper()}:** {val}")
                     except Exception as ex:
                         st.error(f"Error: {ex}")
+
+elif pagina == "🎬 Guion de Videos":
+    st.title("🎬 Extractor de Guion de Videos")
+    st.markdown("Extrae la transcripción completa de un video: pega un link o sube el archivo descargado.")
+    st.markdown("---")
+    tab1, tab2 = st.tabs(["🔗 Desde un link", "📁 Subir video descargado"])
+    with tab1:
+        url = st.text_input("Link del video (YouTube, TikTok, Instagram)", key="video_url")
+        if st.button("🎬 Extraer guion", type="primary", key="btn_url"):
+            if url:
+                with st.spinner("Extrayendo guion..."):
+                    try:
+                        guion, origen = video.extraer_guion_url(url)
+                        st.success("✅ Guion extraído" + (" (subtítulos originales)" if origen == "captions" else " (transcrito con IA)"))
+                        st.text_area("Guion completo", guion, height=400, key="guion_url")
+                        st.download_button("⬇️ Descargar .txt", guion, file_name="guion.txt", key="dl_url")
+                    except Exception as ex:
+                        st.error(f"Error: {ex}")
+            else:
+                st.warning("Pega un link primero.")
+    with tab2:
+        archivo = st.file_uploader("Video o audio descargado", type=["mp4","mov","mkv","webm","mp3","wav","m4a"], key="video_file")
+        if archivo and st.button("🎬 Extraer guion", type="primary", key="btn_file"):
+            with st.spinner("Transcribiendo..."):
+                try:
+                    guion = video.extraer_guion_archivo(archivo)
+                    st.success("✅ Guion extraído")
+                    st.text_area("Guion completo", guion, height=400, key="guion_file")
+                    st.download_button("⬇️ Descargar .txt", guion, file_name="guion.txt", key="dl_file")
+                except Exception as ex:
+                    st.error(f"Error: {ex}")
 
 elif pagina == "🔍 Tendencias":
     st.title("🔍 Agente de Tendencias")
