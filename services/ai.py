@@ -224,6 +224,33 @@ Responde SOLO en JSON:
 }}"""
     return _completar_json(prompt, 2000)
 
+def redactar_outreach(nombre_negocio, pais, debilidad_detectada, tiene_whatsapp):
+    prompt = f"""Eres el agente de prospección de Cruz Automation IA.
+
+{EMPRESA_INFO}
+
+Vas a redactar un primer contacto en frío (cold outreach) para un negocio que encontraste investigando.
+
+Negocio: {nombre_negocio}
+País: {pais}
+Debilidad detectada en su presencia digital: {debilidad_detectada}
+
+Reglas:
+- Tono profesional, cercano, breve. Nada de sonar a plantilla genérica ni a spam.
+- Menciona la debilidad detectada de forma específica y respetuosa (no ofensiva).
+- Ofrece un servicio concreto de Cruz Automation IA que resuelva esa debilidad, con precio real.
+- Termina invitando a una llamada/reunión corta, sin presionar.
+- El email DEBE incluir al final una línea de salida clara tipo: "Si prefieres que no te vuelva a escribir, solo responde 'no' y no insistiré."
+- El mensaje de whatsapp debe ser mucho mas corto que el email (maximo 4 lineas), mismo tono.
+
+Responde SOLO en JSON:
+{{
+  "asunto_email": "...",
+  "cuerpo_email": "...",
+  "mensaje_whatsapp": "..."
+}}"""
+    return _completar_json(prompt, 900)
+
 def generar_bienvenida(nombre_cliente, email_cliente, servicio, monto_inicial):
     prompt = f"""Genera un correo de bienvenida profesional de Cruz Automation IA para un cliente nuevo.
 
