@@ -224,7 +224,18 @@ Responde SOLO en JSON:
 }}"""
     return _completar_json(prompt, 2000)
 
+PORTAFOLIO = [
+    {"nombre": "Santiago Cruz Beauty Salon", "rubro": "salón de belleza, peluquería, uñas, maquillaje", "url": "https://tqraty.readdy.co"},
+    {"nombre": "Santiago Cruz Aesthetic Studio", "rubro": "centro de estética, spa, bienestar, tratamientos faciales/corporales", "url": "https://xsjyhk.readdy.co"},
+    {"nombre": "Santiago Cruz Dental Studio", "rubro": "clínica dental, odontología estética", "url": "https://mxcitf.readdy.co"},
+    {"nombre": "Santiago Cruz Veterinary Center", "rubro": "veterinaria, clínica de mascotas", "url": "https://sdwjmz.readdy.co"},
+    {"nombre": "Santiago Cruz Barbería (Quilpué)", "rubro": "barbería, peluquería masculina", "url": "https://xagtrs.readdy.co"},
+    {"nombre": "Santiago Cruz Barbería", "rubro": "barbería, peluquería masculina", "url": "https://ziuwmz.readdy.co"},
+    {"nombre": "Cruz Construcción (Madrid)", "rubro": "construcción, arquitectura, inmobiliaria, obra premium", "url": "https://tliohv.readdy.co"},
+]
+
 def redactar_outreach(nombre_negocio, pais, debilidad_detectada, tiene_whatsapp):
+    catalogo_portafolio = "\n".join(f"- {p['nombre']} ({p['rubro']}): {p['url']}" for p in PORTAFOLIO)
     prompt = f"""Eres el agente de prospección de Cruz Automation IA.
 
 {EMPRESA_INFO}
@@ -235,6 +246,9 @@ Negocio: {nombre_negocio}
 País: {pais}
 Debilidad detectada en su presencia digital: {debilidad_detectada}
 
+PORTAFOLIO DISPONIBLE (ejemplos reales de sitios que hemos hecho, uno por rubro):
+{catalogo_portafolio}
+
 Reglas:
 - Tono profesional, cercano, breve. Nada de sonar a plantilla genérica ni a spam.
 - Menciona la debilidad detectada de forma específica y respetuosa (no ofensiva).
@@ -242,14 +256,16 @@ Reglas:
 - Termina invitando a una llamada/reunión corta, sin presionar.
 - El email DEBE incluir al final una línea de salida clara tipo: "Si prefieres que no te vuelva a escribir, solo responde 'no' y no insistiré."
 - El mensaje de whatsapp debe ser mucho mas corto que el email (maximo 4 lineas), mismo tono.
+- PORTAFOLIO: revisa el rubro del negocio contactado contra el catálogo. Si hay un ejemplo del MISMO rubro o uno muy cercano/relacionado, incluye su link en el email (y opcionalmente en el whatsapp) invitando a verlo como muestra de trabajo real en su industria. Si NINGUNO del catálogo tiene relación real con el rubro del negocio, NO incluyas ningún link de portafolio — es mejor no mandar nada que mandar un ejemplo que no tiene sentido para ellos.
 
 Responde SOLO en JSON:
 {{
   "asunto_email": "...",
   "cuerpo_email": "...",
-  "mensaje_whatsapp": "..."
+  "mensaje_whatsapp": "...",
+  "portafolio_usado": "url del ejemplo usado, o null si no aplicó ninguno"
 }}"""
-    return _completar_json(prompt, 900)
+    return _completar_json(prompt, 1000)
 
 def generar_bienvenida(nombre_cliente, email_cliente, servicio, monto_inicial):
     prompt = f"""Genera un correo de bienvenida profesional de Cruz Automation IA para un cliente nuevo.

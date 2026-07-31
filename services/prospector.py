@@ -45,6 +45,8 @@ def agregar_lead(nombre, pais, debilidad, email=None, whatsapp=None, servicio_su
         print(f"Sin email para {nombre}, solo se guarda el prospecto y el borrador de WhatsApp.")
 
     notas = f"[Detectado por Agente de Prospección] Debilidad: {debilidad}."
+    if outreach.get("portafolio_usado"):
+        notas += f"\nEjemplo de portafolio incluido: {outreach['portafolio_usado']}"
     if whatsapp:
         notas += f"\n\nBorrador de WhatsApp (enviar manualmente):\n{outreach['mensaje_whatsapp']}"
     if not email_enviado:
