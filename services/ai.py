@@ -1,6 +1,8 @@
-import anthropic
+from groq import Groq
 import os
 import json
+
+MODEL = "llama-3.3-70b-versatile"
 
 EMPRESA_INFO = """
 Empresa: Cruz Automation IA
@@ -28,13 +30,28 @@ CONTACTO: +56 9 7244 6549 | cruzautomationia@gmail.com
 """
 
 def get_client():
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
+    api_key = os.environ.get("GROQ_API_KEY")
     if not api_key:
-        raise ValueError("ANTHROPIC_API_KEY no está configurada.")
-    return anthropic.Anthropic(api_key=api_key)
+        raise ValueError("GROQ_API_KEY no está configurada.")
+    return Groq(api_key=api_key)
+
+def _completar(prompt, max_tokens, json_mode=True):
+    client = get_client()
+    kwargs = {"type": "json_object"} if json_mode else None
+    completion = client.chat.completions.create(
+        model=MODEL,
+        max_tokens=max_tokens,
+        messages=[{"role": "user", "content": prompt}],
+        response_format=kwargs,
+    )
+    return completion.choices[0].message.content.strip()
+
+def _completar_json(prompt, max_tokens):
+    text = _completar(prompt, max_tokens, json_mode=True)
+    text = text.replace("```json", "").replace("```", "").strip()
+    return json.loads(text)
 
 def investigar_tendencias():
-    client = get_client()
     prompt = f"""Eres el agente de investigación de Cruz Automation IA.
 
 {EMPRESA_INFO}
@@ -61,16 +78,9 @@ Responde SOLO en JSON válido:
   "accion_inmediata": "..."
 }}
 Genera 5 tendencias con oportunidades concretas para Cruz Automation IA."""
-    message = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=2000,
-        messages=[{"role": "user", "content": prompt}]
-    )
-    text = message.content[0].text.strip().replace("```json", "").replace("```", "").strip()
-    return json.loads(text)
+    return _completar_json(prompt, 2000)
 
 def analizar_finanzas(ingresos, pendientes, meta, num_clientes, servicios):
-    client = get_client()
     prompt = f"""Eres el agente financiero de Cruz Automation IA.
 
 {EMPRESA_INFO}
@@ -90,16 +100,9 @@ Analiza la situación y responde SOLO en JSON:
   "accion_hoy": "...",
   "precio_recomendado": "..."
 }}"""
-    message = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=1000,
-        messages=[{"role": "user", "content": prompt}]
-    )
-    text = message.content[0].text.strip().replace("```json", "").replace("```", "").strip()
-    return json.loads(text)
+    return _completar_json(prompt, 1000)
 
 def generar_cotizacion(descripcion_proyecto, nombre_cliente, pais):
-    client = get_client()
     prompt = f"""Eres el agente de precios de Cruz Automation IA.
 
 {EMPRESA_INFO}
@@ -121,16 +124,9 @@ Genera una cotización profesional. Responde SOLO en JSON:
   "alternativa_economica": "...",
   "alternativa_premium": "..."
 }}"""
-    message = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=1000,
-        messages=[{"role": "user", "content": prompt}]
-    )
-    text = message.content[0].text.strip().replace("```json", "").replace("```", "").strip()
-    return json.loads(text)
+    return _completar_json(prompt, 1000)
 
 def generar_propuesta(nombre_cliente, pais, servicio, presupuesto, notas):
-    client = get_client()
     prompt = f"""Eres el agente de propuestas de Cruz Automation IA.
 
 {EMPRESA_INFO}
@@ -158,16 +154,9 @@ Responde SOLO en JSON:
   "cierre": "...",
   "firma": "Cruz Automation IA\\ncruzautomationia@gmail.com\\n+56 9 7244 6549"
 }}"""
-    message = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=1500,
-        messages=[{"role": "user", "content": prompt}]
-    )
-    text = message.content[0].text.strip().replace("```json", "").replace("```", "").strip()
-    return json.loads(text)
+    return _completar_json(prompt, 1500)
 
 def generar_acuerdo(nombre_cliente, email_cliente, pais, servicio, monto_total, incluye, fecha_inicio):
-    client = get_client()
     prompt = f"""Eres el agente de acuerdos de Cruz Automation IA.
 
 {EMPRESA_INFO}
@@ -198,16 +187,9 @@ Responde SOLO en JSON:
   "fecha": "{fecha_inicio}",
   "firma_proveedor": "Cruz Automation IA — cruzautomationia@gmail.com"
 }}"""
-    message = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=1500,
-        messages=[{"role": "user", "content": prompt}]
-    )
-    text = message.content[0].text.strip().replace("```json", "").replace("```", "").strip()
-    return json.loads(text)
+    return _completar_json(prompt, 1500)
 
 def generar_mensaje_cobro(nombre, monto, servicio, tipo="mensualidad", dias_vencido=0):
-    client = get_client()
     contexto = f"vencido hace {dias_vencido} días" if dias_vencido > 0 else "próximo a vencer"
     prompt = f"""Genera un mensaje de cobro profesional y amigable para WhatsApp.
 Empresa que cobra: Cruz Automation IA
@@ -217,16 +199,10 @@ Servicio: {servicio}
 Tipo de cobro: {tipo}
 Estado: {contexto}
 
-El mensaje debe ser corto, directo, respetuoso y con tono cercano. Máximo 6 líneas. Solo el mensaje."""
-    message = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=300,
-        messages=[{"role": "user", "content": prompt}]
-    )
-    return message.content[0].text.strip()
+El mensaje debe ser corto, directo, respetuoso y con tono cercano. Máximo 6 líneas. Solo el mensaje, sin JSON ni comillas."""
+    return _completar(prompt, 300, json_mode=False)
 
 def generar_plan_contenido(cliente_nombre, servicio, mes):
-    client = get_client()
     prompt = f"""Eres el agente de planificación de Cruz Automation IA.
 
 {EMPRESA_INFO}
@@ -246,16 +222,9 @@ Responde SOLO en JSON:
   "semana_4": [...],
   "estrategia_general": "..."
 }}"""
-    message = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=2000,
-        messages=[{"role": "user", "content": prompt}]
-    )
-    text = message.content[0].text.strip().replace("```json", "").replace("```", "").strip()
-    return json.loads(text)
+    return _completar_json(prompt, 2000)
 
 def generar_bienvenida(nombre_cliente, email_cliente, servicio, monto_inicial):
-    client = get_client()
     prompt = f"""Genera un correo de bienvenida profesional de Cruz Automation IA para un cliente nuevo.
 
 Cliente: {nombre_cliente}
@@ -269,10 +238,4 @@ Responde SOLO en JSON:
   "asunto": "...",
   "cuerpo": "..."
 }}"""
-    message = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=800,
-        messages=[{"role": "user", "content": prompt}]
-    )
-    text = message.content[0].text.strip().replace("```json", "").replace("```", "").strip()
-    return json.loads(text)
+    return _completar_json(prompt, 800)

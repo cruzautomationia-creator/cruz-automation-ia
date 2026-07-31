@@ -1,2 +1,5 @@
 __pycache__/
 *.pyc
+streamlit.log
+temp_editor/
+.streamlit/secrets.toml

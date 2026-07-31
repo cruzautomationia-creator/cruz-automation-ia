@@ -14,7 +14,36 @@ st.markdown("""<style>
 [data-testid="stSidebar"] { background: #F8F8FC; border-right: 1px solid #EEEEF8; }
 div[data-testid="metric-container"] { background: white; border-radius: 14px; padding: 16px; box-shadow: 0 2px 8px rgba(0,0,0,0.06); border: 1px solid #EEEEF8; }
 .stButton > button { border-radius: 10px; font-weight: 600; }
+
+.stat-card { border-radius: 18px; padding: 22px 22px 18px; height: 132px; display: flex; flex-direction: column; justify-content: space-between; box-shadow: 0 4px 14px rgba(0,0,0,0.05); }
+.stat-card .stat-label { font-size: 13px; font-weight: 600; opacity: .85; display:flex; align-items:center; gap:6px; }
+.stat-card .stat-value { font-size: 30px; font-weight: 800; line-height:1.1; }
+.stat-card .stat-sub { font-size: 12px; font-weight: 600; opacity: .8; }
+.stat-purple { background: linear-gradient(135deg,#6C63E8,#534AB7); color: #fff; }
+.stat-dark  { background: linear-gradient(135deg,#22304a,#1a2436); color: #fff; }
+.stat-lime  { background: linear-gradient(135deg,#E8F27A,#D6E85C); color: #23260a; }
+.stat-white { background: #ffffff; color: #23262f; border: 1px solid #EEEEF8; }
+
+.activity-row { display:flex; align-items:center; justify-content:space-between; padding:12px 6px; border-bottom:1px solid #F0F0F7; }
+.activity-row:last-child { border-bottom:none; }
+.activity-left { display:flex; align-items:center; gap:12px; }
+.activity-icon { width:38px; height:38px; border-radius:11px; display:flex; align-items:center; justify-content:center; font-size:17px; background:#EEEDFE; }
+.activity-name { font-weight:700; font-size:14px; color:#23262f; }
+.activity-sub { font-size:12px; color:#9aa2b6; }
+.activity-amount { font-weight:800; font-size:14.5px; color:#23262f; }
+
+.panel-title { font-weight:800; font-size:15.5px; color:#23262f; margin-bottom:14px; }
+div[data-testid="stVerticalBlockBorderWrapper"] { border-radius:18px !important; box-shadow: 0 4px 14px rgba(0,0,0,0.05); }
+div[data-testid="stVerticalBlockBorderWrapper"] > div { border-radius:18px !important; }
 </style>""", unsafe_allow_html=True)
+
+def stat_card(clase, icono, etiqueta, valor, sub):
+    st.markdown(f"""
+    <div class="stat-card {clase}">
+      <div class="stat-label">{icono} {etiqueta}</div>
+      <div class="stat-value">{valor}</div>
+      <div class="stat-sub">{sub}</div>
+    </div>""", unsafe_allow_html=True)
 
 db.init_db()
 
@@ -41,44 +70,89 @@ def calcular_resumen():
 if pagina == "🏠 Dashboard":
     st.title("🏠 Resumen General")
     st.markdown("Tu negocio de un vistazo")
-    st.markdown("---")
+    st.markdown("")
     resumen = calcular_resumen()
     meta = db.obtener_meta(get_mes_actual())
+    progreso = (resumen["ingresos_mes"] / meta["meta_ingresos"] * 100) if meta["meta_ingresos"] > 0 else 0
+
     col1, col2, col3, col4 = st.columns(4)
     with col1:
-        st.metric("💵 Ingresos del mes", f"${resumen['ingresos_mes']:,.0f}", delta=f"Meta: ${meta['meta_ingresos']:,.0f}")
+        stat_card("stat-purple", "💵", "Ingresos del mes", f"${resumen['ingresos_mes']:,.0f}", f"Meta: ${meta['meta_ingresos']:,.0f}")
     with col2:
-        st.metric("👥 Clientes activos", resumen["activos"])
+        stat_card("stat-dark", "🎯", "Progreso de meta", f"{progreso:,.0f}%", f"${resumen['ingresos_mes']:,.0f} de ${meta['meta_ingresos']:,.0f}")
     with col3:
-        st.metric("⭐ Prospectos nuevos", resumen["prospectos_nuevos"])
+        stat_card("stat-lime", "👥", "Clientes activos", resumen["activos"], f"{resumen['pendientes']} pendientes de pago")
     with col4:
-        progreso = (resumen["ingresos_mes"] / meta["meta_ingresos"] * 100) if meta["meta_ingresos"] > 0 else 0
-        st.metric("🎯 Progreso meta", f"{progreso:.0f}%")
-    progreso_val = min(1.0, resumen["ingresos_mes"] / meta["meta_ingresos"]) if meta["meta_ingresos"] > 0 else 0
-    st.progress(progreso_val, text=f"Meta: ${resumen['ingresos_mes']:,.0f} de ${meta['meta_ingresos']:,.0f}")
-    st.markdown("---")
-    st.subheader("🤖 Agentes IA")
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.info("**💜 Agente Financiero**\nAnaliza ingresos y sugiere estrategias")
-        st.info("**🟠 Agente de Precios**\nCotiza proyectos con tus precios reales")
-    with col2:
-        st.info("**🟢 Agente de Tendencias**\nBusca oportunidades en internet hoy")
-        st.info("**📄 Agente de Propuestas**\nGenera propuestas con tu marca")
-    with col3:
-        st.info("**📝 Agente de Acuerdos**\nAcuerdos de servicio profesionales")
-        st.info("**🔴 Agente de Cobros**\nMensajes de cobro para WhatsApp")
-    st.markdown("---")
-    pagos = db.obtener_pagos()
-    if pagos:
-        st.subheader("📈 Ingresos recientes")
-        df = pd.DataFrame(pagos)
-        df["fecha"] = pd.to_datetime(df["fecha"])
-        df_mes = df.groupby(df["fecha"].dt.strftime("%Y-%m"))["monto"].sum().reset_index()
-        df_mes.columns = ["Mes", "Ingresos"]
-        fig = px.bar(df_mes, x="Mes", y="Ingresos", color_discrete_sequence=["#534AB7"])
-        fig.update_layout(plot_bgcolor="white", paper_bgcolor="white")
-        st.plotly_chart(fig, use_container_width=True)
+        stat_card("stat-white", "⭐", "Prospectos nuevos", resumen["prospectos_nuevos"], "Por convertir este mes")
+
+    st.markdown("<br>", unsafe_allow_html=True)
+    col_izq, col_der = st.columns([1.1, 1])
+
+    with col_izq:
+        with st.container(border=True):
+            st.markdown('<div class="panel-title">📊 Ingresos por servicio</div>', unsafe_allow_html=True)
+            clientes_activos = [c for c in db.obtener_clientes() if c["estado"] == "activo" and c.get("mensualidad")]
+            if clientes_activos:
+                df_serv = pd.DataFrame(clientes_activos).groupby("servicio")["mensualidad"].sum().reset_index()
+                fig = px.pie(df_serv, names="servicio", values="mensualidad", hole=0.62,
+                             color_discrete_sequence=["#534AB7", "#8F87E0", "#D6E85C", "#22304a", "#B8B2F2"])
+                fig.update_traces(textinfo="percent", textfont_size=12)
+                fig.update_layout(showlegend=True, legend=dict(orientation="h", yanchor="bottom", y=-0.25),
+                                   margin=dict(t=10, b=10, l=10, r=10), height=300,
+                                   paper_bgcolor="rgba(0,0,0,0)", plot_bgcolor="rgba(0,0,0,0)")
+                st.plotly_chart(fig, use_container_width=True)
+            else:
+                st.info("Agrega clientes activos con mensualidad para ver el desglose.")
+
+    with col_der:
+        with st.container(border=True):
+            st.markdown('<div class="panel-title">🕒 Actividad reciente</div>', unsafe_allow_html=True)
+            pagos = db.obtener_pagos()
+            if pagos:
+                pagos_ordenados = sorted(pagos, key=lambda p: p.get("fecha", ""), reverse=True)[:6]
+                iconos = {"transferencia": "🏦", "efectivo": "💵", "paypal": "🅿️", "tarjeta": "💳"}
+                filas = "".join(f"""
+                <div class="activity-row">
+                  <div class="activity-left">
+                    <div class="activity-icon">{iconos.get(str(p.get('metodo','')).lower(), '💰')}</div>
+                    <div>
+                      <div class="activity-name">{p.get('cliente_nombre','Sin cliente')}</div>
+                      <div class="activity-sub">{p.get('fecha','')}</div>
+                    </div>
+                  </div>
+                  <div class="activity-amount">${p.get('monto',0):,.0f}</div>
+                </div>""" for p in pagos_ordenados)
+                st.markdown(filas, unsafe_allow_html=True)
+            else:
+                st.info("Registra pagos para ver la actividad reciente aquí.")
+
+    st.markdown("<br>", unsafe_allow_html=True)
+    with st.container(border=True):
+        st.markdown('<div class="panel-title">🤖 Agentes IA</div>', unsafe_allow_html=True)
+        col1, col2, col3 = st.columns(3)
+        with col1:
+            st.info("**💜 Agente Financiero**\nAnaliza ingresos y sugiere estrategias")
+            st.info("**🟠 Agente de Precios**\nCotiza proyectos con tus precios reales")
+        with col2:
+            st.info("**🟢 Agente de Tendencias**\nBusca oportunidades en internet hoy")
+            st.info("**📄 Agente de Propuestas**\nGenera propuestas con tu marca")
+        with col3:
+            st.info("**📝 Agente de Acuerdos**\nAcuerdos de servicio profesionales")
+            st.info("**🔴 Agente de Cobros**\nMensajes de cobro para WhatsApp")
+
+    st.markdown("<br>", unsafe_allow_html=True)
+    pagos_todos = db.obtener_pagos()
+    if pagos_todos:
+        with st.container(border=True):
+            st.markdown('<div class="panel-title">📈 Ingresos por mes</div>', unsafe_allow_html=True)
+            df = pd.DataFrame(pagos_todos)
+            df["fecha"] = pd.to_datetime(df["fecha"])
+            df_mes = df.groupby(df["fecha"].dt.strftime("%Y-%m"))["monto"].sum().reset_index()
+            df_mes.columns = ["Mes", "Ingresos"]
+            fig = px.bar(df_mes, x="Mes", y="Ingresos", color_discrete_sequence=["#534AB7"])
+            fig.update_traces(marker_cornerradius=8)
+            fig.update_layout(plot_bgcolor="rgba(0,0,0,0)", paper_bgcolor="rgba(0,0,0,0)", margin=dict(t=10))
+            st.plotly_chart(fig, use_container_width=True)
     else:
         st.info("Agrega clientes y registra pagos para ver el gráfico.")
 
@@ -529,3 +603,7 @@ elif pagina == "⚙️ Configuración":
     col3.metric("Pagos", len(pagos))
     st.markdown("---")
     st.info("Cruz Automation IA v2.0")
+
+if db.LAST_ERROR:
+    with st.sidebar:
+        st.warning(f"⚠️ Sin conexión a la base de datos.\n\n{db.LAST_ERROR}")
