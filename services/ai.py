@@ -267,6 +267,25 @@ Responde SOLO en JSON:
 }}"""
     return _completar_json(prompt, 1000)
 
+def clasificar_respuesta(nombre_negocio, texto_respuesta):
+    prompt = f"""Un negocio que contactamos en frío ({nombre_negocio}) respondió a nuestro email de Cruz Automation IA.
+
+Texto de su respuesta:
+\"\"\"{texto_respuesta}\"\"\"
+
+Clasifica la respuesta. Responde SOLO en JSON:
+{{
+  "clasificacion": "interesado" | "no_interesado" | "pidio_info" | "fuera_de_tema",
+  "resumen": "resumen de una frase de lo que dijo",
+  "siguiente_paso_sugerido": "..."
+}}
+
+- "interesado": quiere avanzar, agendar llamada, saber más con intención real de comprar.
+- "no_interesado": dijo que no, que no le interesa, o pidió que no se le escriba más.
+- "pidio_info": pregunta algo específico antes de decidir (precio, tiempos, etc.) pero no rechazó.
+- "fuera_de_tema": auto-respuesta, spam, o no tiene relación con la oferta."""
+    return _completar_json(prompt, 400)
+
 def generar_bienvenida(nombre_cliente, email_cliente, servicio, monto_inicial):
     prompt = f"""Genera un correo de bienvenida profesional de Cruz Automation IA para un cliente nuevo.
 

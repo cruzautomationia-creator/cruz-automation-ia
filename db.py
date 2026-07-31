@@ -32,6 +32,9 @@ def obtener_prospectos():
 def actualizar_estado_prospecto(prospecto_id, estado):
     _safe(lambda: get_client().table("prospectos").update({"estado": estado}).eq("id", prospecto_id).execute())
 
+def actualizar_notas_prospecto(prospecto_id, notas):
+    _safe(lambda: get_client().table("prospectos").update({"notas": notas}).eq("id", prospecto_id).execute())
+
 def eliminar_prospecto(prospecto_id):
     _safe(lambda: get_client().table("prospectos").delete().eq("id", prospecto_id).execute())
 

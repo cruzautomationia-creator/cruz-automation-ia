@@ -1,13 +1,17 @@
 import argparse
 import sys
 import os
+import imaplib
+import email as email_lib
+from email.header import decode_header
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 import db
 from services import ai, notifications
 
-LIMITE_DIARIO_DEFECTO = 20
+LIMITE_DIARIO_DEFECTO = 25
+MINIMO_DIARIO_OBJETIVO = 20
 
 
 def ya_contactado(nombre, email):
@@ -27,6 +31,95 @@ def contactados_hoy():
     hoy = date.today().isoformat()
     existentes = db.obtener_prospectos()
     return sum(1 for p in existentes if p.get("canal") == "Agente de Prospección" and str(p.get("created_at", "")).startswith(hoy))
+
+
+def _decodificar(valor):
+    partes = decode_header(valor or "")
+    resultado = ""
+    for texto, codificacion in partes:
+        if isinstance(texto, bytes):
+            resultado += texto.decode(codificacion or "utf-8", errors="ignore")
+        else:
+            resultado += texto
+    return resultado
+
+
+def _texto_plano(msg):
+    if msg.is_multipart():
+        for parte in msg.walk():
+            if parte.get_content_type() == "text/plain" and not parte.get("Content-Disposition"):
+                try:
+                    return parte.get_payload(decode=True).decode(parte.get_content_charset() or "utf-8", errors="ignore")
+                except Exception:
+                    continue
+        return ""
+    try:
+        return msg.get_payload(decode=True).decode(msg.get_content_charset() or "utf-8", errors="ignore")
+    except Exception:
+        return ""
+
+
+def revisar_respuestas():
+    """Revisa el inbox de Gmail buscando respuestas de leads contactados por el agente, clasifica y actualiza su estado."""
+    smtp_email = os.environ.get("SMTP_EMAIL")
+    smtp_password = os.environ.get("SMTP_PASSWORD")
+    if not smtp_email or not smtp_password:
+        print("Sin credenciales de Gmail configuradas, no se pueden revisar respuestas.")
+        return
+
+    prospectos = db.obtener_prospectos()
+    por_email = {}
+    for p in prospectos:
+        e = (p.get("email") or "").strip().lower()
+        if e and p.get("canal") == "Agente de Prospección" and p.get("estado") == "nuevo":
+            por_email[e] = p
+
+    if not por_email:
+        print("No hay prospectos pendientes de revisión de respuesta.")
+        return
+
+    try:
+        conn = imaplib.IMAP4_SSL("imap.gmail.com")
+        conn.login(smtp_email, smtp_password)
+        conn.select("INBOX")
+        estado_busqueda, datos = conn.search(None, "UNSEEN")
+        ids = datos[0].split() if estado_busqueda == "OK" else []
+    except Exception as e:
+        print(f"No se pudo conectar al inbox: {e}")
+        return
+
+    revisados = 0
+    for msg_id in ids:
+        try:
+            _, datos_msg = conn.fetch(msg_id, "(RFC822)")
+            crudo = datos_msg[0][1]
+            msg = email_lib.message_from_bytes(crudo)
+            remitente = email_lib.utils.parseaddr(msg.get("From", ""))[1].strip().lower()
+            if remitente not in por_email:
+                continue
+            prospecto = por_email[remitente]
+            cuerpo = _texto_plano(msg).strip()
+            if not cuerpo:
+                continue
+
+            clasif = ai.clasificar_respuesta(prospecto["nombre"], cuerpo[:2000])
+            nuevo_estado = {
+                "interesado": "en_negociacion",
+                "pidio_info": "en_negociacion",
+                "no_interesado": "descartado",
+                "fuera_de_tema": "nuevo",
+            }.get(clasif.get("clasificacion"), "nuevo")
+
+            db.actualizar_estado_prospecto(prospecto["id"], nuevo_estado)
+            nota_extra = f"\n\n[Respuesta recibida] {clasif.get('clasificacion')}: {clasif.get('resumen')}\nSugerencia: {clasif.get('siguiente_paso_sugerido')}"
+            db.actualizar_notas_prospecto(prospecto["id"], (prospecto.get("notas") or "") + nota_extra)
+            print(f"Respuesta de {prospecto['nombre']} clasificada como '{clasif.get('clasificacion')}' -> estado: {nuevo_estado}")
+            revisados += 1
+        except Exception as e:
+            print(f"Error procesando mensaje: {e}")
+
+    conn.logout()
+    print(f"Revisión de respuestas completa. {revisados} respuestas procesadas.")
 
 
 def agregar_lead(nombre, pais, debilidad, email=None, whatsapp=None, servicio_sugerido=None, limite_diario=LIMITE_DIARIO_DEFECTO):
@@ -77,17 +170,30 @@ def _html_email(cuerpo_texto):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Agrega y contacta un lead encontrado por el agente de prospección.")
-    parser.add_argument("--nombre", required=True)
-    parser.add_argument("--pais", required=True)
-    parser.add_argument("--debilidad", required=True, help="Ej: 'no tiene sitio web', 'Instagram inactivo hace meses'")
-    parser.add_argument("--email", default=None)
-    parser.add_argument("--whatsapp", default=None)
-    parser.add_argument("--servicio", default=None)
+    parser = argparse.ArgumentParser(description="Agente de prospección de Cruz Automation IA.")
+    subparsers = parser.add_subparsers(dest="comando")
+
+    p_lead = subparsers.add_parser("agregar-lead", help="Agrega y contacta un lead encontrado.")
+    p_lead.add_argument("--nombre", required=True)
+    p_lead.add_argument("--pais", required=True)
+    p_lead.add_argument("--debilidad", required=True, help="Ej: 'no tiene sitio web', 'Instagram inactivo hace meses'")
+    p_lead.add_argument("--email", default=None)
+    p_lead.add_argument("--whatsapp", default=None)
+    p_lead.add_argument("--servicio", default=None)
+
+    subparsers.add_parser("revisar-respuestas", help="Revisa el inbox de Gmail y clasifica respuestas de leads.")
+    subparsers.add_parser("contactados-hoy", help="Muestra cuántos leads se han contactado hoy.")
+
     args = parser.parse_args()
 
-    if contactados_hoy() >= LIMITE_DIARIO_DEFECTO:
-        print(f"Límite diario de {LIMITE_DIARIO_DEFECTO} contactos alcanzado. No se procesa este lead hoy.")
-        sys.exit(0)
-
-    agregar_lead(args.nombre, args.pais, args.debilidad, email=args.email, whatsapp=args.whatsapp, servicio_sugerido=args.servicio)
+    if args.comando == "revisar-respuestas":
+        revisar_respuestas()
+    elif args.comando == "contactados-hoy":
+        print(contactados_hoy())
+    elif args.comando == "agregar-lead":
+        if contactados_hoy() >= LIMITE_DIARIO_DEFECTO:
+            print(f"Tope de seguridad de {LIMITE_DIARIO_DEFECTO} contactos alcanzado hoy. No se procesa este lead.")
+            sys.exit(0)
+        agregar_lead(args.nombre, args.pais, args.debilidad, email=args.email, whatsapp=args.whatsapp, servicio_sugerido=args.servicio)
+    else:
+        parser.print_help()
