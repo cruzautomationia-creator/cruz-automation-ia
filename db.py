@@ -19,6 +19,13 @@ def _safe(fn, default=None):
         LAST_ERROR = str(e)
         return default
 
+def verificar_conexion():
+    """Lanza ConnectionError si Supabase no es alcanzable. Llamar antes de confiar en un resultado vacío."""
+    _safe(lambda: get_client().table("prospectos").select("id").limit(1).execute())
+    if LAST_ERROR:
+        raise ConnectionError(f"No se pudo conectar a Supabase: {LAST_ERROR}")
+
+
 def init_db():
     pass
 

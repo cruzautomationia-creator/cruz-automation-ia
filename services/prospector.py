@@ -16,6 +16,7 @@ MINIMO_DIARIO_OBJETIVO = 20
 
 
 def ya_contactado(nombre, email):
+    db.verificar_conexion()
     existentes = db.obtener_prospectos()
     nombre_l = (nombre or "").strip().lower()
     email_l = (email or "").strip().lower()
@@ -29,6 +30,7 @@ def ya_contactado(nombre, email):
 
 def _leads_de_hoy():
     from datetime import date
+    db.verificar_conexion()
     hoy = date.today().isoformat()
     existentes = db.obtener_prospectos()
     return [p for p in existentes if p.get("canal") == "Agente de Prospección" and str(p.get("created_at", "")).startswith(hoy)]
@@ -106,6 +108,7 @@ def revisar_respuestas():
         print("Sin credenciales de Gmail configuradas, no se pueden revisar respuestas.")
         return
 
+    db.verificar_conexion()
     prospectos = db.obtener_prospectos()
     por_email = {}
     for p in prospectos:
