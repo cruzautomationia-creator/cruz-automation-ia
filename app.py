@@ -160,7 +160,7 @@ if pagina == "🏠 Dashboard":
 elif pagina == "⭐ Prospectos":
     st.title("⭐ Prospectos")
 
-    pendientes = prospector._cargar_pendientes()
+    pendientes = prospector.pendientes_reales()
     if pendientes:
         st.warning(f"🤖 El agente encontró **{len(pendientes)} negocios nuevos** hoy en la madrugada, esperando que los proceses.")
         if st.button("⚡ Procesar todos ahora (redactar, guardar y enviar emails)", type="primary"):
@@ -187,6 +187,14 @@ elif pagina == "⭐ Prospectos":
         if not prospectos:
             st.info("No hay prospectos aún.")
         else:
+            with st.expander("🗑️ Eliminar todos los prospectos"):
+                st.warning("Esto borra TODOS los prospectos de forma permanente. No se puede deshacer.")
+                confirmar_borrar_todo = st.checkbox("Sí, quiero borrar todos los prospectos", key="confirmar_borrar_todo")
+                if st.button("Eliminar todos ahora", disabled=not confirmar_borrar_todo, key="btn_borrar_todo"):
+                    for p in prospectos:
+                        db.eliminar_prospecto(p["id"])
+                    st.success("Todos los prospectos fueron eliminados.")
+                    st.rerun()
             for p in prospectos:
                 if p["estado"] in ["descartado","convertido"]:
                     continue
@@ -205,14 +213,22 @@ elif pagina == "⭐ Prospectos":
                     with col2:
                         st.write(f"📅 Llegó: {p['fecha'][:10]}")
                     if link_whatsapp:
-                        st.link_button("📱 Enviar por WhatsApp (1 clic)", link_whatsapp, type="primary")
+                        if "[WhatsApp enviado" in notas_visibles:
+                            st.success("📱 WhatsApp ya enviado — esperando respuesta")
+                            st.link_button("Reabrir conversación de WhatsApp", link_whatsapp)
+                        else:
+                            if st.button("📱 Enviar por WhatsApp (1 clic)", key=f"wa_{p['id']}", type="primary"):
+                                db.actualizar_notas_prospecto(p["id"], notas_raw + "\n\n[WhatsApp enviado, esperando respuesta]")
+                                st.markdown(f"<script>window.open('{link_whatsapp}','_blank')</script>", unsafe_allow_html=True)
+                                st.success("✅ Marcado como enviado. Se abrió WhatsApp en una pestaña nueva.")
+                                st.rerun()
                     if notas_visibles:
                         st.info(notas_visibles)
                         nuevo_estado = st.selectbox("Estado", ["nuevo","en_negociacion","convertido","descartado"], key=f"est_{p['id']}", index=["nuevo","en_negociacion","convertido","descartado"].index(p["estado"]))
                         if st.button("Actualizar", key=f"upd_{p['id']}"):
                             db.actualizar_estado_prospecto(p["id"], nuevo_estado)
                             st.rerun()
-                    col1, col2, col3 = st.columns(3)
+                    col1, col2, col3, col4 = st.columns(4)
                     with col1:
                         if st.button("📄 Generar propuesta", key=f"prop_{p['id']}"):
                             with st.spinner("Generando..."):
@@ -244,6 +260,10 @@ elif pagina == "⭐ Prospectos":
                         if st.button("✅ Convertir", key=f"conv_{p['id']}"):
                             db.actualizar_estado_prospecto(p["id"], "convertido")
                             st.success("Convertido. Ve a Clientes.")
+                            st.rerun()
+                    with col4:
+                        if st.button("🗑️ Eliminar", key=f"del_p_{p['id']}"):
+                            db.eliminar_prospecto(p["id"])
                             st.rerun()
                     nueva_nota = st.text_input("Agregar nota", key=f"nota_p_{p['id']}")
                     if st.button("💾 Guardar nota", key=f"savnota_p_{p['id']}"):

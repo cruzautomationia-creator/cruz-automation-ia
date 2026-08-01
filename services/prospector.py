@@ -32,6 +32,9 @@ def _guardar_pendientes(leads):
 
 def agregar_pendiente(nombre, pais, debilidad, email=None, whatsapp=None, servicio=None):
     """Solo escribe al archivo local, sin tocar Supabase/Groq. Pensado para el agente en la nube (sin red completa)."""
+    if not (email or whatsapp):
+        print(f"RECHAZADO (sin email ni WhatsApp, no es contactable): {nombre}")
+        return
     pendientes = _cargar_pendientes()
     nombre_l = nombre.strip().lower()
     if any(p["nombre"].strip().lower() == nombre_l for p in pendientes):
@@ -65,6 +68,18 @@ def procesar_pendientes():
             restantes.append(lead)
     _guardar_pendientes(restantes)
     return resultados
+
+
+def pendientes_reales():
+    """Lista de pendientes del archivo que AÚN no están en Supabase (evita que reaparezcan tras procesarlos desde un entorno que no puede git-push, como Streamlit Cloud)."""
+    pendientes = _cargar_pendientes()
+    if not pendientes:
+        return []
+    try:
+        db.verificar_conexion()
+    except Exception:
+        return pendientes
+    return [p for p in pendientes if not ya_contactado(p["nombre"], p.get("email"))]
 
 
 def ya_contactado(nombre, email):
@@ -217,6 +232,9 @@ def revisar_respuestas():
 
 
 def agregar_lead(nombre, pais, debilidad, email=None, whatsapp=None, servicio_sugerido=None, limite_diario=LIMITE_DIARIO_DEFECTO):
+    if not (email or whatsapp):
+        print(f"RECHAZADO (sin email ni WhatsApp, no es contactable): {nombre}")
+        return {"omitido": True, "razon": "sin_contacto"}
     if ya_contactado(nombre, email):
         print(f"OMITIDO (ya contactado antes): {nombre}")
         return {"omitido": True, "razon": "ya_contactado"}
