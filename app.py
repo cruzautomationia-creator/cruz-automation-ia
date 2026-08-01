@@ -464,7 +464,9 @@ elif pagina == "🤖 Agentes IA":
                             st.metric("Precio total", f"${cot.get('precio_total',0)} USD")
                         with col2:
                             st.metric("Entrega", cot.get("tiempo_entrega",""))
-                        st.markdown("**Combo armado:**")
+                        if cot.get("nombre_combo_o_detalle"):
+                            st.markdown(f"**{cot.get('nombre_combo_o_detalle')}**")
+                        st.markdown("**Detalle:**")
                         for s in cot.get("servicios_elegidos",[]):
                             st.markdown(f"- {s.get('categoria','')}: {s.get('opcion','')} — ${s.get('precio',0)} USD")
                         st.markdown("**Incluye:**")

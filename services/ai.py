@@ -10,29 +10,31 @@ Web: https://cruzautomationia.com/
 Servicios: Páginas web personalizadas y automatización de redes sociales
 País: Chile, trabajo 100% remoto con clientes de más de 25 países
 
-MODELO DE PRECIOS: sistema de combo personalizado ("Armá tu combo") — el cliente arma su propio paquete
-eligiendo servicios de 3 categorías, y el precio total es la suma de lo elegido. No existen paquetes
-fijos con nombre propio, es armable a la carta.
+Hay DOS formas de cotizar, según lo que el cliente necesite. Usa la que mejor calce:
 
-CATEGORÍA 1 — Páginas Web (elegir uno o ninguno):
-- Landing Page: $100 USD
-- Web Corporativa: $280 USD
-- E-Commerce: $380 USD
+OPCIÓN A — COMBOS DE LANZAMIENTO (precios promocionales con descuento, para quien quiere algo empaquetado):
+- Combo Lanzamiento — $120 USD (antes $150, ahorra $30): Landing page completa + Bot WhatsApp starter + 30 días de soporte. Ideal para empezar.
+- Combo Presencia Digital — $300 USD (antes $380, ahorra $80): Web corporativa completa + Bot WhatsApp completo + Bot Instagram automatizado. Para negocios en crecimiento.
+- Combo Redes Completas — $130 USD (antes $150, ahorra $20): Bot Instagram + Bot TikTok + Email marketing automatizado. Para quien ya tiene web.
+- Combo Tienda Completa — $480 USD (antes $560, ahorra $80): E-Commerce hasta 50 productos + automatización completa (WhatsApp + Instagram + TikTok + Email).
 
-CATEGORÍA 2 — Automatización de redes (elegir uno o ninguno):
-- WhatsApp: $50 USD
-- WhatsApp + Instagram: $90 USD
-- 4 plataformas (WhatsApp, Instagram, TikTok, Email): $150 USD
+OPCIÓN B — ARMÁ TU COMBO (à la carte, para quien quiere elegir exactamente qué necesita, sumando por categoría):
+Páginas Web (elegir uno): Landing Page $100 USD | Web Corporativa $280 USD | E-Commerce $380 USD
+Automatización (elegir uno): WhatsApp $50 USD | WhatsApp + Instagram $90 USD | 4 plataformas (WhatsApp+Instagram+TikTok+Email) $150 USD
+Diseño Visual (elegir uno): Starter 8 diseños $59 USD | Pro 20 diseños $109 USD | Elite 40 diseños $159 USD
+El total es la suma de las categorías elegidas (ej: Landing Page + WhatsApp + Starter = $209 USD). No hay que elegir las 3 categorías, solo lo que el cliente necesite.
 
-CATEGORÍA 3 — Diseño Visual (elegir uno o ninguno):
-- Starter (8 diseños): $59 USD
-- Pro (20 diseños): $109 USD
-- Elite (40 diseños): $159 USD
+TIEMPOS DE ENTREGA (días hábiles, confirmados en el sitio):
+- Landing Page: 3–5 días
+- Portafolio o marca personal: 4–8 días
+- Web Corporativa o E-Commerce: 7–15 días
+- Automatización de redes: se coordina según plataformas, generalmente en paralelo al desarrollo web
+Siempre da un rango, no un número fijo, a menos que el proyecto ya esté bien definido.
 
-Ejemplo de combo armado: Landing Page ($100) + WhatsApp ($50) + Starter ($59) = $209 USD total.
-Si el cliente no necesita una categoría, simplemente no se cobra esa parte.
-
-PROGRAMA DE REFERIDOS: $30 USD de descuento por cada cliente referido que cierre contrato. Sin límite, acumulable.
+OTROS DATOS REALES DEL SITIO:
+- Cotización personalizada gratuita, respuesta en menos de 24 horas.
+- Incluye siempre: diseño responsive, SEO básico, formulario de contacto, configuración de dominio/hosting, soporte post-lanzamiento.
+- Programa de referidos: $30 USD de descuento por cada cliente referido que cierre contrato. Sin límite, acumulable.
 
 FORMA DE PAGO: 50% al inicio + 50% al entregar
 CONTACTO: +56 9 7244 6549 | cruzautomationia@gmail.com
@@ -119,22 +121,25 @@ def generar_cotizacion(descripcion_proyecto, nombre_cliente, pais):
 Cliente: {nombre_cliente} de {pais}
 Proyecto solicitado: {descripcion_proyecto}
 
-Arma un combo con las 3 categorías (Páginas Web, Automatización, Diseño Visual) según lo que el cliente
-necesita — usa los precios EXACTOS de la lista de arriba, no inventes precios ni nombres de plan.
-Si el cliente no necesita una categoría, no la incluyas.
+Decide cuál opción de precio calza mejor:
+- Si lo que pide el cliente coincide bien con uno de los 4 Combos de Lanzamiento (Opción A), úsalo — suele ser más barato que armarlo por separado.
+- Si no calza con ningún combo fijo, o el cliente solo necesita 1-2 categorías, arma un combo a la carta (Opción B) sumando las categorías que aplican.
+Usa SIEMPRE los precios EXACTOS de la lista de arriba (de cualquiera de las dos opciones) — nunca inventes precios ni nombres de plan. Usa el tiempo de entrega real según el tipo de servicio elegido (nunca un número fijo si el rango real es más amplio).
 
 Responde SOLO en JSON:
 {{
+  "tipo_cotizacion": "combo_lanzamiento|a_la_carte",
+  "nombre_combo_o_detalle": "nombre del combo si aplica, o descripción de lo armado a la carta",
   "servicios_elegidos": [
-    {{"categoria": "Páginas Web|Automatización|Diseño Visual", "opcion": "nombre exacto de la lista", "precio": 0}}
+    {{"categoria": "Páginas Web|Automatización|Diseño Visual|Combo", "opcion": "nombre exacto de la lista", "precio": 0}}
   ],
   "precio_total": 0,
   "incluye": ["item 1", "item 2", "item 3"],
   "no_incluye": ["item 1", "item 2"],
-  "tiempo_entrega": "...",
+  "tiempo_entrega": "rango real, ej. '7 a 15 días hábiles'",
   "justificacion": "...",
-  "alternativa_economica": "una combinación más barata quitando alguna categoría",
-  "alternativa_premium": "una combinación más completa agregando alguna categoría"
+  "alternativa_economica": "...",
+  "alternativa_premium": "..."
 }}"""
     return _completar_json(prompt, 1000)
 
