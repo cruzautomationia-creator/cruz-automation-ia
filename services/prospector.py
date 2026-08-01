@@ -209,16 +209,27 @@ def _link_whatsapp_empresa(nombre_negocio):
 
 
 def _html_email(cuerpo_texto, nombre_negocio=""):
-    parrafos = "".join(f"<p style='margin:0 0 12px;line-height:1.6;'>{p}</p>" for p in cuerpo_texto.split("\n") if p.strip())
+    parrafos_lista = [p for p in cuerpo_texto.split("\n") if p.strip()]
+    gancho = parrafos_lista[0] if parrafos_lista else ""
+    resto = parrafos_lista[1:] if len(parrafos_lista) > 1 else []
+    resto_html = "".join(f"<p style='margin:0 0 14px;line-height:1.65;color:#2b2b3a;font-size:15px;'>{p}</p>" for p in resto)
     link_wa = _link_whatsapp_empresa(nombre_negocio)
     return f"""
-    <div style="font-family:Arial,sans-serif;max-width:520px;margin:auto;padding:24px;background:#f9f9f9;border-radius:12px;">
-      <h2 style="color:#534AB7;margin:0 0 16px;">Cruz Automation IA</h2>
-      {parrafos}
-      <div style="text-align:center;margin:24px 0;">
-        <a href="{link_wa}" style="background:#25D366;color:#fff;text-decoration:none;padding:12px 24px;border-radius:24px;font-weight:bold;display:inline-block;">💬 Escríbenos por WhatsApp</a>
+    <div style="font-family:'Segoe UI',Arial,sans-serif;max-width:540px;margin:auto;background:#ffffff;border-radius:18px;overflow:hidden;box-shadow:0 8px 30px rgba(83,74,183,0.15);border:1px solid #EEEEF8;">
+      <div style="background:linear-gradient(135deg,#6C63E8,#534AB7);padding:28px 28px 22px;">
+        <div style="color:#fff;font-size:13px;font-weight:700;letter-spacing:1px;opacity:.85;text-transform:uppercase;">⚡ Cruz Automation IA</div>
+        <div style="color:#fff;font-size:20px;font-weight:800;margin-top:8px;line-height:1.35;">👀 Algo llamó nuestra atención sobre {nombre_negocio or 'tu negocio'}...</div>
       </div>
-      <p style="color:#999;font-size:12px;margin-top:20px;">Cruz Automation IA · cruzautomationia@gmail.com · +56 9 7244 6549</p>
+      <div style="padding:26px 28px 8px;">
+        <p style="margin:0 0 16px;line-height:1.65;font-size:16px;font-weight:600;color:#23262f;">{gancho}</p>
+        {resto_html}
+      </div>
+      <div style="text-align:center;margin:20px 28px 28px;">
+        <a href="{link_wa}" style="background:#25D366;color:#fff;text-decoration:none;padding:14px 30px;border-radius:30px;font-weight:800;font-size:15.5px;display:inline-block;box-shadow:0 6px 18px rgba(37,211,102,0.4);">💬 Escríbenos por WhatsApp ahora</a>
+      </div>
+      <div style="background:#F8F8FC;padding:16px 28px;text-align:center;border-top:1px solid #EEEEF8;">
+        <p style="color:#9aa2b6;font-size:12px;margin:0;">Cruz Automation IA · cruzautomationia@gmail.com · +56 9 7244 6549</p>
+      </div>
     </div>"""
 
 
