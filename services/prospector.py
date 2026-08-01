@@ -1,6 +1,7 @@
 import argparse
 import sys
 import os
+import json
 import imaplib
 import email as email_lib
 import urllib.parse
@@ -13,6 +14,57 @@ from services import ai, notifications
 
 LIMITE_DIARIO_DEFECTO = 25
 MINIMO_DIARIO_OBJETIVO = 20
+
+RUTA_PENDIENTES = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "leads_pendientes.json")
+
+
+def _cargar_pendientes():
+    if not os.path.exists(RUTA_PENDIENTES):
+        return []
+    with open(RUTA_PENDIENTES, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def _guardar_pendientes(leads):
+    with open(RUTA_PENDIENTES, "w", encoding="utf-8") as f:
+        json.dump(leads, f, ensure_ascii=False, indent=2)
+
+
+def agregar_pendiente(nombre, pais, debilidad, email=None, whatsapp=None, servicio=None):
+    """Solo escribe al archivo local, sin tocar Supabase/Groq. Pensado para el agente en la nube (sin red completa)."""
+    pendientes = _cargar_pendientes()
+    nombre_l = nombre.strip().lower()
+    if any(p["nombre"].strip().lower() == nombre_l for p in pendientes):
+        print(f"OMITIDO (ya estaba en pendientes): {nombre}")
+        return
+    pendientes.append({
+        "nombre": nombre, "pais": pais, "debilidad": debilidad,
+        "email": email, "whatsapp": whatsapp, "servicio": servicio,
+    })
+    _guardar_pendientes(pendientes)
+    print(f"Agregado a pendientes: {nombre} ({pais})")
+
+
+def procesar_pendientes():
+    """Recorre leads_pendientes.json y los procesa de verdad (Groq + Supabase + email + wa.me). Requiere red completa."""
+    pendientes = _cargar_pendientes()
+    if not pendientes:
+        print("No hay leads pendientes por procesar.")
+        return []
+    resultados = []
+    restantes = []
+    for lead in pendientes:
+        if ya_contactado(lead["nombre"], lead.get("email")):
+            print(f"YA PROCESADO ANTES, se quita de pendientes: {lead['nombre']}")
+            continue
+        try:
+            r = agregar_lead(lead["nombre"], lead["pais"], lead["debilidad"], email=lead.get("email"), whatsapp=lead.get("whatsapp"), servicio_sugerido=lead.get("servicio"))
+            resultados.append({"nombre": lead["nombre"], **r})
+        except Exception as e:
+            print(f"ERROR procesando {lead['nombre']}: {e}")
+            restantes.append(lead)
+    _guardar_pendientes(restantes)
+    return resultados
 
 
 def ya_contactado(nombre, email):
@@ -251,6 +303,15 @@ if __name__ == "__main__":
     subparsers.add_parser("revisar-respuestas", help="Revisa el inbox de Gmail y clasifica respuestas de leads.")
     subparsers.add_parser("contactados-hoy", help="Muestra cuántos leads se han contactado hoy.")
     subparsers.add_parser("resumen-diario", help="Envía un email de resumen avisando que el trabajo de hoy está listo.")
+    subparsers.add_parser("procesar-pendientes", help="Procesa leads_pendientes.json de verdad (Groq+Supabase+email). Requiere red completa.")
+
+    p_pend = subparsers.add_parser("agregar-pendiente", help="Guarda un lead SOLO en el archivo local, sin tocar red (para el agente en la nube).")
+    p_pend.add_argument("--nombre", required=True)
+    p_pend.add_argument("--pais", required=True)
+    p_pend.add_argument("--debilidad", required=True)
+    p_pend.add_argument("--email", default=None)
+    p_pend.add_argument("--whatsapp", default=None)
+    p_pend.add_argument("--servicio", default=None)
 
     args = parser.parse_args()
 
@@ -260,6 +321,10 @@ if __name__ == "__main__":
         print(contactados_hoy())
     elif args.comando == "resumen-diario":
         enviar_resumen_diario()
+    elif args.comando == "procesar-pendientes":
+        procesar_pendientes()
+    elif args.comando == "agregar-pendiente":
+        agregar_pendiente(args.nombre, args.pais, args.debilidad, email=args.email, whatsapp=args.whatsapp, servicio=args.servicio)
     elif args.comando == "agregar-lead":
         if contactados_hoy() >= LIMITE_DIARIO_DEFECTO:
             print(f"Tope de seguridad de {LIMITE_DIARIO_DEFECTO} contactos alcanzado hoy. No se procesa este lead.")

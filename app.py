@@ -7,7 +7,7 @@ import os
 import re
 
 import db
-from services import ai, notifications, video
+from services import ai, notifications, video, prospector
 
 st.set_page_config(page_title="Cruz Automation IA", page_icon="⚡", layout="wide", initial_sidebar_state="expanded")
 
@@ -159,6 +159,23 @@ if pagina == "🏠 Dashboard":
 
 elif pagina == "⭐ Prospectos":
     st.title("⭐ Prospectos")
+
+    pendientes = prospector._cargar_pendientes()
+    if pendientes:
+        st.warning(f"🤖 El agente encontró **{len(pendientes)} negocios nuevos** hoy en la madrugada, esperando que los proceses.")
+        if st.button("⚡ Procesar todos ahora (redactar, guardar y enviar emails)", type="primary"):
+            with st.spinner(f"Procesando {len(pendientes)} leads..."):
+                try:
+                    resultados = prospector.procesar_pendientes()
+                    ok = sum(1 for r in resultados if not r.get("omitido"))
+                    st.success(f"✅ Listo: {ok} negocios procesados y guardados en Prospectos.")
+                    st.rerun()
+                except Exception as ex:
+                    st.error(f"Error: {ex}")
+        with st.expander("Ver lista sin procesar"):
+            for p in pendientes:
+                st.write(f"**{p['nombre']}** — {p['pais']} — {p['debilidad']}")
+
     st.markdown("---")
     tab1, tab2 = st.tabs(["📋 Ver prospectos", "➕ Agregar prospecto"])
     with tab1:
