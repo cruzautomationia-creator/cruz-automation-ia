@@ -4,6 +4,7 @@ from datetime import date, datetime
 import pandas as pd
 import json
 import os
+import re
 
 import db
 from services import ai, notifications, video
@@ -169,6 +170,12 @@ elif pagina == "⭐ Prospectos":
                 if p["estado"] in ["descartado","convertido"]:
                     continue
                 with st.expander(f"{'🔵' if p['estado']=='nuevo' else '🟡'} {p['nombre']} — {p['servicio_interes']} — {p.get('pais','')} — {p['canal']}"):
+                    notas_raw = p.get("notas") or ""
+                    link_whatsapp = None
+                    match_link = re.search(r"WHATSAPP_LINK::(\S+)", notas_raw)
+                    if match_link:
+                        link_whatsapp = match_link.group(1)
+                    notas_visibles = re.sub(r"\n*WHATSAPP_LINK::\S+\n*", "\n", notas_raw).strip()
                     col1, col2 = st.columns(2)
                     with col1:
                         st.write(f"📧 {p['email'] or 'Sin email'}")
@@ -176,6 +183,10 @@ elif pagina == "⭐ Prospectos":
                         st.write(f"💰 Presupuesto: {p['presupuesto'] or 'No indicado'}")
                     with col2:
                         st.write(f"📅 Llegó: {p['fecha'][:10]}")
+                    if link_whatsapp:
+                        st.link_button("📱 Enviar por WhatsApp (1 clic)", link_whatsapp, type="primary")
+                    if notas_visibles:
+                        st.info(notas_visibles)
                         nuevo_estado = st.selectbox("Estado", ["nuevo","en_negociacion","convertido","descartado"], key=f"est_{p['id']}", index=["nuevo","en_negociacion","convertido","descartado"].index(p["estado"]))
                         if st.button("Actualizar", key=f"upd_{p['id']}"):
                             db.actualizar_estado_prospecto(p["id"], nuevo_estado)

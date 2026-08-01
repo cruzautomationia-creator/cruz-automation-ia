@@ -3,6 +3,7 @@ import sys
 import os
 import imaplib
 import email as email_lib
+import urllib.parse
 from email.header import decode_header
 
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -141,7 +142,10 @@ def agregar_lead(nombre, pais, debilidad, email=None, whatsapp=None, servicio_su
     if outreach.get("portafolio_usado"):
         notas += f"\nEjemplo de portafolio incluido: {outreach['portafolio_usado']}"
     if whatsapp:
-        notas += f"\n\nBorrador de WhatsApp (enviar manualmente):\n{outreach['mensaje_whatsapp']}"
+        numero_limpio = "".join(c for c in whatsapp if c.isdigit())
+        link_whatsapp = f"https://wa.me/{numero_limpio}?text={urllib.parse.quote(outreach['mensaje_whatsapp'])}"
+        notas += f"\n\nWHATSAPP_LINK::{link_whatsapp}"
+        notas += f"\n\nBorrador de WhatsApp:\n{outreach['mensaje_whatsapp']}"
     if not email_enviado:
         notas += "\n\n(No se envió email automático: sin dirección de correo o fallo de envío.)"
 
