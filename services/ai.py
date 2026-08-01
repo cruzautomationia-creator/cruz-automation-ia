@@ -6,26 +6,35 @@ MODEL = "llama-3.3-70b-versatile"
 
 EMPRESA_INFO = """
 Empresa: Cruz Automation IA
-Web: cruzautomationia.com
+Web: https://cruzautomationia.com/
 Servicios: Páginas web personalizadas y automatización de redes sociales
-País: Chile, trabajo 100% remoto con clientes de todo el mundo
+País: Chile, trabajo 100% remoto con clientes de más de 25 países
 
-PRECIOS Y COMBOS:
-- Combo Lanzamiento: $120 USD (Landing page + Bot WhatsApp starter + 30 días soporte)
-- Combo Presencia Digital: $300 USD (Web corporativa + Bot WhatsApp completo + Bot Instagram)
-- Combo Redes Completas: $130 USD (Bot Instagram + Bot TikTok + Email marketing)
-- Combo Tienda Completa: $480 USD (E-commerce hasta 50 productos + Automatización 4 plataformas)
-- Servicios desde: $100 USD
+MODELO DE PRECIOS: sistema de combo personalizado ("Armá tu combo") — el cliente arma su propio paquete
+eligiendo servicios de 3 categorías, y el precio total es la suma de lo elegido. No existen paquetes
+fijos con nombre propio, es armable a la carta.
 
-TIEMPOS DE ENTREGA:
-- Landing Page: 3-5 días
-- Portafolio: 5-7 días
-- Web Corporativa: 7-10 días
-- E-commerce: 10-15 días
-- Automatización de Redes: 3-7 días
+CATEGORÍA 1 — Páginas Web (elegir uno o ninguno):
+- Landing Page: $100 USD
+- Web Corporativa: $280 USD
+- E-Commerce: $380 USD
+
+CATEGORÍA 2 — Automatización de redes (elegir uno o ninguno):
+- WhatsApp: $50 USD
+- WhatsApp + Instagram: $90 USD
+- 4 plataformas (WhatsApp, Instagram, TikTok, Email): $150 USD
+
+CATEGORÍA 3 — Diseño Visual (elegir uno o ninguno):
+- Starter (8 diseños): $59 USD
+- Pro (20 diseños): $109 USD
+- Elite (40 diseños): $159 USD
+
+Ejemplo de combo armado: Landing Page ($100) + WhatsApp ($50) + Starter ($59) = $209 USD total.
+Si el cliente no necesita una categoría, simplemente no se cobra esa parte.
+
+PROGRAMA DE REFERIDOS: $30 USD de descuento por cada cliente referido que cierre contrato. Sin límite, acumulable.
 
 FORMA DE PAGO: 50% al inicio + 50% al entregar
-MENSUALIDAD DE MANTENIMIENTO: Variable según cliente
 CONTACTO: +56 9 7244 6549 | cruzautomationia@gmail.com
 """
 
@@ -110,19 +119,22 @@ def generar_cotizacion(descripcion_proyecto, nombre_cliente, pais):
 Cliente: {nombre_cliente} de {pais}
 Proyecto solicitado: {descripcion_proyecto}
 
-Genera una cotización profesional. Responde SOLO en JSON:
+Arma un combo con las 3 categorías (Páginas Web, Automatización, Diseño Visual) según lo que el cliente
+necesita — usa los precios EXACTOS de la lista de arriba, no inventes precios ni nombres de plan.
+Si el cliente no necesita una categoría, no la incluyas.
+
+Responde SOLO en JSON:
 {{
-  "combo_recomendado": "...",
-  "precio_base": 0,
-  "precio_final": 0,
-  "descuento": 0,
+  "servicios_elegidos": [
+    {{"categoria": "Páginas Web|Automatización|Diseño Visual", "opcion": "nombre exacto de la lista", "precio": 0}}
+  ],
+  "precio_total": 0,
   "incluye": ["item 1", "item 2", "item 3"],
   "no_incluye": ["item 1", "item 2"],
   "tiempo_entrega": "...",
-  "mensualidad_sugerida": 0,
   "justificacion": "...",
-  "alternativa_economica": "...",
-  "alternativa_premium": "..."
+  "alternativa_economica": "una combinación más barata quitando alguna categoría",
+  "alternativa_premium": "una combinación más completa agregando alguna categoría"
 }}"""
     return _completar_json(prompt, 1000)
 
@@ -252,11 +264,15 @@ PORTAFOLIO DISPONIBLE (ejemplos reales de sitios que hemos hecho, uno por rubro)
 Reglas:
 - Tono profesional, cercano, breve. Nada de sonar a plantilla genérica ni a spam.
 - Menciona la debilidad detectada de forma específica y respetuosa (no ofensiva).
-- Ofrece un servicio concreto de Cruz Automation IA que resuelva esa debilidad, con precio real.
-- Termina invitando a una llamada/reunión corta, sin presionar.
+- IMPORTANTE — NO MENCIONES PRECIOS NI NOMBRES DE SERVICIOS ESPECÍFICOS en este primer mensaje. Es un mensaje
+  de primer contacto para generar curiosidad, no una cotización. En vez de ofrecer un servicio con precio,
+  genera intriga: menciona que viste algo puntual en su negocio y que tienes una idea concreta que podría
+  ayudarles, e invita a que pregunten/agenden una llamada corta para contarles más. El precio y los detalles
+  se dan recién en la conversación, no en el mensaje frío.
+- Termina invitando a una llamada/reunión corta o a responder si quieren saber más, sin presionar.
 - El email DEBE incluir al final una línea de salida clara tipo: "Si prefieres que no te vuelva a escribir, solo responde 'no' y no insistiré."
-- El mensaje de whatsapp debe ser mucho mas corto que el email (maximo 4 lineas), mismo tono.
-- PORTAFOLIO: revisa el rubro del negocio contactado contra el catálogo. Si hay un ejemplo del MISMO rubro o uno muy cercano/relacionado, incluye su link en el email (y opcionalmente en el whatsapp) invitando a verlo como muestra de trabajo real en su industria. Si NINGUNO del catálogo tiene relación real con el rubro del negocio, NO incluyas ningún link de portafolio — es mejor no mandar nada que mandar un ejemplo que no tiene sentido para ellos.
+- El mensaje de whatsapp debe ser mucho mas corto que el email (maximo 4 lineas), mismo tono, tambien sin precios.
+- PORTAFOLIO: revisa el rubro del negocio contactado contra el catálogo. Si hay un ejemplo del MISMO rubro o uno muy cercano/relacionado, incluye su link en el email (y opcionalmente en el whatsapp) invitando a verlo como muestra de trabajo real en su industria — esto SÍ se puede mostrar sin romper el tono de curiosidad. Si NINGUNO del catálogo tiene relación real con el rubro del negocio, NO incluyas ningún link de portafolio — es mejor no mandar nada que mandar un ejemplo que no tiene sentido para ellos.
 
 Responde SOLO en JSON:
 {{

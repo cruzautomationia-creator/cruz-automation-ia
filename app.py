@@ -440,15 +440,19 @@ elif pagina == "🤖 Agentes IA":
                         cot = ai.generar_cotizacion(descripcion, nombre_cot or "Cliente", pais_cot or "Latam")
                         col1, col2 = st.columns(2)
                         with col1:
-                            st.metric("Combo", cot.get("combo_recomendado",""))
-                            st.metric("Precio", f"${cot.get('precio_final',0)} USD")
+                            st.metric("Precio total", f"${cot.get('precio_total',0)} USD")
                         with col2:
                             st.metric("Entrega", cot.get("tiempo_entrega",""))
-                            st.metric("Mensualidad", f"${cot.get('mensualidad_sugerida',0)} USD/mes")
+                        st.markdown("**Combo armado:**")
+                        for s in cot.get("servicios_elegidos",[]):
+                            st.markdown(f"- {s.get('categoria','')}: {s.get('opcion','')} — ${s.get('precio',0)} USD")
                         st.markdown("**Incluye:**")
                         for item in cot.get("incluye",[]):
                             st.markdown(f"- {item}")
                         st.info(cot.get("justificacion",""))
+                        with st.expander("Ver alternativas"):
+                            st.write(f"💸 Más económica: {cot.get('alternativa_economica','')}")
+                            st.write(f"✨ Premium: {cot.get('alternativa_premium','')}")
                     except Exception as ex:
                         st.error(f"Error: {ex}")
     with tab2:

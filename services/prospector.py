@@ -27,11 +27,49 @@ def ya_contactado(nombre, email):
     return False
 
 
-def contactados_hoy():
+def _leads_de_hoy():
     from datetime import date
     hoy = date.today().isoformat()
     existentes = db.obtener_prospectos()
-    return sum(1 for p in existentes if p.get("canal") == "Agente de Prospección" and str(p.get("created_at", "")).startswith(hoy))
+    return [p for p in existentes if p.get("canal") == "Agente de Prospección" and str(p.get("created_at", "")).startswith(hoy)]
+
+
+def contactados_hoy():
+    return len(_leads_de_hoy())
+
+
+def enviar_resumen_diario():
+    """Manda un email de resumen a la propia empresa avisando que el trabajo del día está listo."""
+    destino = os.environ.get("SMTP_EMAIL")
+    if not destino:
+        print("Sin SMTP_EMAIL configurado, no se puede enviar el resumen.")
+        return
+
+    leads = _leads_de_hoy()
+    con_whatsapp = [p for p in leads if p.get("whatsapp")]
+    con_email = [p for p in leads if p.get("email")]
+
+    filas = "".join(
+        f"<li><b>{p['nombre']}</b> — {p.get('pais','')} "
+        f"{'📱 WhatsApp listo' if p.get('whatsapp') else ''} "
+        f"{'📧 Email enviado' if p.get('email') else ''}</li>"
+        for p in leads
+    )
+    cuerpo = f"""
+    <div style="font-family:Arial,sans-serif;max-width:520px;margin:auto;padding:24px;background:#f9f9f9;border-radius:12px;">
+      <h2 style="color:#534AB7;margin:0 0 16px;">✅ Prospección de hoy lista</h2>
+      <p>El agente terminó de trabajar. Resumen de hoy:</p>
+      <div style="background:#EEEDFE;padding:16px;border-radius:8px;margin:16px 0;">
+        <p style="margin:0;"><b>{len(leads)}</b> negocios contactados en total</p>
+        <p style="margin:4px 0 0;"><b>{len(con_email)}</b> por email (ya enviados)</p>
+        <p style="margin:4px 0 0;"><b>{len(con_whatsapp)}</b> con WhatsApp listo para que apruebes con un clic</p>
+      </div>
+      <p><b>Entra a la app → Prospectos y dale "Enviar por WhatsApp" a los que quieras.</b></p>
+      <ul style="line-height:1.8;">{filas}</ul>
+      <p style="color:#999;font-size:12px;margin-top:20px;">Cruz Automation IA · Agente de Prospección</p>
+    </div>"""
+    ok, msg = notifications.enviar_email(destino, f"✅ Prospección lista: {len(leads)} negocios contactados hoy", cuerpo)
+    print(f"Resumen diario: {'enviado' if ok else 'FALLO - ' + msg}")
 
 
 def _decodificar(valor):
@@ -187,6 +225,7 @@ if __name__ == "__main__":
 
     subparsers.add_parser("revisar-respuestas", help="Revisa el inbox de Gmail y clasifica respuestas de leads.")
     subparsers.add_parser("contactados-hoy", help="Muestra cuántos leads se han contactado hoy.")
+    subparsers.add_parser("resumen-diario", help="Envía un email de resumen avisando que el trabajo de hoy está listo.")
 
     args = parser.parse_args()
 
@@ -194,6 +233,8 @@ if __name__ == "__main__":
         revisar_respuestas()
     elif args.comando == "contactados-hoy":
         print(contactados_hoy())
+    elif args.comando == "resumen-diario":
+        enviar_resumen_diario()
     elif args.comando == "agregar-lead":
         if contactados_hoy() >= LIMITE_DIARIO_DEFECTO:
             print(f"Tope de seguridad de {LIMITE_DIARIO_DEFECTO} contactos alcanzado hoy. No se procesa este lead.")
