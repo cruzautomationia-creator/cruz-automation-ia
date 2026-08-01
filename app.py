@@ -168,7 +168,11 @@ elif pagina == "⭐ Prospectos":
                 try:
                     resultados = prospector.procesar_pendientes()
                     ok = sum(1 for r in resultados if not r.get("omitido"))
-                    st.success(f"✅ Listo: {ok} negocios procesados y guardados en Prospectos.")
+                    try:
+                        prospector.revisar_respuestas()
+                    except Exception:
+                        pass
+                    st.success(f"✅ Listo: {ok} negocios procesados y guardados en Prospectos. También revisé respuestas nuevas de leads anteriores.")
                     st.rerun()
                 except Exception as ex:
                     st.error(f"Error: {ex}")
