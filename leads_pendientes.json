@@ -1,1 +1,210 @@
-[]
+[
+  {
+    "nombre": "Inmobiliaria Nexis",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio; toda su operación de venta/arriendo/inversión inmobiliaria corre únicamente por Instagram (@inmobiliaria_nexis), sin catálogo de propiedades ni formulario de contacto.",
+    "email": null,
+    "whatsapp": "+56983367767",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Hostal Possada Atacameña",
+    "pais": "Chile",
+    "debilidad": "No existe sitio web oficial del hostal en San Pedro de Atacama; toda su presencia digital depende de plataformas de terceros (Booking, Hostelworld, Expedia), pagando comisión por cada reserva.",
+    "email": null,
+    "whatsapp": "+56982207028",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Repuestos Pedreros",
+    "pais": "Chile",
+    "debilidad": "Empresa de repuestos automotrices en Concepción sin sitio web propio; su única presencia verificable son Facebook y listados en directorios genéricos (Páginas Amarillas, Cylex), sin catálogo online.",
+    "email": "repuestospedreros@hotmail.com",
+    "whatsapp": "+56934223065",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Academia Elite Concepción",
+    "pais": "Chile",
+    "debilidad": "Su dominio academiaelite.cl no resuelve (verificado con DNS/curl); solo queda activa su página de Facebook para inscripciones a cursos de peluquería/barbería/estética.",
+    "email": null,
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Dental Chile",
+    "pais": "Chile",
+    "debilidad": "Clínica dental en Concepción sin sitio web propio, promocionándose solo en Instagram (1.349 seguidores) y Facebook, a diferencia de casi toda su competencia directa que sí tiene sitio web.",
+    "email": null,
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Dental Los Algarrobos Copiapó",
+    "pais": "Chile",
+    "debilidad": "Opera en Copiapó, Antofagasta y Vallenar pero no tiene sitio web propio; su presencia digital se limita a Instagram (1.416 seguidores) y Facebook, y aparece solo en directorios de terceros.",
+    "email": null,
+    "whatsapp": "+56985470215",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Moma Arquitectura",
+    "pais": "Chile",
+    "debilidad": "Estudio de arquitectura en Puerto Montt sin dominio propio: su único 'sitio web' es una página gratuita en subdominio de Wix (momaarquitecturapm.wixsite.com), sin dominio .cl propio.",
+    "email": "moma.arquitectura.pm@gmail.com",
+    "whatsapp": "+56963891104",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Centro de Estética Serena",
+    "pais": "Chile",
+    "debilidad": "No se encontró sitio web propio en La Serena, a diferencia de otros centros estéticos de la zona (Skines Center, Serena Spa, Clínica Hera); su única presencia digital verificable es Instagram.",
+    "email": null,
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Clínica Dental Sonrisa Perú",
+    "pais": "Perú",
+    "debilidad": "No tiene sitio web propio, a diferencia de la mayoría de clínicas dentales competidoras en Lima; su única presencia digital es Facebook e Instagram (@sonrisa_peru).",
+    "email": null,
+    "whatsapp": "+51927051859",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Hotel La Pólvora",
+    "pais": "Nicaragua",
+    "debilidad": "Hotel boutique de 10 habitaciones en Granada sin sitio web propio; depende exclusivamente de Facebook y plataformas de terceros (Booking, Trivago, Momondo) para reservas.",
+    "email": null,
+    "whatsapp": "+50578056673",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Taquería Tacomiendo",
+    "pais": "México",
+    "debilidad": "Taquería en Oaxaca con más de 32.000 likes en Facebook pero sin sitio web ni sistema propio de pedidos; toma pedidos por teléfono y depende de comisiones de apps de delivery.",
+    "email": null,
+    "whatsapp": "+529514188296",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Panadería y Confitería La Argentina",
+    "pais": "Argentina",
+    "debilidad": "Panadería tradicional en Bernal (Quilmes) sin sitio web; solo maneja pedidos por teléfono fijo y redes sociales, sin catálogo online ni automatización de pedidos.",
+    "email": null,
+    "whatsapp": null,
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Noisette Pâtisserie",
+    "pais": "El Salvador",
+    "debilidad": "Pastelería en San Salvador sin sitio web; todos los pedidos se gestionan manualmente por mensajes directos de Instagram (@noisette.sv), sin catálogo digital ni respuesta automatizada.",
+    "email": null,
+    "whatsapp": "+50372637242",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Clínica Veterinaria Kitsune",
+    "pais": "Ecuador",
+    "debilidad": "Su único 'sitio web' en Quito es una página gratuita autogenerada de Google Business (negocio.site), sin diseño propio ni información completa de servicios; el resto de su presencia es solo Facebook.",
+    "email": "clinicaveterinariakitsune@gmail.com",
+    "whatsapp": "+593987294081",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Fabiola Spa",
+    "pais": "Bolivia",
+    "debilidad": "Spa de belleza en Santa Cruz de la Sierra con 16 mil seguidores en Instagram pero sin sitio web ni sistema de reservas online; agenda citas manualmente por teléfono/redes.",
+    "email": "salonfabiola125@gmail.com",
+    "whatsapp": "+59177346774",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Hostal Antigüeño",
+    "pais": "Guatemala",
+    "debilidad": "No tiene sitio web propio real en Antigua Guatemala; su único 'sitio' es una página de una sola pantalla hecha en Carrd, y depende de agregadores externos (Expedia, Agoda, Cloudbeds) para casi todas sus reservas.",
+    "email": "hostalantigueno@gmail.com",
+    "whatsapp": "+50256246673",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Café La Olla",
+    "pais": "Chile",
+    "debilidad": "Su página de Facebook quedó abandonada desde julio 2022 cuando anunciaron mudarse a Instagram; la cuenta de Instagram @cafelaolla tiene solo 949 seguidores y 15 publicaciones. No tiene sitio web propio.",
+    "email": "cafelaolla@gmail.com",
+    "whatsapp": "+56958318243",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Barbería & Salón de Belleza YG",
+    "pais": "Chile",
+    "debilidad": "Ficha de Facebook Business activa en Valparaíso (5to sector Playa Ancha) pero con 0 reseñas pese a estar publicada; no tiene sitio web propio, dependen solo de Instagram y Facebook para agendar.",
+    "email": null,
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Café Fénix",
+    "pais": "Chile",
+    "debilidad": "Negocio con 2 locales activos en Rancagua pero sin sitio web propio encontrado; toda su presencia online depende de Instagram (@cafefenixchile, ~3.193 seguidores) y Facebook.",
+    "email": "cafefenixchile@gmail.com",
+    "whatsapp": "+56991622001",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Entre Rulos Temuco",
+    "pais": "Chile",
+    "debilidad": "Peluquería especializada en cabello rizado en Temuco con solo 232 'me gusta' en Facebook; las reservas se gestionan manualmente por mensaje directo de Instagram, sin ningún sistema automatizado.",
+    "email": null,
+    "whatsapp": null,
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Cevichería Jack Fish",
+    "pais": "Chile",
+    "debilidad": "Restaurante pequeño en La Serena muy bien valorado (#9 de 236 en TripAdvisor) donde se recomienda reservar, pero no tiene sitio web ni Instagram localizable; dependen del teléfono fijo sin sistema organizado.",
+    "email": null,
+    "whatsapp": null,
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Panadería La Menta",
+    "pais": "Chile",
+    "debilidad": "Panadería histórica de Playa Ancha, Valparaíso (familia Podesta) con cuenta de Instagram de solo 423 seguidores y 48 publicaciones, claramente subutilizada para su antigüedad.",
+    "email": null,
+    "whatsapp": "+56984685029",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Panadería Superba",
+    "pais": "Chile",
+    "debilidad": "Panadería italiana con más de 30 años de historia en Valparaíso (Almendral), pero con página de Facebook de solo 1.160 'me gusta' y 434 check-ins, muy bajo para su trayectoria real.",
+    "email": null,
+    "whatsapp": "+56993185018",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Gasfiter La Serena",
+    "pais": "Chile",
+    "debilidad": "Cuenta de Instagram (@gasfiter_la_serena_) con 1.236 publicaciones pero solo 1.835 seguidores, una proporción muy baja que sugiere contenido de baja calidad visual que no logra convertir en audiencia real.",
+    "email": null,
+    "whatsapp": "+56995004573",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "La Panadería Iquique",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook (paniquique) con apenas 498 'me gusta' y solo 4 reseñas en directorios, pese a ofrecer despacho a domicilio activo en Iquique y Alto Hospicio.",
+    "email": null,
+    "whatsapp": null,
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Personal Trainer Brandon Carvacho",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook (PFBrandonc) en Valparaíso con solo 508 'me gusta'; su oferta son clases gratis de 10 minutos por Instagram, un formato muy limitado y sin monetización clara.",
+    "email": null,
+    "whatsapp": null,
+    "servicio": "Automatización redes"
+  }
+]
