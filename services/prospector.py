@@ -170,7 +170,7 @@ def agregar_lead(nombre, pais, debilidad, email=None, whatsapp=None, servicio_su
 
     email_enviado = False
     if email:
-        ok, msg = notifications.enviar_email(email, outreach["asunto_email"], _html_email(outreach["cuerpo_email"]))
+        ok, msg = notifications.enviar_email(email, outreach["asunto_email"], _html_email(outreach["cuerpo_email"], nombre))
         email_enviado = ok
         print(f"Email a {nombre} <{email}>: {'OK' if ok else 'FALLO - ' + msg}")
     else:
@@ -201,12 +201,23 @@ def agregar_lead(nombre, pais, debilidad, email=None, whatsapp=None, servicio_su
     return {"omitido": False, "email_enviado": email_enviado, "whatsapp_borrador": outreach.get("mensaje_whatsapp")}
 
 
-def _html_email(cuerpo_texto):
+NUMERO_EMPRESA = "56972446549"
+
+def _link_whatsapp_empresa(nombre_negocio):
+    mensaje = f"Hola! Vi el correo de Cruz Automation IA sobre {nombre_negocio} y quiero saber más."
+    return f"https://wa.me/{NUMERO_EMPRESA}?text={urllib.parse.quote(mensaje)}"
+
+
+def _html_email(cuerpo_texto, nombre_negocio=""):
     parrafos = "".join(f"<p style='margin:0 0 12px;line-height:1.6;'>{p}</p>" for p in cuerpo_texto.split("\n") if p.strip())
+    link_wa = _link_whatsapp_empresa(nombre_negocio)
     return f"""
     <div style="font-family:Arial,sans-serif;max-width:520px;margin:auto;padding:24px;background:#f9f9f9;border-radius:12px;">
       <h2 style="color:#534AB7;margin:0 0 16px;">Cruz Automation IA</h2>
       {parrafos}
+      <div style="text-align:center;margin:24px 0;">
+        <a href="{link_wa}" style="background:#25D366;color:#fff;text-decoration:none;padding:12px 24px;border-radius:24px;font-weight:bold;display:inline-block;">💬 Escríbenos por WhatsApp</a>
+      </div>
       <p style="color:#999;font-size:12px;margin-top:20px;">Cruz Automation IA · cruzautomationia@gmail.com · +56 9 7244 6549</p>
     </div>"""
 
