@@ -1,1 +1,114 @@
-[]
+[
+  {
+    "nombre": "Vainilla Dulce y Salado",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 70 me gusta para una pastelería/panadería, sin actividad ni interacción visible, sin catálogo digital organizado",
+    "email": "Vainilla.dulceysalado@gmail.com",
+    "whatsapp": "+56957843430",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Almacén Iquique",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con 1235 me gusta e Instagram con solo 549 seguidores; pedidos a domicilio de abarrotes se gestionan de forma manual, sin automatización de WhatsApp pese al volumen",
+    "email": null,
+    "whatsapp": "+56962326727",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Peina T",
+    "pais": "Chile",
+    "debilidad": "Salón de peluquería, barbería y uñas con página de Facebook de solo 127 me gusta, sin contenido visual profesional que muestre los trabajos/cortes",
+    "email": null,
+    "whatsapp": "+56962697678",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Verdesur Propiedades",
+    "pais": "Chile",
+    "debilidad": "Sitio web (verdesur.cl) corre sobre plantilla Joomla obsoleta con URLs crudas no amigables, diseño de más de una década, sin apariencia moderna ni responsive",
+    "email": "contacto@verdesur.cl",
+    "whatsapp": "+56991870300",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Inti Para Travel",
+    "pais": "Chile",
+    "debilidad": "Agencia de tours reseñada en TripAdvisor cuyo único sitio es un blog gratuito de WordPress.com (intiparatravelagency.wordpress.com), sin dominio propio ni diseño profesional para reservar/pagar tours",
+    "email": "Intiparatravel@gmail.com",
+    "whatsapp": "+56976461394",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Riquelme & Varela Estudio Jurídico",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; búsquedas del dominio no arrojan resultado. Su única presencia digital es Instagram @ryvabogados (1893 seguidores) y Facebook homónimo",
+    "email": "riquelmeyvarelaabogados@gmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Centro Veterinario Norte Grande",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio confirmado; toda su presencia digital son redes sociales (Facebook 6004 me gusta, Instagram 484 seguidores), agenda horas exclusivamente por WhatsApp sin ningún dominio propio",
+    "email": "centrovetnortegrande@gmail.com",
+    "whatsapp": "+56982256918",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Dentista Piura",
+    "pais": "Perú",
+    "debilidad": "Su única presencia digital es una página de Facebook con apenas 612 me gusta y sin fotos de portada profesionales; no se encontró sitio web propio, solo apariciones en directorios de terceros",
+    "email": "Prodentisp@gmail.com",
+    "whatsapp": "+51926094902",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Consultorio Dental en Piura",
+    "pais": "Perú",
+    "debilidad": "Su sitio web funciona sobre un subdominio gratuito de Weebly (consultoriodentalenpiura.weebly.com), sin dominio propio ni diseño profesional",
+    "email": null,
+    "whatsapp": "+51969912425",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Taller Eléctrico Automotriz Hectores De Honduras",
+    "pais": "Honduras",
+    "debilidad": "No tiene sitio web profesional propio; su única presencia es una página de Facebook con 1171 me gusta y una página gratuita autogenerada de Google Negocios (negocio.site), sin dominio ni diseño propios",
+    "email": null,
+    "whatsapp": "+50488090583",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Inmobiliaria Madeca",
+    "pais": "Ecuador",
+    "debilidad": "Inmobiliaria que opera solo con una página de Facebook de 753 me gusta y una cuenta de Instagram de bajo alcance; no se encontró sitio web propio pese a ser un rubro donde mostrar propiedades online es clave",
+    "email": null,
+    "whatsapp": "+593967606040",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Veterinaria Dr Céspedes",
+    "pais": "Paraguay",
+    "debilidad": "Su presencia digital se limita a una página de Facebook con 1030 me gusta; no cuenta con sitio web ni sistema de agendamiento online pese a ofrecer cirugías, hospitalización y ecografías",
+    "email": null,
+    "whatsapp": "+595972492939",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Animal Fashion Store",
+    "pais": "Venezuela",
+    "debilidad": "Tienda de mascotas en el Gran Bazar de Maracaibo cuyo único canal de contacto identificado es un número de WhatsApp, sin sitio web ni catálogo online, a diferencia de otras petshops de la zona con Instagram activo",
+    "email": null,
+    "whatsapp": "+584127910895",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Restaurante La Finca",
+    "pais": "Nicaragua",
+    "debilidad": "No tiene sitio web propio (solo aparece en Tripadvisor y directorios de terceros); su canal de contacto directo listado es un correo personal de Hotmail en lugar de un canal de pedidos o reservas profesional",
+    "email": "marthaobregon61@hotmail.com",
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  }
+]
