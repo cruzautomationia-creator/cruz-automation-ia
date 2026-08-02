@@ -110,5 +110,93 @@
     "email": "marthaobregon61@hotmail.com",
     "whatsapp": null,
     "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Base Studio (barbería)",
+    "pais": "Chile",
+    "debilidad": "Instagram con 1164 seguidores pero solo 29 publicaciones en total, ritmo de publicación muy bajo pese a tener 90 reseñas y 5 estrellas en su ficha de AgendaPro; sin sitio web propio",
+    "email": null,
+    "whatsapp": "+56987530197",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "MaryFuego Coquimbo",
+    "pais": "Chile",
+    "debilidad": "Restaurante de carnes, pescados y mariscos que opera únicamente vía Instagram (1504 seguidores, 164 publicaciones); no aparece sitio web propio, reservas y pedidos dependen enteramente de la red social",
+    "email": "restaurantmaryfuego@gmail.com",
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "The Dance Studio LS",
+    "pais": "Chile",
+    "debilidad": "Academia de baile con actividad frecuente en Instagram (clases, matrículas, promociones) pero sin sitio web propio, a diferencia de otras academias de baile de La Serena que sí tienen dominio propio",
+    "email": null,
+    "whatsapp": "+56964550828",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Clínica Estética Antofagasta",
+    "pais": "Chile",
+    "debilidad": "Clínica certificada especializada en armonización facial que opera únicamente vía Instagram/Facebook; a diferencia de competidores directos en la misma ciudad (Estétika Médica, Alfara Estética) que sí tienen sitio web propio, no se encontró ningún dominio asociado",
+    "email": "clinica.estetica.antofagasta@gmail.com",
+    "whatsapp": "+56976652581",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Las Delicias PetShop",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio; toda su operación (venta de alimento, accesorios y agenda de servicios) depende únicamente de Instagram (~2526 seguidores) y Facebook, sin tienda online ni catálogo digital",
+    "email": null,
+    "whatsapp": "+56991660328",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Florería Placita De Flores Los Ángeles",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; su única presencia digital es una página de Facebook básica sin tienda ni catálogo de productos, dependiendo de mensajes directos para pedidos y delivery",
+    "email": "violetaromerooyarzun@gmail.com",
+    "whatsapp": "+56993507610",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Pizza Truck Puerto Montt",
+    "pais": "Chile",
+    "debilidad": "Negocio de comida móvil sin sitio web; su Facebook tiene apenas ~203 me gusta y los pedidos se gestionan manualmente por WhatsApp, sin sistema de pedidos online ni menú digital",
+    "email": null,
+    "whatsapp": "+56936954477",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Angeles Pastelería",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web; opera solo mediante Instagram y Facebook, tomando pedidos de tortas y chocolates por mensaje directo, sin catálogo ni tienda online",
+    "email": null,
+    "whatsapp": "+56993993849",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Alejandro Gálvez Cerrajero",
+    "pais": "Chile",
+    "debilidad": "Cerrajero independiente con presencia digital muy débil: Instagram con solo 183 seguidores y 29 publicaciones, sin sitio web ni ficha optimizada, dependiendo del boca a boca",
+    "email": null,
+    "whatsapp": "+56934021986",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Veterinaria Ovalle Center",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; toda su gestión de venta de alimentos, medicamentos y agendamiento depende de Instagram/Facebook, sin tienda online ni sistema de reservas digital",
+    "email": "veterinaria.ovallecenter@gmail.com",
+    "whatsapp": "+56996989065",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Dental Genus Chillán",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; su Instagram muestra muy baja actividad orgánica (solo 45 publicaciones pese a llevar tiempo activa, y sigue a más cuentas de las que la siguen), sin sistema de agendamiento online",
+    "email": null,
+    "whatsapp": "+56942784250",
+    "servicio": "Web Corporativa"
   }
 ]
