@@ -198,5 +198,165 @@
     "email": null,
     "whatsapp": "+56942784250",
     "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Olimpo Barber Shop",
+    "pais": "Chile",
+    "debilidad": "Barbería en Aníbal Pinto 750, Concepción, con Instagram de 1644 seguidores y 168 publicaciones; agenda sus horas exclusivamente por WhatsApp de forma manual, sin sistema de reservas online ni sitio web",
+    "email": null,
+    "whatsapp": "+56966113112",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Dalym Peluquería y Escuela De Estilistas",
+    "pais": "Chile",
+    "debilidad": "Peluquería y escuela de estilistas en Curicó con Instagram @dalym_estilistas_curico (2790 seguidores); solo tiene Facebook e Instagram sin sitio web ni catálogo visual organizado de servicios y cursos",
+    "email": null,
+    "whatsapp": "+56982186322",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Family Vet Chile",
+    "pais": "Chile",
+    "debilidad": "Clínica veterinaria en San Fernando (Instagram @cfamilyvet); no cuenta con sitio web propio, todo el agendamiento depende de WhatsApp y llamadas telefónicas",
+    "email": "contacto@cfamilyvet.cl",
+    "whatsapp": "+56944671304",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Grizzly Gym Curicó",
+    "pais": "Chile",
+    "debilidad": "Gimnasio en Curicó cuya única presencia digital es Instagram @grizzlygymcco, sin sitio web ni sistema de inscripción o reserva de clases online",
+    "email": "grizzlygymcco@gmail.com",
+    "whatsapp": "+56968448373",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Ortodoncia Podestá",
+    "pais": "Chile",
+    "debilidad": "Clínica de ortodoncia en Av. Colón 1144, Punta Arenas, con Instagram de 1644 seguidores y 176 publicaciones; sin sitio web propio para agendamiento ni información de tratamientos",
+    "email": null,
+    "whatsapp": "+56957088912",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Esthetic Life Rancagua",
+    "pais": "Chile",
+    "debilidad": "Centro de medicina estética y armonización facial en Rancagua (registro profesional 687177) que opera solo por Instagram @esthetic.life.rancagua, con 16 mil seguidores pero sin sitio web propio para agendar horas ni mostrar tratamientos",
+    "email": null,
+    "whatsapp": "+56722275261",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Taller Automotriz JC",
+    "pais": "Chile",
+    "debilidad": "Taller mecánico automotriz en Rancagua que ofrece servicio a domicilio y diagnóstico avanzado; su único canal de contacto es WhatsApp, sin sitio web ni sistema de agendamiento online",
+    "email": null,
+    "whatsapp": "+56935253400",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Taller Mecánico RMH",
+    "pais": "Chile",
+    "debilidad": "Taller mecánico en Av. Uruguay #126, Rancagua, ofrece scanner automotriz, alineación y mecánica móvil; su único contacto es teléfono/WhatsApp, sin sitio web ni sistema de reservas online",
+    "email": null,
+    "whatsapp": "+56996940930",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Innova Peluquería",
+    "pais": "Chile",
+    "debilidad": "Peluquería en Mateo de Toro y Zambrano #2099, La Serena; su única presencia digital es Instagram (@innovaserena) y un teléfono de contacto, sin sitio web ni catálogo visual de servicios",
+    "email": null,
+    "whatsapp": "+56512247495",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Florería Jardín de Osorno",
+    "pais": "Chile",
+    "debilidad": "Florería en el centro de Osorno con variedad de flores y despacho a domicilio; su presencia digital es solo Facebook (eljardindeosorno) sin sitio web ni tienda online, pedidos se gestionan por teléfono",
+    "email": null,
+    "whatsapp": "+56862291404",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Alex Salón de Belleza y Barbería",
+    "pais": "Chile",
+    "debilidad": "Salón de belleza y barbería en Chacabuco 390, Concepción; su presencia digital es solo Instagram y WhatsApp, sin sitio web ni catálogo de servicios organizado",
+    "email": null,
+    "whatsapp": "+56973710754",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Shaloom'Spa Iquique",
+    "pais": "Chile",
+    "debilidad": "Spa de masajes e hidroterapia en el centro histórico de Iquique junto al mar; su única presencia digital es WhatsApp de contacto directo, sin sitio web ni sistema de reservas online",
+    "email": null,
+    "whatsapp": "+56928756494",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Orthodent San Pedro Sula",
+    "pais": "Honduras",
+    "debilidad": "Clínica dental en San Pedro Sula; su única presencia digital confirmada es Facebook, sin sitio web propio, agenda de citas por WhatsApp y correo",
+    "email": "hondurasdentalcenter@gmail.com",
+    "whatsapp": "+50432355257",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Barbería Da Vinci",
+    "pais": "República Dominicana",
+    "debilidad": "Barbería en Santo Domingo (Instagram @davincibarberia) que ofrece cortes, alisado e hidratación capilar; su único canal de contacto es un teléfono, sin sitio web ni sistema de reservas online",
+    "email": null,
+    "whatsapp": "+18095674726",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Auto Technica",
+    "pais": "Panamá",
+    "debilidad": "Taller mecánico automotriz en Ciudad de Panamá con 6723 seguidores en Instagram (@autotechnicapma); gestiona citas únicamente por teléfono, sin sitio web ni sistema de agendamiento online",
+    "email": null,
+    "whatsapp": "+5072320680",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Calidad Inmobiliaria",
+    "pais": "Guatemala",
+    "debilidad": "Empresa de desarrollo inmobiliario que opera en Guatemala y El Salvador cuya única presencia digital es Instagram @calidad_inm (1914 seguidores) y un teléfono de contacto, sin sitio web propio para mostrar proyectos disponibles",
+    "email": null,
+    "whatsapp": "+50223858989",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Barberos Rosario",
+    "pais": "Argentina",
+    "debilidad": "Barbería en Corrientes 2280, Rosario, con Instagram @barberos_rosario (6786 seguidores); agenda sus turnos únicamente por teléfono, sin sitio web ni sistema de reservas online",
+    "email": null,
+    "whatsapp": "+5493416208801",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Hibiscus Barbería y Salón",
+    "pais": "Costa Rica",
+    "debilidad": "Barbería y salón en San José cuya presencia digital es solo Instagram (@hibiscus_barberia_salon); agenda por WhatsApp sin sistema de reservas online ni sitio web propio",
+    "email": null,
+    "whatsapp": "+50687423723",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "VM Clínica Dental",
+    "pais": "Ecuador",
+    "debilidad": "Clínica dental en Avenida 6 de Diciembre y Germán Alemán, Quito; su presencia digital es teléfono/WhatsApp directo, sin sitio web propio para agendamiento ni información de tratamientos",
+    "email": null,
+    "whatsapp": "+593984124118",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Vidals Salón y Spa",
+    "pais": "El Salvador",
+    "debilidad": "Cadena de salones de belleza con 11 sucursales y 46 años de trayectoria en El Salvador (Instagram @vidals_sv); no se encontró sitio web propio, solo contacto telefónico y redes sociales",
+    "email": null,
+    "whatsapp": "+50321218080",
+    "servicio": "Diseño Visual"
   }
 ]
