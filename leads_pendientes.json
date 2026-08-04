@@ -358,5 +358,53 @@
     "email": null,
     "whatsapp": "+50321218080",
     "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Nómade Travel Chillán",
+    "pais": "Chile",
+    "debilidad": "Agencia de turismo con fuerte presencia en Instagram (@nomadetravel.chillan, 35K seguidores) pero sin sitio web propio para cotizar o reservar tours de estudio/excursión online; toda la operación depende de redes sociales",
+    "email": "viajes@nomadetravel.cl",
+    "whatsapp": "+56956689842",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Garage Mecánica Copiapó",
+    "pais": "Chile",
+    "debilidad": "Taller mecánico automotriz cuyo único 'sitio' es una página gratuita autogenerada de Google (garage-mecanica-automotriz.negocio.site) y una página de Facebook con apenas 603 me gusta, sin dominio propio ni sistema de agendamiento online",
+    "email": "garageservicioyreparacion@gmail.com",
+    "whatsapp": "+56957094399",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Antofagasta Tattoo Studio",
+    "pais": "Chile",
+    "debilidad": "Estudio de tatuajes ubicado en calle Condell 2842 con página de Facebook de 4,578 me gusta pero sin sitio web ni portafolio visual profesional centralizado, dependiendo de publicaciones sueltas en redes para mostrar trabajos",
+    "email": null,
+    "whatsapp": "+56964436767",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "My.Sttore Arica",
+    "pais": "Chile",
+    "debilidad": "Tienda de ropa online (@my.sttore) con solo 798 seguidores en Instagram, sin sitio web ni catálogo digital organizado; pedidos y envíos a todo Chile se gestionan manualmente por WhatsApp",
+    "email": null,
+    "whatsapp": "+56956044770",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Jardín Infantil Pequitas",
+    "pais": "Chile",
+    "debilidad": "Jardín infantil particular subvencionado en Rancagua (Ursa Mayor 1716) sin sitio web propio confirmado; solo aparece listado en directorios de terceros y Facebook, sin información de matrícula ni proyecto educativo accesible online",
+    "email": "claudialopez.pequitas@gmail.com",
+    "whatsapp": "+56961352134",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Ariavet Clínica Veterinaria",
+    "pais": "Bolivia",
+    "debilidad": "Clínica veterinaria en Santa Cruz de la Sierra cuya única presencia digital identificada es Instagram (@veterinaria.aria), sin sitio web propio ni dirección física publicada online",
+    "email": null,
+    "whatsapp": "+59176623034",
+    "servicio": "Web Corporativa"
   }
 ]
