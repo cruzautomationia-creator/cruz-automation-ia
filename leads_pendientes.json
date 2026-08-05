@@ -406,5 +406,53 @@
     "email": null,
     "whatsapp": "+59176623034",
     "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Inmobiliaria Vinfor",
+    "pais": "Uruguay",
+    "debilidad": "Dominio propio inmobiliariavinfor.com listado como sitio oficial en directorios inmobiliarios (InfoCasas, Montevideo.estate) no resuelve/está caído, verificado en dos intentos; página de Facebook con solo 68 me gusta",
+    "email": "info@inmobiliariavinfor.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Dentality",
+    "pais": "Guatemala",
+    "debilidad": "Dominio dentality.gt no resuelve (caído/inexistente); única presencia digital real es página de Facebook con solo 510 me gusta y 7 personas hablando de esto",
+    "email": "dentalitycenter@gmail.com",
+    "whatsapp": "+50266757924",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Peluquería Canina Chuchos & Cía",
+    "pais": "España",
+    "debilidad": "Pese a 20+ años de trayectoria y 912 seguidores en Instagram, su sitio corre en subdominio gratuito de Webnode (chuchosandcia-com.webnode.es) sin dominio propio",
+    "email": "chuchosandcia@gmail.com",
+    "whatsapp": "+34601467706",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Dentistas.Mérida",
+    "pais": "México",
+    "debilidad": "Sin sitio web propio, solo aparece en directorios de terceros; página de Facebook con 1368 me gusta pero solo 1 persona hablando de esto y última publicación el 15 de mayo, sin actividad reciente",
+    "email": "Celina_sm@hotmail.com",
+    "whatsapp": "+529992695394",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Centro Veterinario Fauna",
+    "pais": "Colombia",
+    "debilidad": "Su sitio web (centroveterinariofauna.negocio.site) es una página automática gratuita de Google Negocio, no un dominio propio, pese a ofrecer servicio 24/7 con más de 2800 seguidores en Facebook",
+    "email": "fauna_veterinaria@yahoo.com",
+    "whatsapp": "+573167414614",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Molina Inmobiliaria",
+    "pais": "Argentina",
+    "debilidad": "Con más de 10 años de trayectoria, su único sitio web (molinainmobiliaria.negocio.site) es una plantilla automática gratuita de Google, sin dominio propio ni diseño profesional",
+    "email": null,
+    "whatsapp": "+5493512969728",
+    "servicio": "Web Corporativa"
   }
 ]
