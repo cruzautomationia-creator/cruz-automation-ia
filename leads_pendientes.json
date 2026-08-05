@@ -454,5 +454,61 @@
     "email": null,
     "whatsapp": "+5493512969728",
     "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Rongoa Vet",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio propio; su única presencia web es una plantilla gratuita del constructor Ueniweb (rongoa-vet.ueniweb.com), sin dominio propio ni diseño personalizado",
+    "email": null,
+    "whatsapp": "+56966337689",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Pétalos Florería",
+    "pais": "Chile",
+    "debilidad": "No se encontró sitio web; opera solo con Instagram (@petalosfloreria671, ~2034 seguidores) y Facebook, sin catálogo online ni tienda propia",
+    "email": "elibecerra07@gmail.com",
+    "whatsapp": "+56974695273",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Óptica Latina Arica",
+    "pais": "Chile",
+    "debilidad": "Óptica con presencia comercial pero sin sitio web propio; su único canal digital es Instagram (@latina.optica.arica) con apenas 315 seguidores",
+    "email": null,
+    "whatsapp": "+56952268555",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Escuela de Conductores M&C",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio, solo aparece en directorios de terceros (Amarillas, Mercantil.com); Instagram @escueladeconductoresmyc con solo 548 seguidores",
+    "email": "escuelamyc519@gmail.com",
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Garage 24/7 La Serena",
+    "pais": "Chile",
+    "debilidad": "Servicio de mecánica a domicilio multimarca cuyo único canal es Instagram (@garage247ls) con solo 419 seguidores y 30 publicaciones, sin sitio web ni sistema de agendamiento online",
+    "email": null,
+    "whatsapp": "+56990141166",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Florería Yenny",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web; presencia digital limitada a Instagram (@floreriayenny) con solo 347 seguidores",
+    "email": null,
+    "whatsapp": "+56944734801",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Peluquería Toscana",
+    "pais": "Chile",
+    "debilidad": "El dominio peluqueriatoscana.cl, mencionado como su sitio web en directorios, no existe (no resuelve DNS); su única presencia real es Instagram (@peluqueria_toscana_natales) con 305 seguidores",
+    "email": null,
+    "whatsapp": "+56961968600",
+    "servicio": "Landing Page"
   }
 ]
