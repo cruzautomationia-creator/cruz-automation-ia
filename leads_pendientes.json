@@ -510,5 +510,101 @@
     "email": null,
     "whatsapp": "+56961968600",
     "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Serviteca Morales",
+    "pais": "Chile",
+    "debilidad": "Taller mecánico en Lampa (RM) cuya única presencia web es una página gratuita autogenerada de Google (serviteca-morales.negocio.site / .business.site), sin dominio propio ni sistema de agendamiento online",
+    "email": null,
+    "whatsapp": "+56942748910",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "SepulveCAR Chile",
+    "pais": "Chile",
+    "debilidad": "Taller mecánico y autotrónica en Carahue (Araucanía), su único 'sitio' es una página gratuita autogenerada de Google (taller-sepulvecarchile.negocio.site), sin dominio propio; agenda todo por WhatsApp de forma manual",
+    "email": null,
+    "whatsapp": "+56930189465",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Woof Shop Chile",
+    "pais": "Chile",
+    "debilidad": "Peluquería canina y pet shop en Santo Domingo, Santiago, cuya única presencia web es una página gratuita autogenerada de Google (woof-shop-chile.negocio.site), sin dominio propio ni catálogo visual",
+    "email": null,
+    "whatsapp": "+56946450130",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Florería Beauty Flower",
+    "pais": "Chile",
+    "debilidad": "Florería en Av. Américo Vespucio, Lo Espejo (Santiago), su único sitio es una página gratuita autogenerada de Google (floreriabeautyflower.negocio.site), sin dominio propio ni catálogo de arreglos organizado",
+    "email": null,
+    "whatsapp": "+56982447507",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Florería Eyzaguirre",
+    "pais": "Chile",
+    "debilidad": "Florería en San Bernardo (RM); no se encontró sitio web propio, solo aparece listada en directorios de terceros (infoflorerias.cl) sin catálogo digital ni tienda online",
+    "email": null,
+    "whatsapp": "+56955341480",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Óptica H&L",
+    "pais": "Chile",
+    "debilidad": "Óptica en Errázuriz 1529-B, Osorno, cuyo único sitio es una página gratuita autogenerada de Google (opticahl.negocio.site), sin dominio propio ni tienda online para armazones/lentes",
+    "email": null,
+    "whatsapp": "+56997755976",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Coffee House Arica",
+    "pais": "Chile",
+    "debilidad": "Cafetería-restaurante en Av. Argentina 2256, Arica, cuyo único sitio es una página gratuita autogenerada de Google (coffeehousearica.negocio.site), sin dominio propio ni presencia visual de marca organizada",
+    "email": null,
+    "whatsapp": "+56959029469",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Cafetería La Mexicana",
+    "pais": "Chile",
+    "debilidad": "Cafetería de comida mexicana en Placer 657, Santiago, cuyo único sitio es una página gratuita autogenerada de Google (cafeterialamexicana-chile.negocio.site), pedidos gestionados manualmente por teléfono/WhatsApp sin sistema online",
+    "email": "cafe.la.mexicana@gmail.com",
+    "whatsapp": "+56975721147",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Gimnasio Bodyfitness Talca",
+    "pais": "Chile",
+    "debilidad": "Gimnasio en 4 Sur 1565, Talca, sin sitio web propio confirmado; toda su presencia digital es Facebook e Instagram (@gimnasio_bodyfitness_talca), sin sistema de inscripción o reserva de clases online",
+    "email": null,
+    "whatsapp": "+56992268717",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "DENTISMORON",
+    "pais": "Argentina",
+    "debilidad": "Clínica dental integral en Morón, Buenos Aires; su único sitio es una página gratuita autogenerada de Google (dentismoron.negocio.site), sin dominio propio pese a competir con otras clínicas dentales de Morón que sí tienen sitio propio",
+    "email": null,
+    "whatsapp": "+5491156669351",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Veterinaria del Rhin",
+    "pais": "Uruguay",
+    "debilidad": "Veterinaria en Colonia 875, Montevideo, con más de 480 reseñas en directorios; no se encontró sitio web propio, solo presencia en Facebook y listados de terceros, sin sistema de turnos online",
+    "email": "veterinariadelrhin@gmail.com",
+    "whatsapp": "+59899711227",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Pastelería y Cafetería Tu Espacio",
+    "pais": "Bolivia",
+    "debilidad": "Pastelería en Villa El Carmen, La Paz; sin sitio web propio, solo Facebook e Instagram (@pasteleria_tu_espacio) para tomar pedidos de tortas y pastelería, sin catálogo ni tienda online",
+    "email": "pasteleriaTuEspacio@gmail.com",
+    "whatsapp": "+59175868643",
+    "servicio": "Diseño Visual"
   }
 ]
