@@ -606,5 +606,205 @@
     "email": "pasteleriaTuEspacio@gmail.com",
     "whatsapp": "+59175868643",
     "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Veterinaria Yastay",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio; su única presencia digital es Facebook/Instagram y fichas en directorios externos (AgendaPro, Páginas Amarillas)",
+    "email": null,
+    "whatsapp": "+56979388893",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Óptica Larraguibel",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio; solo aparece en directorios comerciales (Mercantil.com, Yelp) y una página de Facebook, sin dominio ni web institucional",
+    "email": null,
+    "whatsapp": "+56991200929",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Dental Lacustre Villarrica",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio; opera únicamente con Facebook (página con pocos cientos de me gusta) y correo Gmail genérico como único canal formal de contacto",
+    "email": "clacustrevillarrica@gmail.com",
+    "whatsapp": "+56998163264",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Elite Beauty SpA Ivana Salón",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio; funciona solo a través de Instagram y Facebook, agendando todas las citas manualmente por WhatsApp sin ningún sistema automatizado",
+    "email": null,
+    "whatsapp": "+56977678838",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Spa Sesasi Boutique & Centro de Estética",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio; su presencia se limita a Facebook e Instagram, sin página institucional para reservas u oferta de servicios",
+    "email": "sesasigs@gmail.com",
+    "whatsapp": "+56944447083",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Good House Arquitecto",
+    "pais": "Chile",
+    "debilidad": "Su sitio web es una plantilla gratuita genérica del constructor Ueniweb (good-house.ueniweb.com), sin dominio propio ni identidad de marca",
+    "email": null,
+    "whatsapp": "+56978244823",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Panadería San Sebastián",
+    "pais": "Chile",
+    "debilidad": "Cuenta de Instagram (@sansebastian.panaderia) con solo 239 seguidores pese a operar diariamente, sin catálogo online ni automatización de pedidos",
+    "email": null,
+    "whatsapp": "+56958663502",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Panadería y Pastelería Pancito's",
+    "pais": "Chile",
+    "debilidad": "Negocio familiar con 33+ años de trayectoria (fundado 1986) pero su Instagram (@pancitosconcepcion) tiene solo 300 seguidores y sin sistema de pedidos automatizado",
+    "email": "pasteleriapancitos@gmail.com",
+    "whatsapp": null,
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Panadería El Barrio",
+    "pais": "Chile",
+    "debilidad": "Instagram (@panaderiaelbarriovaldivia) con solo 175 seguidores y sin publicaciones visibles, sin fotos de productos ni actividad de contenido",
+    "email": "elbarriovaldivia@gmail.com",
+    "whatsapp": null,
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Panadería Masterpan",
+    "pais": "Chile",
+    "debilidad": "Pedidos gestionados de forma manual a través de un número de WhatsApp personal, sin bot ni sistema de automatización para tomar pedidos ni catálogo digital",
+    "email": null,
+    "whatsapp": "+56942076555",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Hostal Huepil",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio; solo aparece listado en agregadores de terceros (puconchile.travel) y una página de Facebook, sin dominio propio ni sistema de reservas",
+    "email": "dcortezr.87@gmail.com",
+    "whatsapp": "+56987337320",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Contamed Asesorías Contables",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio; presencia dispersa únicamente en dos páginas de Facebook distintas, sin dominio propio",
+    "email": "pablovargaspag@gmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Jenny Maite Calderón Albiña - Corredora de Seguros",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web; su única presencia verificable en internet es el registro oficial de la CMF, sin página propia ni redes sociales",
+    "email": "jmaitecalderon@gmail.com",
+    "whatsapp": "+56999654700",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Colegio San Esteban (San Fernando)",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web; único canal digital es una página de Facebook, sin presencia web propia para información de matrícula",
+    "email": "csanesteban.snfdo@gmail.com",
+    "whatsapp": "+56950143522",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Minimarket La Familia",
+    "pais": "Chile",
+    "debilidad": "Toma pedidos y coordina delivery únicamente por mensajes de WhatsApp de forma manual, sin catálogo digital ni respuestas automáticas",
+    "email": null,
+    "whatsapp": "+56949171886",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Minimarket San Luis",
+    "pais": "Chile",
+    "debilidad": "Negocio familiar de abarrotes cuya única presencia digital es un perfil personal de Facebook (no fan page comercial), pedidos coordinados manualmente por WhatsApp",
+    "email": null,
+    "whatsapp": "+56954327653",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Yoga Puṣpam",
+    "pais": "Chile",
+    "debilidad": "Estudio de yoga que gestiona todas las reservas y consultas de cupo de forma manual, solo por WhatsApp o mensaje directo de Instagram, sin sistema de agendamiento",
+    "email": null,
+    "whatsapp": "+56996165128",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "MAXMAT Maestro Gasfiter a Domicilio",
+    "pais": "Chile",
+    "debilidad": "Servicio de gasfitería de urgencia que coordina agendamiento, cotizaciones y emergencias manualmente por WhatsApp, sin catálogo de servicios ni respuestas automáticas",
+    "email": null,
+    "whatsapp": "+56965372920",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Clínica Veterinaria Cusco",
+    "pais": "Perú",
+    "debilidad": "No tiene sitio web propio; su única presencia digital es una página de Facebook, sin sistema de reservas online",
+    "email": null,
+    "whatsapp": "+51901181116",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Dental TU Sonrisa sv",
+    "pais": "El Salvador",
+    "debilidad": "Sin sitio web propio; opera solo con Facebook, Instagram y TikTok pese a ofrecer servicios especializados (endodoncia, implantes, ortodoncia)",
+    "email": null,
+    "whatsapp": "+50373261217",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Restaurant Shanghai",
+    "pais": "Bolivia",
+    "debilidad": "Único sitio web es un blog gratuito de WordPress.com, visualmente desactualizado y sin diseño ni funcionalidad de pedidos",
+    "email": null,
+    "whatsapp": "+59163456238",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Dgolden Gym",
+    "pais": "República Dominicana",
+    "debilidad": "No tiene sitio web; atención y reservas de clases se gestionan manualmente por WhatsApp, sin automatización ni sistema de agendamiento",
+    "email": null,
+    "whatsapp": "+18097880804",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "STUDIO99 Barbería",
+    "pais": "Guatemala",
+    "debilidad": "Barbería sin sitio web propio, opera únicamente vía Instagram para mostrar trabajos y coordinar citas",
+    "email": null,
+    "whatsapp": "+50238874555",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Peluquería España",
+    "pais": "España",
+    "debilidad": "Sin sitio web propio; solo Facebook e Instagram (@peluqueria_espana) como canal digital principal",
+    "email": "zbsusi@hotmail.com",
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Leyden Escobar - Abogado y Notario",
+    "pais": "Estados Unidos",
+    "debilidad": "Despacho legal sin sitio web; opera únicamente vía página de Facebook para captar clientes de la comunidad salvadoreña en Houston",
+    "email": "leyden_escobar@hotmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
   }
 ]
