@@ -806,5 +806,61 @@
     "email": "leyden_escobar@hotmail.com",
     "whatsapp": null,
     "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "M&S Taller Automotriz",
+    "pais": "Chile",
+    "debilidad": "Taller mecánico en Quilpué cuyo único sitio es una plantilla gratuita de Wix (tallerms86.wixsite.com/website), sin dominio propio ni diseño profesional",
+    "email": null,
+    "whatsapp": "+56954153924",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Peluquería Canina Móvil Perrari",
+    "pais": "Chile",
+    "debilidad": "Servicio de peluquería canina móvil en Antofagasta cuya única presencia digital es una página de Facebook (facebook.com/perrari.cl), sin sitio web ni catálogo de servicios",
+    "email": null,
+    "whatsapp": "+56940338512",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "La Barbería 1979",
+    "pais": "Chile",
+    "debilidad": "Barbería familiar de más de dos décadas en 6 Poniente 372, Viña del Mar, cuya única presencia digital es Instagram (@labarberia.1979), sin sitio web ni sistema de reservas online",
+    "email": null,
+    "whatsapp": "+56979679856",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Óptica Patagonia",
+    "pais": "Chile",
+    "debilidad": "Óptica en Ed. Baquedano, Puerto Montt, cuya única presencia digital es Instagram (@opticapatagoniapuertomontt), sin sitio web ni tienda online para armazones/lentes",
+    "email": null,
+    "whatsapp": "+56975180447",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Peluquería Victoria Kath",
+    "pais": "Chile",
+    "debilidad": "Peluquería y salón de belleza en Los Maitenes 1847, Puerto Montt, cuyo único sitio es una página gratuita autogenerada de Google (peluqueria-victoria-kath.negocio.site), sin dominio propio ni catálogo visual de servicios",
+    "email": "maritzakath@gmail.com",
+    "whatsapp": "+56975759126",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Floristería Narciso",
+    "pais": "Chile",
+    "debilidad": "Florería en Larraín Alcalde 3372, La Serena, cuyo único sitio es una página gratuita autogenerada de Google (floristeria-narciso.negocio.site), sin dominio propio ni tienda online",
+    "email": "ventas.floristerianarciso@gmail.com",
+    "whatsapp": "+56949886093",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Peluquería Canina Talca",
+    "pais": "Chile",
+    "debilidad": "Peluquería canina en Talca cuyo único sitio es una plantilla gratuita de Wix (pelutalca.wixsite.com/pelucaninatalca), sin dominio propio ni catálogo de servicios",
+    "email": null,
+    "whatsapp": "+56995726861",
+    "servicio": "Diseño Visual"
   }
 ]
