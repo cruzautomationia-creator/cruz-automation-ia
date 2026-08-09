@@ -862,5 +862,109 @@
     "email": null,
     "whatsapp": "+56995726861",
     "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "El Shaddai - Estética & Spa",
+    "pais": "Ecuador",
+    "debilidad": "Sin sitio web propio; su única presencia digital es una página de Facebook con 92 me gusta y 95 seguidores, cuya última publicación indexada es de más de un año atrás",
+    "email": "esteticaspaelshaddai@gmail.com",
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Clínica Dental Aldunate",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 377 me gusta y 77 personas hablando de esto; pese a más de 40 años de trayectoria en el centro de Temuco, no tiene sitio web propio (a diferencia de sus competidores)",
+    "email": "clinicadentalaldunate@gmail.com",
+    "whatsapp": "+56991375032",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "MOMA Arquitectura",
+    "pais": "Chile",
+    "debilidad": "No tiene dominio propio: su único sitio es un subdominio gratuito de Wix (momaarquitecturapm.wixsite.com/moma-arquitectura); su presencia principal es Instagram con 1.270 seguidores",
+    "email": "moma.arquitectura.pm@gmail.com",
+    "whatsapp": "+56963891104",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Dvacaciones",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 46 me gusta, presencia social prácticamente inexistente pese a operar una agencia de viajes con motor de reservas propio (booking.dvacaciones.cl)",
+    "email": "agenciadvacaciones@gmail.com",
+    "whatsapp": "+56978600800",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Restaurant Enborderio",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 605 me gusta y 3 personas hablando de esto; existen además dos páginas de Facebook distintas y no oficiales para el mismo local (confusión de marca)",
+    "email": "enborderio@gmail.com",
+    "whatsapp": "+56942659921",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Urquieta & Sacakini Abogados",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 166 me gusta; aunque cuentan con sitio web (usabogados.cl), no se encontró evidencia de actividad ni publicaciones recientes en redes",
+    "email": "contacto@usabogados.cl",
+    "whatsapp": null,
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Jardín Infantil Capullito",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 171 me gusta y 1 persona hablando de esto; su sitio propio muestra como contenido más reciente una sección de 'actividades año 2023', sin evidencia de actualizaciones posteriores",
+    "email": "capullitospa@gmail.com",
+    "whatsapp": "+56926415984",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Ambar Boutique",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con 1.016 me gusta y solo 2 personas hablando de esto; el negocio de ropa de mujer opera únicamente mediante transmisiones en vivo de Facebook, sin sitio web ni tienda online propia",
+    "email": null,
+    "whatsapp": "+56977150411",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Aromo Clínica Dental",
+    "pais": "Chile",
+    "debilidad": "Cuenta de Instagram con solo 529 seguidores; no se encontró sitio web propio, solo opera con perfil de agendamiento en AgendaPro y redes sociales",
+    "email": null,
+    "whatsapp": "+56952131826",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Marambio & Canales Abogados",
+    "pais": "Chile",
+    "debilidad": "Cuenta de Instagram con solo 274 seguidores; estudio jurídico especializado en derecho de familia con presencia en redes sociales muy débil para el rubro",
+    "email": "msarancagua@gmail.com",
+    "whatsapp": "+56987746474",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Inmobiliaria Asvicorp",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 600 me gusta, actividad muy baja para una inmobiliaria pese a contar con sitio web propio (asvicorp.cl); presencia en redes prácticamente estancada",
+    "email": "asvicorp@asvicorp.cl",
+    "whatsapp": null,
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Turismo Alameda Agencia de Viajes",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 328 me gusta y 1 persona hablando de esto pese a más de 25 años de trayectoria; su sitio web aparece indexado con el título por defecto 'My WordPress Blog', evidencia de que nunca fue personalizado",
+    "email": "turismoalameda@hotmail.com",
+    "whatsapp": "+56963513477",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Tiendita Electrónica Rancagua",
+    "pais": "Chile",
+    "debilidad": "Cuenta de Instagram con solo 380 seguidores frente a 1.280 cuentas seguidas; sin sitio web, vende accesorios electrónicos para hogar y vehículos solo por Instagram y WhatsApp",
+    "email": null,
+    "whatsapp": "+56968975285",
+    "servicio": "E-Commerce"
   }
 ]
