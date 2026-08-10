@@ -966,5 +966,165 @@
     "email": null,
     "whatsapp": "+56968975285",
     "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Restaurant Syrtaki",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con apenas 294 me gusta y su sitio web propio (restaurantsyrtaki.cl) no carga / el dominio no resuelve, pese a ser un restaurante griego con años de trayectoria en Coquimbo",
+    "email": "ycasimis@hotmail.com",
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Veterinaria Serena",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio: su única presencia digital es una cuenta de Instagram (@vet_serena2298) con solo 360 seguidores, y usa una casilla Hotmail como contacto principal del negocio",
+    "email": "veterinariaserena@hotmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Hostal Paraiso Tocopilla",
+    "pais": "Chile",
+    "debilidad": "No cuenta con sitio web propio: toda su presencia digital depende de plataformas de terceros (Booking, TripAdvisor, Trip.com, Destinia) e Instagram/Facebook, sin ningún canal de reserva directa propio",
+    "email": "hostalparaiso2014@gmail.com",
+    "whatsapp": "+56982326367",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Floreria Daniela",
+    "pais": "Chile",
+    "debilidad": "Su cuenta de Instagram (@floreria_novedades_daniela) no tiene sitio web ni catálogo de productos visible online, y depende solo de WhatsApp/Facebook para tomar pedidos",
+    "email": null,
+    "whatsapp": "+56940454883",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Centro Veterinario Vallenar",
+    "pais": "Chile",
+    "debilidad": "Su sitio web propio (centroveterinariovallenar.cl) está caído: el dominio no resuelve (error DNS confirmado), dejando a la clínica sin sitio funcional para agendar horas pese a tener Facebook e Instagram activos",
+    "email": "contacto@centroveterinariovallenar.cl",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Centro de Estética Dilgina Rodríguez",
+    "pais": "Chile",
+    "debilidad": "Su única presencia web son dos blogs de Blogspot sin diseño ni mantenimiento, con publicaciones más recientes del año 2020; no tiene sitio web propio ni redes activas encontradas",
+    "email": "dilgina07@gmail.com",
+    "whatsapp": "+56973472520",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Construcciones Ayc Ltda",
+    "pais": "Chile",
+    "debilidad": "Constructora con 30 años de trayectoria en Osorno que solo tiene un sitio armado en la plantilla gratuita de Ueni (construcciones-ayc-ltda.ueniweb.com), sin dominio propio ni diseño profesional acorde a su rubro B2B",
+    "email": null,
+    "whatsapp": "+56976435293",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Veterinaria El Arca de Noé",
+    "pais": "Chile",
+    "debilidad": "Su sitio web (veterinariaelarcadenoe.es.tl) está hecho en una plataforma gratuita de más de 10 años de antigüedad, con diseño obsoleto, no responsive y sin HTTPS",
+    "email": "elarcadenoe@vtr.net",
+    "whatsapp": "+56984132561",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Muebles Alborada",
+    "pais": "Chile",
+    "debilidad": "Mueblería con local físico en Talca que no tiene sitio web propio; toda su venta ocurre solo a través de publicaciones sueltas en Instagram y Facebook, sin catálogo online ni carrito de compra",
+    "email": "alba.maturanasilva@gmail.com",
+    "whatsapp": "+56938615893",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Clínica Veterinaria Talca",
+    "pais": "Chile",
+    "debilidad": "No se encontró sitio web propio para esta clínica veterinaria; su única presencia digital verificable es una página de Facebook, sin información estructurada de servicios, horarios o agendamiento online",
+    "email": "consulta.veterinaria.talca@gmail.com",
+    "whatsapp": "+56957517960",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Estética & Peluquería Maipú Jacqueline",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio: toda su presencia digital y captación de clientes ocurre únicamente vía Instagram (@esteticamaipu_, ~21K seguidores), sin página donde mostrar servicios, precios ni ubicación de sus 2 sucursales",
+    "email": null,
+    "whatsapp": "+56979171689",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Alto Gabriela Clínica Veterinaria",
+    "pais": "Chile",
+    "debilidad": "No se encontró sitio web propio; su única presencia digital verificable es una página de Facebook y fichas en directorios externos (AgendaPro, InfoisInfo, 2GIS), sin sitio institucional propio para agendar citas",
+    "email": null,
+    "whatsapp": "+56944600385",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Jardín Infantil Girasol de San Bernardo",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web ni redes sociales activas encontradas; solo aparece registrado en directorios educacionales (InfoEscuelas, colegiosdechile.com) sin presencia digital propia para difundir matrículas",
+    "email": null,
+    "whatsapp": "+56989681628",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "ExoVet Veterinaria",
+    "pais": "Bolivia",
+    "debilidad": "Solo tiene un sitio web gratuito hecho en Jimdo (plantilla básica y desactualizada), sin diseño responsivo moderno ni sistema de citas online",
+    "email": "exovetveterinaria@gmail.com",
+    "whatsapp": "+59169448268",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Taller El Técnico",
+    "pais": "Ecuador",
+    "debilidad": "No tiene sitio web, solo Facebook y TikTok; agenda las citas manualmente por teléfono sin ningún sistema de mensajería automatizada",
+    "email": "tallereltecnico32@gmail.com",
+    "whatsapp": "+593993282047",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Clínica Veterinaria del Centro Maracaibo (Clivecenca)",
+    "pais": "Venezuela",
+    "debilidad": "No cuenta con sitio web propio, toda su presencia digital depende de Instagram y Facebook sin catálogo de servicios ni reserva de citas online",
+    "email": "clivecenca@gmail.com",
+    "whatsapp": "+584146416552",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Confecciones NG",
+    "pais": "Colombia",
+    "debilidad": "Taller de confección sin página web, su único canal digital es una cuenta de Instagram con fotos de baja calidad y sin catálogo organizado de productos",
+    "email": null,
+    "whatsapp": "+573044985825",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Salón de Belleza Hadas",
+    "pais": "España",
+    "debilidad": "No tiene sitio web ni sistema de reservas online; solo Instagram con contenido irregular y sin identidad visual consistente",
+    "email": null,
+    "whatsapp": "+34954647231",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "FK Salón (Beauty Studio)",
+    "pais": "República Dominicana",
+    "debilidad": "Sin sitio web, opera únicamente vía Instagram (@fksalonrd) para mostrar servicios y agendar citas manualmente por teléfono",
+    "email": null,
+    "whatsapp": "+18093618062",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "La Barbería 506",
+    "pais": "Costa Rica",
+    "debilidad": "No tiene un sitio web de marca propio, solo un enlace de login a un sistema externo de reservas; su presencia real es únicamente Instagram y Facebook, sin contenido visual profesional",
+    "email": null,
+    "whatsapp": "+50685068000",
+    "servicio": "Diseño Visual"
   }
 ]
