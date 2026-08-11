@@ -1126,5 +1126,149 @@
     "email": null,
     "whatsapp": "+50685068000",
     "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Floreria Maribel Caut Rancagua",
+    "pais": "Chile",
+    "debilidad": "Florería sin sitio web propio; su única presencia digital es Facebook e Instagram, y toma pedidos de arreglos florales a domicilio de forma manual solo por WhatsApp",
+    "email": null,
+    "whatsapp": "+56981640061",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Ferretería Don Bosco Los Ángeles",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web ni catálogo online; toda su presencia digital es una página de Facebook, consultas de stock y precios se manejan solo por teléfono o email",
+    "email": "maestranza.don.bosco@gmail.com",
+    "whatsapp": null,
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Clínica Veterinaria San Sebastián Quillota",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio confirmado; su única presencia digital es una página de Facebook, la agenda de horas se coordina de forma manual por WhatsApp",
+    "email": "adm.vetsansebastian@gmail.com",
+    "whatsapp": "+56990616946",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Peluditos Peluquería Canina Puerto Montt",
+    "pais": "Chile",
+    "debilidad": "Solo tiene página de Facebook, sin sitio web ni galería profesional de los trabajos de grooming; reservas se coordinan manualmente por WhatsApp",
+    "email": null,
+    "whatsapp": "+56962165701",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Óptica Caupolicán Angol",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; su única presencia digital es una página de Facebook llamada 'optica_caupolican', sin canal para agendar hora o ver catálogo de lentes",
+    "email": "opticacaupolica@gmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Centro Gimnástico Chile Quilpué",
+    "pais": "Chile",
+    "debilidad": "Club de gimnasia artística infantil sin sitio web, solo Facebook; inscripciones y consultas se coordinan de forma manual por WhatsApp",
+    "email": null,
+    "whatsapp": "+56967892359",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Café Del Centro Ovalle",
+    "pais": "Chile",
+    "debilidad": "Cafetería sin sitio web ni menú digital; toda su presencia es una página de Facebook, pedidos se coordinan por teléfono",
+    "email": "cafedelcentrovalle@gmail.com",
+    "whatsapp": null,
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Full-telas La Serena",
+    "pais": "Chile",
+    "debilidad": "Tienda de textiles sin sitio web ni catálogo online; toda su presencia digital es Facebook, consultas de stock y precios se manejan de forma manual",
+    "email": "fulltelas.chile@gmail.com",
+    "whatsapp": "+56987937327",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Restaurante Mi Perú Curicó",
+    "pais": "Chile",
+    "debilidad": "Restaurante peruano sin sitio web propio; pedidos y reservas se gestionan solo por WhatsApp de forma manual, sin carta ni catálogo digital",
+    "email": null,
+    "whatsapp": "+56961798878",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Hua Wei Comida China y Sushi Curicó",
+    "pais": "Chile",
+    "debilidad": "Local de comida china y sushi para llevar sin sitio web; toda su presencia digital es Facebook, y los pedidos se coordinan manualmente por WhatsApp",
+    "email": null,
+    "whatsapp": "+56962972676",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "L&L Consultores Estudio Jurídico Antofagasta",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; su única presencia digital es Facebook, las consultas se coordinan por WhatsApp de forma manual",
+    "email": "lylconsultoresestudiojuridico@gmail.com",
+    "whatsapp": "+56939377522",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Salón de Belleza Brujas Copiapó",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web ni catálogo de servicios; toda su presencia digital es una página de Facebook, sin fotos profesionales de los trabajos realizados",
+    "email": null,
+    "whatsapp": "+56962987842",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Spa & Belleza Copiapó",
+    "pais": "Chile",
+    "debilidad": "Spa de belleza sin sitio web propio; su única presencia digital es Facebook, reservas se coordinan manualmente por WhatsApp",
+    "email": "aurabellaspabellezacopiapo@gmail.com",
+    "whatsapp": "+56963125637",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Multident Trujillo",
+    "pais": "Perú",
+    "debilidad": "Clínica dental sin sitio web propio; su única presencia digital es Instagram y Facebook, la agenda de citas se coordina de forma manual por WhatsApp",
+    "email": "trujillo.multident@gmail.com",
+    "whatsapp": "+51943193698",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Gimnasio Perfect Body San Salvador",
+    "pais": "El Salvador",
+    "debilidad": "Gimnasio sin sitio web propio; toda su presencia digital es una página de Facebook, las inscripciones se coordinan de forma manual",
+    "email": "perfectbody.gym39@gmail.com",
+    "whatsapp": "+50360307039",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Toledo Bar de Tapas Montevideo",
+    "pais": "Uruguay",
+    "debilidad": "Bar de tapas sin sitio web propio; toda su presencia digital es Facebook, reservas y pedidos se coordinan manualmente por WhatsApp",
+    "email": null,
+    "whatsapp": "+59894867371",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Alfa Clínica Veterinaria Cali",
+    "pais": "Colombia",
+    "debilidad": "Clínica veterinaria sin sitio web propio; su única presencia digital es Facebook, la atención y agenda se manejan de forma manual por WhatsApp",
+    "email": null,
+    "whatsapp": "+573137805505",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Floristería Casa de Flores San José",
+    "pais": "Costa Rica",
+    "debilidad": "Floristería sin sitio web propio; su única presencia digital es Facebook, los pedidos se gestionan de forma manual por WhatsApp",
+    "email": null,
+    "whatsapp": "+50663454839",
+    "servicio": "Automatización WhatsApp"
   }
 ]
