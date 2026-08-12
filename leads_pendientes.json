@@ -1270,5 +1270,133 @@
     "email": null,
     "whatsapp": "+50663454839",
     "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Ferretería Cordero",
+    "pais": "Chile",
+    "debilidad": "En las búsquedas solo aparece en fichas de directorios (Páginas Amarillas, etc.) y una página de Facebook llamada 'FERRETERIA CORDERO'; a diferencia de otras ferreterías de Concepción (Ferrecon, Hogar y Ferretería), no se encontró un sitio web propio con catálogo de productos.",
+    "email": "ferreteria.cordero@gmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Restaurant Kim Long",
+    "pais": "Chile",
+    "debilidad": "Restaurante de comida china fundado en 1983 en Temuco cuya presencia digital se reduce a una página de Facebook básica (kimlongtemuco) y fichas de directorios; el dominio kimlong.cl asociado a su nombre no muestra contenido identificable en los resultados de búsqueda.",
+    "email": "kimlongtco@gmail.com",
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Tapicería El Rayo",
+    "pais": "Chile",
+    "debilidad": "Negocio de tapicería de más de 30 años en Rancagua cuya única presencia digital encontrada es una página de Facebook, sin sitio web propio ni catálogo online de trabajos realizados.",
+    "email": null,
+    "whatsapp": "+56967860570",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Vivero y Florería Patagonia en Flor",
+    "pais": "Chile",
+    "debilidad": "Florería y vivero de Coyhaique cuya única presencia digital identificada es una página de Facebook con 1.687 'me gusta'; no se encontró sitio web propio ni cuenta de Instagram dedicada al negocio.",
+    "email": "msvera05@yahoo.es",
+    "whatsapp": "+56951786517",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Veterinaria Norte",
+    "pais": "Chile",
+    "debilidad": "A diferencia de otras veterinarias de Talca que cuentan con dominio propio (clinicaveterinariatalca.cl, laflorida, etc.), Veterinaria Norte solo tiene una página de Facebook para atender consultas y agendar horas, sin sitio web propio.",
+    "email": "veterinarianorte.talca@gmail.com",
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Jardín Infantil Zapatito Juguetón",
+    "pais": "Chile",
+    "debilidad": "Jardín infantil y sala cuna de Chillán que no tiene sitio web propio; solo aparece listado en directorios educativos genéricos (Mercantil, Colegiospie, Yelp) y en una página de Facebook básica.",
+    "email": "zapatitojugueton@yahoo.es",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "H&J Ropa Deportiva",
+    "pais": "Chile",
+    "debilidad": "Tienda de ropa deportiva de marcas premium en Punta Arenas que opera únicamente a través de Facebook e Instagram (@hyj.ropadeportiva), sin tienda online ni sitio web propio para mostrar catálogo o vender.",
+    "email": "Johana.riquelme.s@hotmail.com",
+    "whatsapp": "+56950906158",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Todo Repuestos Automotriz Antofagasta",
+    "pais": "Chile",
+    "debilidad": "A diferencia de otros distribuidores de repuestos de Antofagasta que tienen sitio web propio (Diconor, Autonorte, Central Repuestos), esta distribuidora solo cuenta con una página de Facebook como presencia digital.",
+    "email": "antofagasta.todorepuestos@gmail.com",
+    "whatsapp": null,
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Ixchel - Textil Artesanal Salvadoreño",
+    "pais": "El Salvador",
+    "debilidad": "No tiene sitio web propio ni tienda online; su única presencia digital localizable es una ficha institucional dentro del sitio de la ANEP (gremial empresarial), sin catálogo de productos, e-commerce ni redes sociales propias identificables en la búsqueda.",
+    "email": null,
+    "whatsapp": "+50375696711",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Almacén De Pandora",
+    "pais": "Argentina",
+    "debilidad": "Negocio de barrio en Córdoba cuya única presencia digital es una página de Facebook básica; no tiene sitio web ni catálogo online, y el contacto es un correo Gmail personal en vez de uno corporativo.",
+    "email": "almacendepandora@gmail.com",
+    "whatsapp": null,
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Panadería y Confitería La Uruguaya (Artigas)",
+    "pais": "Uruguay",
+    "debilidad": "Solo aparece listada en directorios genéricos de panaderías (portaldelacosta.com.uy, panaderiasuy.com); no se encontró sitio web propio ni cuenta de Instagram/Facebook activa y administrada por el negocio.",
+    "email": null,
+    "whatsapp": "+59892448638",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Esther Merino Zapatería",
+    "pais": "México",
+    "debilidad": "Zapatería en el centro de Oaxaca que opera únicamente vía Instagram y Facebook; no se encontró sitio web ni tienda online, todas las ventas y consultas de catálogo se gestionan manualmente por WhatsApp.",
+    "email": null,
+    "whatsapp": "+529511651531",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Soda La Amistad",
+    "pais": "Costa Rica",
+    "debilidad": "Restaurante familiar (soda) en Monteverde, zona turística de alto tráfico, cuya página de Facebook registra solo 1.004 me gusta y apenas 4 personas hablando de ella; no cuenta con sitio web propio para reservas o menú online.",
+    "email": "sodalaamistad@gmail.com",
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Agencia de Viajes Albatur",
+    "pais": "Venezuela",
+    "debilidad": "Agencia de viajes en Maracaibo cuya presencia digital se limita a una página de Facebook; no se encontró sitio web propio y el contacto oficial es un correo Gmail genérico en vez de un dominio corporativo.",
+    "email": "agenciadeviajesalbatur@gmail.com",
+    "whatsapp": "+584126623641",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Creativa Manualidades Xela",
+    "pais": "Guatemala",
+    "debilidad": "Tienda de manualidades y decoración de eventos en Quetzaltenango con página de Facebook de 1.450 me gusta como único canal digital; no tiene sitio web ni catálogo online, y usa un correo Gmail personal para contacto.",
+    "email": "creativamanualidadesxela@gmail.com",
+    "whatsapp": null,
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Ferretería Eléctrica E&F",
+    "pais": "Perú",
+    "debilidad": "Distribuidora de material eléctrico en Las Malvinas, Lima, sin sitio web propio; su única presencia hallada es una página de Facebook, y el correo de contacto es una cuenta Hotmail en vez de un dominio propio del negocio.",
+    "email": "ferreteriaelectricavs@hotmail.com",
+    "whatsapp": null,
+    "servicio": "Automatización WhatsApp"
   }
 ]
