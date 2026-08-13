@@ -1462,5 +1462,85 @@
     "email": null,
     "whatsapp": "+573208166366",
     "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Ilegales Box",
+    "pais": "Chile",
+    "debilidad": "Gimnasio CrossFit/funcional en Osorno sin sitio web propio; presencia limitada a Instagram/Facebook, sin automatización de reservas ni catálogo de clases",
+    "email": "ilegalesbox@gmail.com",
+    "whatsapp": "+56933303548",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Alebrijes Comida Mexicana",
+    "pais": "Chile",
+    "debilidad": "Restaurante delivery en Iquique sin sitio web propio; depende 100% de Uber Eats, Instagram y WhatsApp para tomar pedidos, perdiendo comisión y control de marca",
+    "email": null,
+    "whatsapp": "+56949987132",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "La Casa del Eléctrico",
+    "pais": "Chile",
+    "debilidad": "Servicio eléctrico/ferretería a domicilio en Punta Arenas sin sitio web dedicado (el dominio Wix homónimo indexado corresponde a otro negocio en Panamá); solo Instagram y Facebook",
+    "email": "ventas@casaelectrico.cl",
+    "whatsapp": "+56937187009",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Day Nails",
+    "pais": "Chile",
+    "debilidad": "Salón de uñas en Valdivia con sitio en plantilla gratuita Ueniweb (day-nails.ueniweb.com), sin diseño propio ni catálogo de servicios/precios",
+    "email": null,
+    "whatsapp": "+56940010506",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Las Vegas Barbershop",
+    "pais": "Chile",
+    "debilidad": "Barbería en Concón con 13K seguidores en Instagram pero sin sitio web propio ni sistema de reservas online; agendamiento manual por WhatsApp/DM",
+    "email": "lasvegasbarbershoop@gmail.com",
+    "whatsapp": "+56991810491",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Don Juan Barbería Bogotá",
+    "pais": "Colombia",
+    "debilidad": "Barbería en Bogotá sin sitio web propio, solo Instagram/Facebook y directorios genéricos; agendamiento 100% manual por llamada/mensaje",
+    "email": null,
+    "whatsapp": "+573144628221",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Kuchi Salón",
+    "pais": "Perú",
+    "debilidad": "Salón de belleza en San Borja, Lima, sin sitio web propio; solo Facebook y listados de terceros, reservas telefónicas manuales",
+    "email": null,
+    "whatsapp": "+51936097805",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Pro Fitness Gym",
+    "pais": "El Salvador",
+    "debilidad": "Gimnasio en San Salvador sin sitio web propio; solo Facebook/Instagram y directorios, sin sistema de inscripción online",
+    "email": "profitnessmasferrer@gmail.com",
+    "whatsapp": "+50376618343",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Pretty Bitches Salon",
+    "pais": "México",
+    "debilidad": "Salón de belleza en Colonia Roma, CDMX, con sitio (prettyb.mx) extremadamente básico tipo página única sin sistema de reservas real; agenda sigue siendo manual por WhatsApp",
+    "email": null,
+    "whatsapp": "+525578934398",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "ARÔMES Bakery",
+    "pais": "Venezuela",
+    "debilidad": "Panadería/catering en El Hatillo, Caracas, sin sitio web propio; opera solo vía Instagram (~16K seguidores) y WhatsApp, pedidos gestionados 100% manual",
+    "email": null,
+    "whatsapp": "+584242686616",
+    "servicio": "Automatización WhatsApp"
   }
 ]
