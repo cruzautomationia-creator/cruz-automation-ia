@@ -1398,5 +1398,69 @@
     "email": "ferreteriaelectricavs@hotmail.com",
     "whatsapp": null,
     "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Farfalla Alta Costura",
+    "pais": "Chile",
+    "debilidad": "Taller de alta costura a medida en Temuco cuya única presencia digital es Instagram (@farfalla_alta_costura, ~2.005 seguidores), sin sitio web propio; agenda de citas depende 100% de mensajes directos",
+    "email": null,
+    "whatsapp": "+56990554608",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Óptica BuenaVista",
+    "pais": "Chile",
+    "debilidad": "Óptica en Chillán (Constitución 664, Patio Las Terrazas) sin sitio web propio, a diferencia de competidores locales como Óptica Patagonia; solo Facebook con 2.399 me gusta, sin sistema de agendamiento online",
+    "email": "Buenavistachillan@gmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Fantasía Eventos",
+    "pais": "Chile",
+    "debilidad": "Salón de eventos infantiles en Punta Arenas; su sitio fantasiaeventos.cl existe pero las reservas se gestionan solo por llamada/mensaje de texto a celulares personales, sin sistema de reserva online",
+    "email": "fantasiajuegos.cl@gmail.com",
+    "whatsapp": "+56993925505",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Lavandería Fabiola",
+    "pais": "Chile",
+    "debilidad": "Lavandería en La Serena con sitio web hecho en plantilla gratuita ueniweb.com sin identidad de marca propia; presencia en Instagram/Facebook con actividad baja",
+    "email": null,
+    "whatsapp": "+56991335828",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Estudio Jurídico Abogado Alberto Aravena",
+    "pais": "Chile",
+    "debilidad": "Estudio jurídico en Puerto Montt (Benavente 315, of. 302) sin sitio web propio, a diferencia de otros estudios de la ciudad (Wolfenson, Azur); su página de Facebook tiene solo 123 me gusta",
+    "email": null,
+    "whatsapp": "+56968309091",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Floristería Ríos Nicaragua",
+    "pais": "Nicaragua",
+    "debilidad": "Su propio dominio (floristeriariosnicaragua.com) aparece indexado como página 'Coming Soon' inactiva, pese a tener 1.878 me gusta en Facebook",
+    "email": "esmervin@live.com",
+    "whatsapp": "+50557346895",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "AQPET SHOP",
+    "pais": "Perú",
+    "debilidad": "Veterinaria/spa canino en Arequipa sin sitio web propio, solo Facebook con 588 me gusta",
+    "email": null,
+    "whatsapp": "+51955664262",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Elegant House Barbershop",
+    "pais": "Colombia",
+    "debilidad": "Barbería en Cali sin sitio web propio; solo perfil en plataforma de reservas Fresha y directorios, gestiona citas y domicilios vía redes",
+    "email": null,
+    "whatsapp": "+573208166366",
+    "servicio": "Automatización WhatsApp"
   }
 ]
