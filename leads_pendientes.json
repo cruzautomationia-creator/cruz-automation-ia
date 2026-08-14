@@ -1542,5 +1542,141 @@
     "email": null,
     "whatsapp": "+584242686616",
     "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Vet Sin Fronteras",
+    "pais": "Chile",
+    "debilidad": "Hospital veterinario en Punta Arenas (Miguel de Cervantes 0180) sin sitio web propio; toda su presencia digital son Instagram/Facebook y directorios de terceros (Páginas Amarillas, AgendaPro), pese a tener 4.3 estrellas y 76 reseñas",
+    "email": null,
+    "whatsapp": "+56984134014",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Masajes Integrales Rancagua",
+    "pais": "Chile",
+    "debilidad": "Servicio de masajes y entrenamiento personal con 2791 seguidores en Instagram, agenda de horas gestionada manualmente solo por WhatsApp, sin sistema de reservas automatizado",
+    "email": null,
+    "whatsapp": "+56993764936",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Zúñiga & Garrido Abogados",
+    "pais": "Chile",
+    "debilidad": "Estudio jurídico en Temuco (Varas 687, Of. 1104) con solo 268 seguidores en Instagram y sin sitio web propio, pese a tener 7 años de trayectoria",
+    "email": "contacto@zgabogados.cl",
+    "whatsapp": "+56964995390",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Panadería Santa Margarita",
+    "pais": "Chile",
+    "debilidad": "Panadería en La Serena (Cruz del Molino 392) con página de Facebook de solo 135 me gusta, sin catálogo digital ni fotos profesionales de sus productos",
+    "email": null,
+    "whatsapp": "+56935634343",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Mecánica Curicó",
+    "pais": "Chile",
+    "debilidad": "Taller mecánico automotriz en Curicó con página de Facebook de solo 26 me gusta, sin fotos ni contenido que muestre su trabajo",
+    "email": "curicomecanica@gmail.com",
+    "whatsapp": "+56974963707",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Flor de Los Andes",
+    "pais": "Chile",
+    "debilidad": "Florería en Los Andes con solo 265 seguidores en Instagram, sin catálogo visual atractivo de sus arreglos florales",
+    "email": "contacto@flordelosandes.cl",
+    "whatsapp": null,
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Clínica isdental",
+    "pais": "Chile",
+    "debilidad": "Clínica dental y laboratorio en Osorno (República 293, Rahue bajo) con 3057 me gusta en Facebook pero sin sitio web propio pese al alto volumen de seguidores y sucursales en Temuco y Puerto Montt",
+    "email": "clinicaisdental@gmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Perruquería Amigo Fiel",
+    "pais": "Chile",
+    "debilidad": "Peluquería canina en Rancagua que gestiona toda su agenda de forma manual solo por WhatsApp, sin sistema de reservas automatizado ni contenido visual de sus trabajos",
+    "email": "perruqueriarancagua@gmail.com",
+    "whatsapp": "+56942393592",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Clínica Veterinaria San Antonio",
+    "pais": "Chile",
+    "debilidad": "Veterinaria en Chillán (Chacabuco 519) con 509 me gusta en Facebook y sin sitio web propio, agenda de horas gestionada solo por teléfono",
+    "email": null,
+    "whatsapp": "+56982771268",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Dental Biodont",
+    "pais": "Chile",
+    "debilidad": "Clínica dental en Rengo (Urriola 618-A) sin sitio web propio, solo contactable por teléfono y directorios de terceros para agendar horas",
+    "email": null,
+    "whatsapp": "+56979463473",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Veterinaria Cancan Pets",
+    "pais": "Chile",
+    "debilidad": "Veterinaria en San Fernando (Manso de Velasco 452 A) sin sitio web propio, solo presencia en Facebook para agendar consultas",
+    "email": null,
+    "whatsapp": "+56940849504",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Peluquería Barbería Gustavo",
+    "pais": "Chile",
+    "debilidad": "Barbería en Machalí (Santa Ana de Sanchina, San Carlos 304) sin sitio web propio, solo agenda a través de directorios externos como AgendaPro, sin contenido visual propio de sus cortes",
+    "email": null,
+    "whatsapp": "+56996982121",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Alejandra Polidori Propiedades",
+    "pais": "Chile",
+    "debilidad": "Corredora de propiedades independiente en Rengo sin sitio web propio, solo contacto directo por WhatsApp y email para gestionar arriendos y ventas",
+    "email": "polidoripropiedades@gmail.com",
+    "whatsapp": "+56974761662",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Group Dental",
+    "pais": "Ecuador",
+    "debilidad": "Clínica dental de especialidades en Cuenca (Av. Solano 7-91 y Alfonso Moreno Mora) con 475 me gusta en Facebook pero sin sitio web propio",
+    "email": "groupdental.cuenca@gmail.com",
+    "whatsapp": "+593998370157",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Muñoz Estudio de Arquitectura",
+    "pais": "Perú",
+    "debilidad": "Estudio de arquitectura en Arequipa cuya única presencia digital es una página de Facebook, sin sitio web propio pese a ofrecer proyectos arquitectónicos integrales",
+    "email": "estudio@josemunoz.pe",
+    "whatsapp": "+51992159343",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Dentiplus Clínica Dental",
+    "pais": "Bolivia",
+    "debilidad": "Clínica dental en La Paz (Calle Sebastián Segurola) con solo 18 me gusta en Facebook y sin sitio web propio, presencia digital limitada a Facebook y TikTok",
+    "email": null,
+    "whatsapp": "+59176253214",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Veterinaria La Mascota",
+    "pais": "Uruguay",
+    "debilidad": "Clínica veterinaria en Montevideo (Pocitos) que opera solo mediante Facebook y WhatsApp, sin sitio web propio para agendar consultas",
+    "email": null,
+    "whatsapp": "+59898851582",
+    "servicio": "Web Corporativa"
   }
 ]
