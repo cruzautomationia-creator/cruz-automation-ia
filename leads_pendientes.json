@@ -1678,5 +1678,205 @@
     "email": null,
     "whatsapp": "+59898851582",
     "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Ferretería La Portada",
+    "pais": "Chile",
+    "debilidad": "Ferretería en Antofagasta cuya única presencia digital es una página de Facebook, sin sitio web propio ni catálogo de productos online; toda consulta y venta se coordina manualmente por teléfono",
+    "email": null,
+    "whatsapp": "+56967470720",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Taller Mecánico Kuntur Calama",
+    "pais": "Chile",
+    "debilidad": "Presencia digital dispersa: dos páginas de Facebook distintas y una cuenta de Instagram para el mismo taller en Calama, sin sitio web ni sistema de agendamiento online",
+    "email": null,
+    "whatsapp": "+56997872945",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Panadería Modelo Ovalle",
+    "pais": "Chile",
+    "debilidad": "Negocio familiar en Ovalle desde 1980 cuya única presencia digital es una página de Facebook y una ficha en el directorio local Ovalle Comercio, sin sitio propio ni pedidos online",
+    "email": null,
+    "whatsapp": "+56991754217",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Comida Rápida Solo Coquimbo",
+    "pais": "Chile",
+    "debilidad": "Delivery de comida rápida en Coquimbo que atiende hasta las 5 AM gestionando pedidos manualmente por WhatsApp y teléfono, sin sitio web ni menú digital",
+    "email": null,
+    "whatsapp": "+56998994138",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Estudio Jurídico Iquique Business",
+    "pais": "Chile",
+    "debilidad": "Sitio web construido sobre plantilla gratuita genérica de Ueniweb (subdominio, sin dominio propio), diseño básico muy por debajo de otros estudios jurídicos de Iquique con sitios propios",
+    "email": null,
+    "whatsapp": "+56934973701",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Óptica Queulat",
+    "pais": "Chile",
+    "debilidad": "Óptica en Coyhaique sin sitio web propio; su única presencia en internet es una página de Facebook y fichas en directorios genéricos, sin catálogo ni agendamiento online",
+    "email": "opticaqueulat@gmail.com",
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Ferretería Osorno",
+    "pais": "Chile",
+    "debilidad": "No cuenta con sitio web; solo página de Facebook y presencia en directorios de negocios, sin catálogo de productos ni canal formal de pedidos o cotizaciones online",
+    "email": "ferreosorno1@gmail.com",
+    "whatsapp": null,
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Restaurant La Corita",
+    "pais": "Chile",
+    "debilidad": "Restaurante en Ancud sin sitio web propio; su única presencia digital es Instagram (@la_corita_de_ancud) y una ficha en el portal municipal de turismo, sin menú digital ni reservas online",
+    "email": null,
+    "whatsapp": "+56991512870",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Cabañas En Puerto Varas",
+    "pais": "Chile",
+    "debilidad": "Su única presencia online es una página de Facebook básica, sin sitio web propio ni sistema de reservas, a diferencia de otras cabañas de la zona que ya tienen páginas de reserva online",
+    "email": null,
+    "whatsapp": "+56982720426",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Óptica del Sur",
+    "pais": "Chile",
+    "debilidad": "Óptica en Puerto Montt con más de 20 años de trayectoria y dos locales; no tiene sitio web propio, su presencia digital se limita a Facebook, Instagram y directorios",
+    "email": "opticadelsur31@gmail.com",
+    "whatsapp": "+56992263853",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Gimnasio O2-Funcional",
+    "pais": "Chile",
+    "debilidad": "Gimnasio en Valdivia sin sitio web propio; su presencia online se reduce a Facebook y un enlace externo de agenda en AgendaPro, sin página con información propia de la marca",
+    "email": null,
+    "whatsapp": "+56966879244",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Hospedaje Familiar Waywen Kurüf",
+    "pais": "Chile",
+    "debilidad": "Hospedaje en Pucón sin sitio web ni redes sociales propias encontradas; única presencia digital verificable es una ficha básica en el portal municipal de turismo, sin fotos propias ni reservas online",
+    "email": "florindananco@gmail.com",
+    "whatsapp": "+56994956929",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Candy Life CL (Panadería y Pastelería)",
+    "pais": "Chile",
+    "debilidad": "Pastelería en Quillota cuyo único sitio web es una plantilla gratuita de Ueniweb sin dominio propio ni carrito de compra; su página de Facebook apenas supera los 400 me gusta",
+    "email": null,
+    "whatsapp": "+56935194711",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Garras y Patitas (Peluquería Canina y Felina)",
+    "pais": "Chile",
+    "debilidad": "Peluquería canina en Quilpué cuyo sitio web funciona sobre plantilla gratuita de Ueniweb sin diseño propio ni sistema de reservas online; citas coordinadas manualmente por teléfono",
+    "email": null,
+    "whatsapp": "+56981481054",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "El Maestro Ferretería",
+    "pais": "Chile",
+    "debilidad": "Ferretería en Rengo sin sitio web propio; presencia digital limitada a Facebook (960 me gusta) e Instagram sin catálogo online, solo aparece en directorios genéricos",
+    "email": "elmaestroferreteria@gmail.com",
+    "whatsapp": null,
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "La Mesa del Inca Restaurante",
+    "pais": "Chile",
+    "debilidad": "Restaurante en Rancagua sin sitio web propio; solo listados en apps de delivery y página de Facebook con apenas 128 me gusta, sin estrategia de marketing digital",
+    "email": "puertoinka2021@gmail.com",
+    "whatsapp": "+56974396949",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Promevet Rengo (Farmacia Veterinaria)",
+    "pais": "Chile",
+    "debilidad": "Farmacia veterinaria en Rengo sin sitio web propio; gestiona ventas y despachos a domicilio únicamente vía Facebook (581 seguidores) e Instagram con muy poca actividad",
+    "email": "farmaciapromevet@gmail.com",
+    "whatsapp": "+56920272843",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Buin Propiedades (Jorge Gallardo Gálvez)",
+    "pais": "Chile",
+    "debilidad": "Corredor de propiedades en Buin cuya presencia web principal es un blog gratuito en Blogspot sin actualizaciones recientes, y su página de Facebook tiene solo 19 me gusta, sin sitio corporativo",
+    "email": "buinpropiedades@gmail.com",
+    "whatsapp": "+56976371678",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Óptica GS",
+    "pais": "Ecuador",
+    "debilidad": "Óptica en Cuenca que solo cuenta con página de Facebook (430 me gusta, sin actividad relevante) y no tiene sitio web propio; contacto por correo es una cuenta personal de Hotmail",
+    "email": "lcueva_79@hotmail.com",
+    "whatsapp": "+593968720390",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Casa de la Herramienta",
+    "pais": "Nicaragua",
+    "debilidad": "Ferretería en Managua que vende solo a través de TikTok, Facebook y dos cuentas distintas de Instagram, sin sitio web ni catálogo unificado, con imagen de marca dispersa",
+    "email": null,
+    "whatsapp": "+50582158357",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Estudio Contable Sanguedolce",
+    "pais": "Argentina",
+    "debilidad": "Estudio contable en Córdoba que opera únicamente con Facebook e Instagram, sin sitio web propio donde mostrar sus servicios profesionales de forma formal a nuevos clientes",
+    "email": "cra.sanguedolce@yahoo.com.ar",
+    "whatsapp": "+5493513886669",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Atelier Outlet Moda",
+    "pais": "España",
+    "debilidad": "Boutique de moda en Badalona que atiende de forma exclusiva por WhatsApp, sin sitio web ni tienda online; catálogo solo en publicaciones sueltas de Instagram y Facebook",
+    "email": null,
+    "whatsapp": "+34677622901",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Peluquería Canina Móvil Guauu",
+    "pais": "Uruguay",
+    "debilidad": "Servicio de peluquería canina a domicilio en Montevideo que gestiona todas sus reservas manualmente por WhatsApp, sin sitio web ni sistema de agendamiento automatizado",
+    "email": null,
+    "whatsapp": "+59893849181",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Dr. Pet Veterinaria",
+    "pais": "Bolivia",
+    "debilidad": "Clínica veterinaria en La Paz que solo cuenta con página de Facebook con contacto por Messenger, sin sitio web donde los dueños de mascotas puedan ver servicios, precios o agendar citas",
+    "email": null,
+    "whatsapp": "+59176406874",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Nina's Boutique Guatemala",
+    "pais": "Guatemala",
+    "debilidad": "Tienda de ropa en Ciudad de Guatemala con más de 8.700 seguidores en Instagram pero sin sitio web ni catálogo ordenado; ventas coordinadas manualmente por WhatsApp",
+    "email": null,
+    "whatsapp": "+50254147480",
+    "servicio": "Automatización WhatsApp"
   }
 ]
