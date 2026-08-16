@@ -1878,5 +1878,173 @@
     "email": null,
     "whatsapp": "+50254147480",
     "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Ferretería Industrial Armacón Ltda",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 116 me gusta y sin sitio web propio (solo aparece listada en directorios como Mercantil.com/D&B), pese a operar como distribuidor mayorista de ferretería y gasfitería.",
+    "email": null,
+    "whatsapp": "+56985992351",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Vidriería D' Leyton",
+    "pais": "Chile",
+    "debilidad": "Facebook con solo 84 me gusta, sin sitio web propio; contacto únicamente por teléfono y correo Gmail personal, sin catálogo online.",
+    "email": "vidriosyaluminiosleyton@gmail.com",
+    "whatsapp": null,
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Constructora Casa Blanca (Los Ángeles)",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; toda su presencia comercial es vía Facebook y WhatsApp para cotizar construcción de casas en altura.",
+    "email": null,
+    "whatsapp": "+56954410664",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Todo Costura Labranza",
+    "pais": "Chile",
+    "debilidad": "Presencia únicamente en Facebook (438 me gusta), sin sitio web ni catálogo online; confecciona uniformes, cortinas y arreglos pero solo puede ser contactada por WhatsApp/Gmail informal.",
+    "email": "marciacreaciones.ma@gmail.com",
+    "whatsapp": "+56954959014",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Tienda MOKA",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 15 me gusta pese a vender joyas de plata 925/950 al por mayor en dos ciudades (Osorno y Valdivia); sin sitio web, ventas gestionadas manualmente por WhatsApp.",
+    "email": null,
+    "whatsapp": "+56985776403",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Viajes por Chiloé",
+    "pais": "Chile",
+    "debilidad": "Agencia de turismo sin sitio web propio (solo listada en el directorio municipal de turismo de Ancud); toda su operación depende de Facebook (978 me gusta) y WhatsApp.",
+    "email": "fidelcastillomassip@gmail.com",
+    "whatsapp": "+56950177590",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Aseo Full a Domicilio Talca",
+    "pais": "Chile",
+    "debilidad": "Servicio de aseo profundo a domicilio en Talca con presencia únicamente en Facebook (1.267 me gusta), sin sitio web ni sistema de agendamiento automatizado.",
+    "email": null,
+    "whatsapp": "+56977140480",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Peluquería & Barbería Clásica Fredes",
+    "pais": "Chile",
+    "debilidad": "Negocio familiar activo desde 1968 en Quillota, pero su única presencia digital es Facebook con engagement bajo y sin sistema de reserva de horas online; contacto solo por WhatsApp informal.",
+    "email": null,
+    "whatsapp": "+56973372023",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Hostal Nancy (Puerto Natales)",
+    "pais": "Chile",
+    "debilidad": "Aunque tiene sitio web (nataleslodge.cl), su Facebook oficial tiene solo 62 me gusta pese a operar desde 1997, y no se encontró WhatsApp visible para reservas rápidas, solo teléfono fijo y correo.",
+    "email": "nancy@nataleslodge.cl",
+    "whatsapp": null,
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Estudio Fotográfico CCortes",
+    "pais": "Chile",
+    "debilidad": "Fotógrafo de matrimonios y eventos en Rancagua con página de Facebook de bajo alcance (120 me gusta) y sin sitio web ni portafolio online propio; cotizaciones solo por contacto directo.",
+    "email": "cristiancortesfotografo@gmail.com",
+    "whatsapp": null,
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Tienda De Pesca Lures Vinyls Iquique",
+    "pais": "Chile",
+    "debilidad": "Tienda especializada en pesca con Facebook de alcance moderado (457 me gusta) y ventas gestionadas por grupo de WhatsApp informal, sin sitio web ni tienda online propia.",
+    "email": null,
+    "whatsapp": "+56987090343",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Aurora Panadería & Taller",
+    "pais": "Chile",
+    "debilidad": "Panadería en Punta Arenas con presencia solo en Facebook e Instagram (714 me gusta), sin sitio web ni sistema de pedidos automatizado; el contacto es un correo Gmail genérico.",
+    "email": "aurorapanaderiataller@gmail.com",
+    "whatsapp": null,
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Nuevo Hogar Inmobiliaria (Calama)",
+    "pais": "Chile",
+    "debilidad": "Corredora de propiedades en Calama sin sitio web propio (no se encontró dominio); su oferta de arriendos, ventas y administración de edificios se gestiona solo vía Facebook y WhatsApp.",
+    "email": null,
+    "whatsapp": "+56966358044",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Panadería y Pastelería NAC",
+    "pais": "Ecuador",
+    "debilidad": "Sin sitio web propio — presencia únicamente en Facebook, Instagram y TikTok para recibir pedidos, sin canal de venta ni automatización de pedidos por WhatsApp.",
+    "email": "panaderiaypastelerianac@gmail.com",
+    "whatsapp": "+593990133254",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Cerrajería México (Ensenada)",
+    "pais": "México",
+    "debilidad": "Página de Facebook con solo 172 me gusta, sin sitio web propio, sin catálogo de servicios online pese a ofrecer apertura de autos y casas.",
+    "email": "cerramexeda@gmail.com",
+    "whatsapp": "+526462230938",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Peluquería Rodolfo Piscione",
+    "pais": "Argentina",
+    "debilidad": "Sin sitio web; salón pequeño en Rosario que solo coordina turnos por dos números de teléfono distintos y una página de Facebook básica, sin sistema de reservas online.",
+    "email": null,
+    "whatsapp": "+5493415078346",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Salón de Belleza Dgriss",
+    "pais": "Honduras",
+    "debilidad": "Sin sitio web propio, solo página de Facebook con 1.653 me gusta; agenda de citas (keratina, botox, balayage) coordinada manualmente por WhatsApp personal.",
+    "email": "DGriss@outlook.com",
+    "whatsapp": "+50499320457",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Clínica Veterinaria Zona de Mascota",
+    "pais": "Nicaragua",
+    "debilidad": "Sin sitio web propio; página de Facebook con 1.733 me gusta pero interacción prácticamente nula pese a ofrecer consultas, farmacia, laboratorio y peluquería canina.",
+    "email": null,
+    "whatsapp": "+50587569953",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Barbería & Peluquería D'pelos",
+    "pais": "Colombia",
+    "debilidad": "Página de Facebook con solo 172 me gusta y 147 check-ins, sin sitio web ni sistema de reservas online.",
+    "email": null,
+    "whatsapp": "+573002071153",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Floristería Princesa (Murcia)",
+    "pais": "España",
+    "debilidad": "Sin sitio web propio (solo teléfono, WhatsApp e Instagram), sin catálogo de arreglos ni pedidos online pese a tener buena reputación local (4.3/5, 62 reseñas).",
+    "email": null,
+    "whatsapp": "+34688465650",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Centro Clínico Veterinario Mascotas del Este",
+    "pais": "Venezuela",
+    "debilidad": "Sin sitio web propio; toda su presencia digital es una página de Facebook con 1.288 me gusta, pese a ofrecer cirugía, laboratorio y peluquería canina.",
+    "email": null,
+    "whatsapp": "+584245586588",
+    "servicio": "Web Corporativa"
   }
 ]
