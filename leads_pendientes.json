@@ -2150,5 +2150,53 @@
     "email": null,
     "whatsapp": "+50497993551",
     "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Asecom Hospedaje y Hostal",
+    "pais": "Chile",
+    "debilidad": "Hospedaje turístico en Pichilemu sin sitio web propio; toda su promoción y reservas se hacen a través de una página de Facebook (asecompc) mediante videos publicitarios que remiten directamente a WhatsApp para reservar, sin catálogo de habitaciones ni sistema de reservas online",
+    "email": null,
+    "whatsapp": "+56996262608",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Veterinaria Regional",
+    "pais": "Chile",
+    "debilidad": "Clínica veterinaria en Valdivia (Italia 1760) sin sitio web propio; su único canal digital es una página de Facebook con 3.143 \"me gusta\" que funciona como ficha de contacto, sin agendamiento online ni información de servicios estructurada",
+    "email": "veterinariaregionalvaldivia@gmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Óptica San Antonio",
+    "pais": "Chile",
+    "debilidad": "Óptica ubicada en Luis Reuss 246, San Antonio, sin sitio web propio; opera únicamente a través de Instagram y Facebook para mostrar productos y coordinar ventas por WhatsApp, sin catálogo online ni tienda digital",
+    "email": "Opticas.sanantonio@gmail.com",
+    "whatsapp": "+56933195445",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Estudio Jurídico Valle Legal",
+    "pais": "Chile",
+    "debilidad": "Estudio jurídico en calle Prat #1041, San Felipe, sin sitio web propio; su presencia digital se limita a una cuenta de Instagram (@vallelegal) con solo 233 seguidores y 18 publicaciones totales, coordinando horas de atención solo por WhatsApp vía bio.link",
+    "email": "vallelegalestudio@gmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Fashion Dog Peluquería Canina",
+    "pais": "Chile",
+    "debilidad": "Peluquería canina y pet shop en Av. Los Flamencos #0858, Punta Arenas, sin sitio web propio; su única vitrina digital es una página de Facebook con 4.082 \"me gusta\", sin sistema de reservas online ni tienda para sus productos de pet shop",
+    "email": "fashiondogpuqpeluqueriacanina@gmail.com",
+    "whatsapp": "+56985562753",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Astudillo Propiedades (Corretaje Chiloé)",
+    "pais": "Chile",
+    "debilidad": "Corredora de propiedades en Castro (Chiloé) sin sitio web propio; pese a tener 10.680 \"me gusta\" en Facebook, todo su catálogo de casas, parcelas y arriendos se publica solo como videos sueltos en Facebook, sin un sitio con buscador de propiedades ni fichas ordenadas",
+    "email": null,
+    "whatsapp": "+56968348830",
+    "servicio": "Web Corporativa"
   }
 ]
