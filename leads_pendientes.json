@@ -2046,5 +2046,109 @@
     "email": null,
     "whatsapp": "+584245586588",
     "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Full Electric",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; toda su presencia digital es una página de Facebook con apenas 110 \"me gusta\", ofreciendo servicios de electricidad industrial e instalaciones de baja tensión en Puerto Montt",
+    "email": "fullelectric.pmontt@gmail.com",
+    "whatsapp": "+56945316878",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Gasfitería Ricardo Herrera",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; opera únicamente a través de una página de Facebook con 355 \"me gusta\", pese a contar con equipos de detección de fugas por ultrasonido y cámara termográfica",
+    "email": "Ricardo.herrera1158@gmail.com",
+    "whatsapp": "+56969658171",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Óptica Iquique",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio (a diferencia de competidores locales como Óptica Harris o Chiwüd que sí lo tienen); su única presencia es una página de Facebook con 190 \"me gusta\"",
+    "email": "adm.opticaiquique@gmail.com",
+    "whatsapp": "+56992955373",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Radical Fitness Club Ovalle",
+    "pais": "Chile",
+    "debilidad": "Pese a tener más de 15 años de trayectoria, su Facebook tiene solo 110 \"me gusta\" y no cuenta con sitio web propio",
+    "email": "radicalclubovalle@gmail.com",
+    "whatsapp": null,
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Taller Mecánico Coquimbo (TallerAvalosyCia)",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con apenas 56-60 \"me gusta\" y sin sitio web propio, pese a ofrecer mecánica integral, frenos, embragues y escáner multimarca",
+    "email": null,
+    "whatsapp": "+56961232602",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Abba Corredores",
+    "pais": "Chile",
+    "debilidad": "Sitio web construido sobre plantilla gratuita de Ueniweb (abba-corredores.ueniweb.com), con diseño genérico típico de constructor de sitios gratuito y sin dominio propio",
+    "email": null,
+    "whatsapp": "+56958293114",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Veterinaria Todos los Santos",
+    "pais": "Chile",
+    "debilidad": "Pese a ofrecer hospitalización, farmacia, cirugías y petshop, no cuenta con sitio web propio; su presencia se limita a Facebook e Instagram",
+    "email": "clinicavettodoslossantos@gmail.com",
+    "whatsapp": "+56995690312",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Dulce Clara - Dulces y Pan",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; toma pedidos solo mediante un enlace genérico de WhatsApp (wa.link) e Instagram, sin catálogo de productos ni sistema de pedidos propio",
+    "email": null,
+    "whatsapp": "+56998106687",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "COCO PET SHOP",
+    "pais": "Guatemala",
+    "debilidad": "No tiene sitio web propio; toda su presencia digital depende de Instagram (@cocopetshopgt, ~1200 seguidores) y de dos números de teléfono distintos según la sucursal (CC Metro y CC Pacific Santa Rosalia), sin sistema unificado de pedidos ni catálogo online",
+    "email": null,
+    "whatsapp": "+50254119790",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Fontanero Guadalajara ZMG",
+    "pais": "México",
+    "debilidad": "No cuenta con sitio web propio; su única presencia es una página de Facebook con apenas 68% de recomendación basada en solo 6 reseñas, y su información aparece indexada principalmente en un directorio de terceros (tallerium.com.mx) en vez de tener canales digitales propios",
+    "email": "serviciosfontaneriageneral@gmail.com",
+    "whatsapp": null,
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "OdontoEstetic-PY",
+    "pais": "Paraguay",
+    "debilidad": "No posee un dominio propio; su único sitio web es una plantilla gratuita alojada en un subdominio de Wix (odontoesteticparag.wixsite.com), además de su página de Facebook, sin identidad digital profesional propia",
+    "email": "odontoesteticparaguay@gmail.com",
+    "whatsapp": "+595973663386",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Ferretería San José",
+    "pais": "Costa Rica",
+    "debilidad": "No tiene sitio web propio; solo cuenta con página de Facebook y un número de WhatsApp para cotizaciones manuales, sin catálogo de productos ni precios en línea",
+    "email": null,
+    "whatsapp": "+50688712687",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "LAM Studio",
+    "pais": "Honduras",
+    "debilidad": "No tiene sitio web; su presencia digital se limita a Facebook, Instagram y TikTok, coordinando todas las citas manualmente por WhatsApp sin sistema de agendamiento automatizado",
+    "email": null,
+    "whatsapp": "+50497993551",
+    "servicio": "Automatización WhatsApp"
   }
 ]
