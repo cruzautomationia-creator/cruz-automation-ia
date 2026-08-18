@@ -2198,5 +2198,149 @@
     "email": null,
     "whatsapp": "+56968348830",
     "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Gimnasio Rodos",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio (no aparece ninguno en búsquedas ni directorios), solo una página de Facebook (facebook.com/gymrodos) con apenas 120 me gusta. Es el gimnasio más antiguo de San Fernando (fundado en 1987) pero su presencia digital no se ha actualizado.",
+    "email": null,
+    "whatsapp": "+56997514175",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Consulta Médica Veterinaria R y B",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio, solo ficha de Facebook y directorios de terceros; la única vía de agendamiento listada es teléfono fijo, sin sistema de reservas online ni WhatsApp visible pese a más de 10 años operando en Cauquenes.",
+    "email": "clinicaveterinaria.ryb@gmail.com",
+    "whatsapp": null,
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Restaurant La Chilenita",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web ni cuenta activa de Instagram identificable; su único contacto público es un correo personal de Hotmail (no un dominio propio del negocio), y aparece únicamente en directorios turísticos y una ficha de Facebook poco desarrollada.",
+    "email": "anamariacarmona35@hotmail.com",
+    "whatsapp": null,
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Barraca y Ferretería Salomón",
+    "pais": "Chile",
+    "debilidad": "Su sitio web listado (salomonbf.cl) ya no resuelve/está caído (dominio inexistente al intentar acceder), y su página de Facebook tiene solo 168 me gusta.",
+    "email": null,
+    "whatsapp": "+56971551556",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Veterinaria Los Vilos",
+    "pais": "Chile",
+    "debilidad": "No se encontró sitio web propio; su única presencia online verificable es una ficha de Facebook, sin sistema de agendamiento digital, solo contacto telefónico directo.",
+    "email": null,
+    "whatsapp": "+56982055371",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Hostal Refugio Chango",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio (no aparece ninguno en las búsquedas), depende enteramente de una página de Facebook con 521 me gusta y un correo Gmail genérico como único canal de reservas, sin presencia en plataformas de reserva modernas propias.",
+    "email": "refugio.changos@gmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Isladent SPA",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; su única presencia online es una página de Facebook (714 me gusta) y listados en directorios externos (dentistass.cl, chilepymes.com). El dominio isladent.com que aparece en búsquedas pertenece a una clínica homónima en Córdoba, España, no a este negocio.",
+    "email": null,
+    "whatsapp": "+56998432029",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Hostal Los Castaños",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio, solo página de Facebook con apenas 13 reseñas; solo acepta pagos en efectivo (según reseñas en Kayak/Planet of Hotels), indicando gestión manual sin sistema de reservas online.",
+    "email": "castanossanalfonso@gmail.com",
+    "whatsapp": "+56985160738",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "SK Propiedades Chiloé",
+    "pais": "Chile",
+    "debilidad": "Corredora de propiedades en Ancud sin sitio web propio; toda su operación pasa por una página de Facebook, sin catálogo online de propiedades.",
+    "email": "sk.propiedadeschiloe@gmail.com",
+    "whatsapp": "+56979931221",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Odontológica Los Ríos",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; presencia digital limitada a una página de Facebook con solo 264 me gusta, sin sistema de agendamiento online pese a coordinar horas por WhatsApp manualmente.",
+    "email": null,
+    "whatsapp": "+56961759866",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Hostal Los Pinos",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio; solo aparece listado en agregadores de reservas de terceros (Booking, Agoda, Interpatagonia) y en una página de Facebook con apenas 4 reseñas visibles.",
+    "email": "lospinosreserva@gmail.com",
+    "whatsapp": "+56957772924",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Colegio Santa Cruz Loncoche",
+    "pais": "Chile",
+    "debilidad": "Su sitio web institucional (cscloncoche.cl) está caído/suspendido — al intentar acceder muestra un mensaje de dominio suspendido por sobreuso o falta de recursos del hosting, dejando a la comunidad escolar sin acceso a información oficial.",
+    "email": "cscloncoche@fetf.cl",
+    "whatsapp": "+56979996407",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Salon Caoba",
+    "pais": "Ecuador",
+    "debilidad": "Solo presencia en Instagram (@caoba.barberia.peluqueria), con apenas 720 seguidores y 83 publicaciones; no tiene sitio web propio, únicamente un widget externo de reservas alojado en reservio.com",
+    "email": null,
+    "whatsapp": "+593923057660",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Modele-Peluquería & Estética",
+    "pais": "Colombia",
+    "debilidad": "Página de Facebook con solo 440 me gusta; sin sitio web propio, solo aparece listada en un directorio externo de salones asociados a L'Oréal Professionnel",
+    "email": null,
+    "whatsapp": "+573166253481",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Inmobiliari Perú",
+    "pais": "Perú",
+    "debilidad": "Página de Facebook (inmobiliari.trujillo) con solo 55 me gusta; no se encontró sitio web propio en ninguna búsqueda",
+    "email": "inmobiliari.trujillo@gmail.com",
+    "whatsapp": "+51972138944",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Neovets Veterinaria",
+    "pais": "Colombia",
+    "debilidad": "Página de Facebook con solo 247 me gusta; clínica dirigida por la Dra. Ma. Cristina de la Puente en Barranquilla; no se encontró sitio web propio",
+    "email": null,
+    "whatsapp": "+573016808772",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Hostal Bolivia",
+    "pais": "Bolivia",
+    "debilidad": "No tiene sitio web propio; toda su presencia digital depende de una página de Facebook y de listados de terceros en agregadores de viaje (Booking.com, Tripadvisor, Kayak, Momondo), sin canal de reserva directa propio.",
+    "email": null,
+    "whatsapp": "+59171864998",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "B&E Hair Salon",
+    "pais": "Estados Unidos",
+    "debilidad": "No tiene sitio web propio; depende exclusivamente de Facebook, Instagram y plataformas de terceros (Yelp, Fresha) para ser encontrado y reservar citas, sin dominio ni landing page propia.",
+    "email": null,
+    "whatsapp": "+18324202355",
+    "servicio": "Landing Page"
   }
 ]
