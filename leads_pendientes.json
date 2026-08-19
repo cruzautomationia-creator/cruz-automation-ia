@@ -2342,5 +2342,173 @@
     "email": null,
     "whatsapp": "+18324202355",
     "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Clínica Dental AuriDent",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio; su única presencia online es una página de Facebook (Clinica Dental AuriDent Coquimbo) y fichas en directorios genéricos (Cylex, Tuugo, InfoIsInfo, AgendaPro, Mundochileno), sin un dominio propio para agendar o mostrar servicios.",
+    "email": "auridentltda@gmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Asesoría Contable y Tributaria Saavedra",
+    "pais": "Chile",
+    "debilidad": "Contadora independiente en Talca sin sitio web propio; toda su presencia digital se reduce a una página de Facebook, sin landing page para captar clientes que buscan asesoría contable en línea.",
+    "email": "marcela.saavedra2019@outlook.com",
+    "whatsapp": "+56966238935",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Corredora de Propiedades Lorena Alvarez-Santullano",
+    "pais": "Chile",
+    "debilidad": "Corredora de propiedades en Osorno sin sitio web propio; sus propiedades se publican solo vía Facebook, Instagram y fichas en portales de terceros (Bienesonline, Todosnegocios, GuiaBBB), sin un catálogo propio ni formulario de contacto directo.",
+    "email": "corredora.alvarezsantullano@gmail.com",
+    "whatsapp": "+56995325023",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Centro Médico San Sebastián (Linares)",
+    "pais": "Chile",
+    "debilidad": "Centro médico con varias especialidades (medicina general, pediatría, ginecología, oftalmología, dermatología) inaugurado en 2023, pero sin sitio web propio: su presencia se limita a Facebook, Instagram y perfiles en Doctoralia/AgendaPro, sin una web propia con información institucional.",
+    "email": "centromed.sansebastian@gmail.com",
+    "whatsapp": "+56973400050",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Don Mostacho Barbería",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; su única presencia digital es una página de Facebook con 238 me gusta y 207 visitas registradas, y las reservas de hora se gestionan de forma manual solo por WhatsApp.",
+    "email": "donmostachobarbershopchillan@gmail.com",
+    "whatsapp": "+56964724715",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "El Toro Peruano (Antofagasta)",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; cuenta de Instagram con 1.685 seguidores y 229 publicaciones, y todos los pedidos de delivery/retiro se coordinan manualmente por WhatsApp a través de dos números de celular distintos, sin catálogo ni sistema de pedidos automatizado.",
+    "email": null,
+    "whatsapp": "+56985593132",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Peluquería Curicó",
+    "pais": "Chile",
+    "debilidad": "Su único sitio web es una plantilla genérica y gratuita de Ueniweb (peluqueria-4.ueniweb.com), sin dominio propio, sin fotos de trabajos realizados ni sistema de reservas online.",
+    "email": null,
+    "whatsapp": "+56944822738",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Nómade Cafetería (Punta Arenas)",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio: su único 'menú online' es un enlace genérico de un agregador (cafeteria-nomade.ola.click) sin marca ni diseño propio; su presencia principal es Instagram con 3.452 seguidores.",
+    "email": null,
+    "whatsapp": "+56944068796",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Barber Custom Iquique",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; gestiona toda su operación (portafolio de cortes, agenda y contacto) únicamente a través de Instagram (3.622 seguidores, 137 publicaciones), sin sistema de reservas online.",
+    "email": null,
+    "whatsapp": "+56982837484",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Cerrajería Puerto Montt",
+    "pais": "Chile",
+    "debilidad": "Cuenta de Instagram (@cerrajeriapuerto) con solo 65 seguidores y apenas 11 publicaciones; no tiene sitio web y coordina todos los turnos manualmente por WhatsApp, sin ningún tipo de automatización o respuesta automática.",
+    "email": null,
+    "whatsapp": "+56950242011",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Mi Gásfiter (La Serena)",
+    "pais": "Chile",
+    "debilidad": "Cuenta @mi_gasfiter tiene 5.312 seguidores pero solo 40 publicaciones en total, señal de cuenta prácticamente inactiva; gestiona destapes, filtraciones y reparaciones de calefont solo por mensajes directos de WhatsApp, sin bot de agendamiento.",
+    "email": null,
+    "whatsapp": "+56946850725",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Cerrajería Aurokeys (Concepción)",
+    "pais": "Chile",
+    "debilidad": "Presencia muy débil en Instagram (@cerrajeria.concepcion, 138 seguidores) pese a cubrir varias comunas (Concepción, Chiguayante, Talcahuano, San Pedro de la Paz, Hualpén, Penco); sin sitio web y sin automatización de WhatsApp para agendar visitas.",
+    "email": null,
+    "whatsapp": "+56922138661",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Home Aseo Concepción",
+    "pais": "Chile",
+    "debilidad": "Servicio de aseo a domicilio que gestiona todas sus reservas y cotizaciones manualmente por chat de WhatsApp (sin bot, sin agenda automática), dependiendo de que el dueño responda uno a uno cada consulta.",
+    "email": null,
+    "whatsapp": "+56957198912",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Victoriafit Trainer (Arica)",
+    "pais": "Chile",
+    "debilidad": "Entrenadora personal cuya única presencia digital es una página gratuita hecha con el constructor básico Ueni (sin dominio propio, sin diseño de marca, sin redes activas encontradas); coordina clases y planes de nutrición solo por teléfono/WhatsApp.",
+    "email": null,
+    "whatsapp": "+56950004641",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Clínica Dental Sonrisa Perú",
+    "pais": "Perú",
+    "debilidad": "No tiene sitio web propio; toda su presencia digital se limita a Facebook (3.868 me gusta) e Instagram (@sonrisa_peru), con agendamiento de citas gestionado manualmente por WhatsApp.",
+    "email": null,
+    "whatsapp": "+51927051859",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Kisa Nova Inmobiliaria",
+    "pais": "Nicaragua",
+    "debilidad": "Inmobiliaria en Managua sin sitio web propio; opera únicamente a través de una página de Facebook pequeña (354 me gusta, 22 personas hablando de esto), sin catálogo de propiedades online.",
+    "email": "kisanovainmobiliaria@gmail.com",
+    "whatsapp": "+50586224486",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "TOP Paraguay Barbería",
+    "pais": "Paraguay",
+    "debilidad": "Barbería en Asunción sin sitio web; el catálogo de servicios y precios solo está en la bio de Instagram, y las reservas se gestionan manualmente por WhatsApp.",
+    "email": "mikyblue23@gmail.com",
+    "whatsapp": "+595984333414",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "La Cuadra Panadería Artesanal",
+    "pais": "Uruguay",
+    "debilidad": "Panadería artesanal en el Buceo, Montevideo, sin sitio web; pedidos y coordinación de delivery (miércoles y sábados) se hacen a mano por teléfono/Instagram @lacuadra_artesanal.",
+    "email": null,
+    "whatsapp": "+59892998595",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Vellah Fashion",
+    "pais": "República Dominicana",
+    "debilidad": "Tienda de ropa en Los Mina, Santo Domingo, sin sitio web ni catálogo online; todas las ventas y consultas de stock se gestionan manualmente por WhatsApp e Instagram.",
+    "email": null,
+    "whatsapp": "+18496294440",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Clínica Veterinaria Dras. Vet",
+    "pais": "Venezuela",
+    "debilidad": "Clínica veterinaria en Maracay sin sitio web propio; su única presencia digital es una página de Facebook con 1.112 me gusta, con citas de peluquería canina coordinadas manualmente.",
+    "email": null,
+    "whatsapp": "+584144908559",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Gonzalo Jeangeorges Abogado (Rosario)",
+    "pais": "Argentina",
+    "debilidad": "Abogado independiente en Rosario cuya presencia web principal es un blog en Blogspot desde 2014 y un sitio muy básico; consultas y turnos se coordinan manualmente por WhatsApp.",
+    "email": null,
+    "whatsapp": "+5493415008328",
+    "servicio": "Landing Page"
   }
 ]
