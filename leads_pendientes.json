@@ -2510,5 +2510,53 @@
     "email": null,
     "whatsapp": "+5493415008328",
     "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Portal Inmobiliario en Valdivia y Los Ríos",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 163 me gusta para una inmobiliaria en Valdivia; no se encontró sitio web propio, solo la página de Facebook para apoyo en compra/venta de propiedades",
+    "email": null,
+    "whatsapp": "+56990954980",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Barbería Venezuela Puerto Varas",
+    "pais": "Chile",
+    "debilidad": "Barbería con presencia únicamente en Facebook, sin sitio web ni portafolio visual de cortes/trabajos que muestre calidad del servicio",
+    "email": "barberiavenezuelapuertovaras@gmail.com",
+    "whatsapp": "+56974438574",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Florería Sarmiento",
+    "pais": "Chile",
+    "debilidad": "Florería en Punta Arenas cuya única presencia digital es una página de Facebook, sin catálogo online ni automatización de pedidos por WhatsApp para envíos a domicilio",
+    "email": "floreriasarmiento@gmail.com",
+    "whatsapp": "+56997940369",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Contacto Animal (ex Pelu Guau)",
+    "pais": "Chile",
+    "debilidad": "Veterinaria y estética canina en Temuco sin sitio web propio; toda su presencia digital es una página de Facebook, pese a ofrecer traslado de mascotas y despacho a domicilio que se coordina manualmente",
+    "email": "peluvet.temuco@gmail.com",
+    "whatsapp": "+56962524783",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Olguín Inmobiliaria",
+    "pais": "Argentina",
+    "debilidad": "Inmobiliaria en Mendoza que opera solo con página de Facebook, sin sitio web propio para publicar catálogo de propiedades en venta/alquiler",
+    "email": "olguininmobiliaria@gmail.com",
+    "whatsapp": "+542615715066",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Dental Montevideo",
+    "pais": "Uruguay",
+    "debilidad": "Consultorio odontológico (prótesis, implantes) en Tres Cruces, Montevideo, sin sitio web propio; agenda de horas se coordina solo por WhatsApp y llamadas, sin sistema de reserva online",
+    "email": null,
+    "whatsapp": "+59891283063",
+    "servicio": "Web Corporativa"
   }
 ]
