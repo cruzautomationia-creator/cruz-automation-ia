@@ -2558,5 +2558,157 @@
     "email": null,
     "whatsapp": "+59891283063",
     "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Jardín Infantil Rayito de Luz",
+    "pais": "Chile",
+    "debilidad": "Solo cuenta con página de Facebook (894 me gusta) sin sitio web propio; toda la información de matrícula, horarios y contacto se maneja únicamente por esa red social.",
+    "email": "jardinrayitodeluzvaldivia@hotmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Arquitecto Talca (Diego Muñoz Cáceres)",
+    "pais": "Chile",
+    "debilidad": "Su única presencia digital es una cuenta de Instagram (@arquitecto_talca) con 609 seguidores y 251 publicaciones; no tiene sitio web para mostrar portafolio de proyectos ni servicios de diseño y trámites municipales.",
+    "email": "diegomunozcaceres@gmail.com",
+    "whatsapp": "+56993391390",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Peluquería y Estética Canina San Francisco",
+    "pais": "Chile",
+    "debilidad": "Negocio familiar pequeño con página de Facebook de solo 739 me gusta, sin sitio web ni sistema de agendamiento online; los turnos de peluquería canina se coordinan manualmente por WhatsApp.",
+    "email": null,
+    "whatsapp": "+56985853175",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "BF Food Truck",
+    "pais": "Chile",
+    "debilidad": "Cuenta de Instagram (@bffoodtrucks) con 1.396 seguidores pero sin sitio web; los pedidos y reservas para eventos y matrimonios se gestionan de forma manual por WhatsApp, sin catálogo digital.",
+    "email": null,
+    "whatsapp": "+56982532492",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Tutti Bambini",
+    "pais": "Chile",
+    "debilidad": "Tienda de ropa infantil importada (Lacoste, Calvin Klein, Carter's) que opera con un sitio genérico hecho en la plataforma gratuita Ueniweb, con plantilla básica sin personalizar y sin experiencia de compra moderna.",
+    "email": null,
+    "whatsapp": "+56979124033",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Abogados Chillán (Pumalín Abogados)",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con apenas 94 me gusta y sin sitio web propio; ofrecen asesoría en juicios laborales, familia y contratos, pero consultas se agendan solo por WhatsApp o correo, sin presencia web profesional.",
+    "email": "pumalin.abogados@gmail.com",
+    "whatsapp": "+56982616551",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Café Osdelta",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 148 me gusta y 2 check-ins, sin sitio web ni catálogo digital de productos; los pedidos de delivery se coordinan por teléfono/WhatsApp de forma completamente manual.",
+    "email": "cafeosdelta@gmail.com",
+    "whatsapp": "+56959352005",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Gimnasio Iñigo Nuevo",
+    "pais": "España",
+    "debilidad": "No tiene sitio web propio (solo aparece listado en directorios); su página de Facebook tiene 1.018 me gusta y su Instagram 828 seguidores, pero el contacto público es un correo personal de Hotmail en lugar de un dominio propio.",
+    "email": "iazpiri@hotmail.com",
+    "whatsapp": "+34661754752",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Dr. Marco Cabrera Celi - Odontólogo",
+    "pais": "Ecuador",
+    "debilidad": "Solo cuenta con un sitio gratuito en subdominio Wix sin dominio propio, además de un sitio antiguo abandonado en webs.com; aparece en directorios médicos pero sin presencia web profesional propia.",
+    "email": "marco.cabrera@usa.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Ferrek E.I.R.L.",
+    "pais": "Perú",
+    "debilidad": "Ferretería cuyo único sitio web es un subdominio gratuito de Wix sin dominio propio, y su correo de contacto es una cuenta gratuita de Gmail en lugar de un correo corporativo.",
+    "email": "tiendasferrekperu@gmail.com",
+    "whatsapp": "+51924666669",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Clínica Estética Mai",
+    "pais": "México",
+    "debilidad": "La clínica solo tiene un subdominio gratuito de Wix sin dominio propio; aparece únicamente en directorios genéricos y no se encontró un sitio web profesional propio.",
+    "email": null,
+    "whatsapp": "+529222299934",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Veterinaria Marijal",
+    "pais": "Argentina",
+    "debilidad": "Activa desde 2011, pero solo tiene un subdominio gratuito de Wix sin dominio propio, y su correo de contacto es una cuenta personal de Yahoo en lugar de un dominio corporativo.",
+    "email": "veterinariamarijal@yahoo.com.ar",
+    "whatsapp": "+541165580815",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Hospedaje El Peregrino",
+    "pais": "Colombia",
+    "debilidad": "Página de Instagram con solo 87 seguidores y Facebook con apenas 14 me gusta; su sitio web es un subdominio gratuito de Wix sin dominio propio, usa correo personal de Hotmail como contacto.",
+    "email": "provalores@hotmail.com",
+    "whatsapp": "+573168021284",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "D&S Especialidades Odontomédicas",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 38 me gusta y sin sitio web propio, pese a ofrecer urgencias, ortodoncia y cirugía oral.",
+    "email": "dsclinica@hotmail.com",
+    "whatsapp": "+56961407856",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Florería Giulianna Calama",
+    "pais": "Chile",
+    "debilidad": "Solo tiene presencia en Facebook (513 me gusta) e Instagram, sin sitio web propio; los pedidos se coordinan por WhatsApp y un correo Gmail personal en vez de un canal profesional.",
+    "email": "miriam.lb19@gmail.com",
+    "whatsapp": "+56948975591",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Antofagasta Barber",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 98 me gusta, reservas gestionadas por una herramienta externa (Setmore) y correo Gmail genérico, sin sitio web ni identidad visual propia.",
+    "email": "antofagasta.barber@gmail.com",
+    "whatsapp": "+56981900248",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Ferre Imperium",
+    "pais": "Chile",
+    "debilidad": "Presencia únicamente en Instagram (@ferreimperium), sin sitio web ni Facebook activo, con pedidos y consultas gestionados solo por WhatsApp.",
+    "email": null,
+    "whatsapp": "+56934145027",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Hostal Family Home",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con apenas 195 me gusta y baja actividad; depende de listados de terceros (portales de hoteles) para visibilidad en lugar de un sitio propio bien posicionado.",
+    "email": "familyhomelaserena@gmail.com",
+    "whatsapp": "+56997787506",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Veterinaria San Francisco (San Felipe)",
+    "pais": "Chile",
+    "debilidad": "Sitio web alojado en una plantilla gratuita de Wix con subdominio, sin dominio propio y de apariencia genérica.",
+    "email": null,
+    "whatsapp": "+56996141158",
+    "servicio": "Web Corporativa"
   }
 ]
