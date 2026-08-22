@@ -2710,5 +2710,197 @@
     "email": null,
     "whatsapp": "+56996141158",
     "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Pamela Madariaga Corredora de Propiedades",
+    "pais": "Chile",
+    "debilidad": "Corredora de propiedades en Rancagua con presencia solo en Facebook (página personal), sin sitio web propio ni catálogo online de propiedades",
+    "email": "pamelamadariagaortuzar@gmail.com",
+    "whatsapp": "+56962588084",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Florería Varinia",
+    "pais": "Chile",
+    "debilidad": "Florería en La Florida, Santiago con solo 580 me gusta en Facebook, sin sitio web propio para catálogo de arreglos florales ni pedidos online",
+    "email": "floreria.varinia@gmail.com",
+    "whatsapp": "+56989650784",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Hostal Maipo",
+    "pais": "Chile",
+    "debilidad": "Hostal en San José de Maipo (Cajón del Maipo) sin sitio web propio, depende de OTAs de terceros (Planet of Hotels, Cozycozy) e Instagram para reservas, sin control de imagen ni tarifas propias",
+    "email": "Maipohostal@gmail.com",
+    "whatsapp": "+56996373252",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Sala Cuna y Jardín Infantil Mundo Pequeño",
+    "pais": "Chile",
+    "debilidad": "Jardín infantil en Rancagua sin sitio web, solo página de Facebook con 541 me gusta y sin presencia activa verificable en Instagram",
+    "email": null,
+    "whatsapp": "+56988396450",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Taller de Vulcanización VJ",
+    "pais": "Chile",
+    "debilidad": "Taller de neumáticos en Rengo sin sitio web, gestiona ventas y agendamiento solo vía Instagram y Facebook, sin automatización de consultas",
+    "email": null,
+    "whatsapp": "+56964497787",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Barbados Barber Shop",
+    "pais": "Chile",
+    "debilidad": "Barbería en Mall Plaza del Sol, Quilpué, sin sitio web propio, agenda de citas gestionada manualmente por mensajes de Facebook/Instagram sin sistema de reservas",
+    "email": "Barbadosquilpue@gmail.com",
+    "whatsapp": "+56967032337",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Teneb Panadería y Pastelería",
+    "pais": "Chile",
+    "debilidad": "Panadería en Osorno (Rahue Alto) sin sitio web, opera solo con Facebook, Instagram y un Linktree como hub de enlaces",
+    "email": "Alex.teneb@gmail.com",
+    "whatsapp": "+56973732047",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Floristería Mariflor",
+    "pais": "Chile",
+    "debilidad": "Floristería en Punta Arenas sin sitio web propio, presencia digital limitada a Facebook e Instagram",
+    "email": null,
+    "whatsapp": "+56942752033",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Roble Austral Hostal (ex Refugio Hostal)",
+    "pais": "Chile",
+    "debilidad": "Hostal en Coyhaique sin sitio web corporativo propio; solo una página genérica de motor de reservas (mydirectstay.com) y branding inconsistente entre directorios turísticos (aparece como \"Refugio Hostal\") y plataformas de reserva (\"Roble Austral Hostal\")",
+    "email": "cintiafuentes9196@gmail.com",
+    "whatsapp": "+56949746570",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "KRALLIK Shawarma",
+    "pais": "Chile",
+    "debilidad": "Food truck de shawarma en Valdivia sin sitio web, opera exclusivamente vía Instagram y Facebook para mostrar menú y ubicación diaria",
+    "email": "shawarmakrallik@gmail.com",
+    "whatsapp": "+56967482927",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Ferretería Dimafer Castro",
+    "pais": "Chile",
+    "debilidad": "Ferretería en Castro, Chiloé, sin sitio web, presencia digital limitada a Facebook e Instagram",
+    "email": null,
+    "whatsapp": "+56930154484",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Fermarkt",
+    "pais": "Colombia",
+    "debilidad": "Ferretería/distribuidora en Bogotá que opera solo con página de Facebook, sin sitio web propio pese a manejar catálogo amplio de productos (ruedas, herramientas, pintura, seguridad industrial)",
+    "email": "distribuidoraferrecolsas@gmail.com",
+    "whatsapp": "+573009765755",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Fan Sugar Bakery",
+    "pais": "México",
+    "debilidad": "Panadería/repostería en Guadalajara sin sitio web; toma pedidos manualmente por inbox de Instagram (721 seguidores) y WhatsApp, sin catálogo digital ni automatización de pedidos",
+    "email": null,
+    "whatsapp": "+523333074082",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Galería de Flores Floristería",
+    "pais": "El Salvador",
+    "debilidad": "Floristería en Centro Comercial Galerías, Paseo Escalón, San Salvador, sin sitio web propio; toda su presencia digital se limita a una página de Facebook, sin catálogo online",
+    "email": "galeriadeflores_ventas@hotmail.com",
+    "whatsapp": "+50375810213",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "HN Pasteles a tu Gusto",
+    "pais": "Honduras",
+    "debilidad": "Pastelería en Tegucigalpa con buena base de seguidores en Facebook (~9.657 me gusta) pero sin sitio web ni sistema de catálogo/pedidos automatizado; todo se coordina manualmente por WhatsApp",
+    "email": "pedidospastelesatugusto@gmail.com",
+    "whatsapp": "+50431466196",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "New Atlas Gym",
+    "pais": "Venezuela",
+    "debilidad": "Gimnasio pequeño en Maracaibo sin sitio web, presencia únicamente en Instagram (@newatlasgym_), sin sistema de automatización para consultas/inscripciones",
+    "email": null,
+    "whatsapp": "+584246885132",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "JM Workshop",
+    "pais": "Perú",
+    "debilidad": "Taller automotriz especializado en Hyundai/Nissan en Lima (Cercado de Lima) sin sitio web real: usa un link-in-bio genérico (linkgenie.co) que solo redirige a redes sociales",
+    "email": "jmworkshopperu@gmail.com",
+    "whatsapp": "+51999069263",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Barber Spot Panama",
+    "pais": "Panamá",
+    "debilidad": "Barbería/centro de cuidado unisex en Liberty Plaza, Ciudad de Panamá, sin sitio web, solo Instagram y Facebook; citas y consultas se gestionan por teléfono/WhatsApp sin sistema de reservas",
+    "email": "barberspotpanama@gmail.com",
+    "whatsapp": "+50769501090",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Floreria Lamour Antofagasta",
+    "pais": "Chile",
+    "debilidad": "Florería en Antofagasta con solo Instagram (891 seguidores), sin sitio web propio, solo aparece en directorios de terceros como Páginas Amarillas",
+    "email": "lamour.floreria@live.cl",
+    "whatsapp": "+56984874001",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Clínica Sonríeme Vallenar",
+    "pais": "Chile",
+    "debilidad": "Clínica dental en Vallenar con solo página de Facebook (684 me gusta), sin sitio web propio",
+    "email": "sonrieme.vallenar@gmail.com",
+    "whatsapp": "+56931397203",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Hostal Plaza Copiapó",
+    "pais": "Chile",
+    "debilidad": "Hostal en Copiapó con página de Facebook de solo 483 me gusta, sin sitio web propio, solo listado en agregadores OTA de terceros",
+    "email": null,
+    "whatsapp": "+56998791082",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Cerrajero Antofagasta Llaves Max",
+    "pais": "Chile",
+    "debilidad": "Cerrajero en Antofagasta con página de Facebook de solo 30 me gusta; el dominio llavesmax.com no resuelve (sitio caído/inexistente)",
+    "email": null,
+    "whatsapp": "+56976821822",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Ferretería FerreExpress La Serena",
+    "pais": "Chile",
+    "debilidad": "Ferretería en La Serena sin sitio web propio, depende solo de Facebook (922 me gusta) para atención y catálogo",
+    "email": null,
+    "whatsapp": "+56981307410",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Prana Estilo Natural Peluquería",
+    "pais": "Chile",
+    "debilidad": "Peluquería en Coquimbo sin sitio web, solo Facebook (547 me gusta) e Instagram, reservas gestionadas manualmente por mensaje directo",
+    "email": "Pranaestilonatural@gmail.com",
+    "whatsapp": "+56945138334",
+    "servicio": "Automatización redes"
   }
 ]
