@@ -2902,5 +2902,149 @@
     "email": "Pranaestilonatural@gmail.com",
     "whatsapp": "+56945138334",
     "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Florería a Domicilio Calama",
+    "pais": "Chile",
+    "debilidad": "Florería cuya única presencia digital es una página de Facebook, sin sitio web propio ni catálogo online de arreglos florales",
+    "email": "sbautist@gmail.com",
+    "whatsapp": "+56993606775",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Mecánica Automotriz Valdivia",
+    "pais": "Chile",
+    "debilidad": "Taller de electricidad automotriz y scanner con servicio a domicilio; solo tiene página de Facebook (884 me gusta), sin sitio web ni sistema de agendamiento online",
+    "email": null,
+    "whatsapp": "+56987529209",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Kapone Barbería Antofagasta",
+    "pais": "Chile",
+    "debilidad": "Barbería con 3697 seguidores en Instagram que agenda solo vía widget externo de AgendaPro; sin sitio web propio ni identidad de marca centralizada",
+    "email": null,
+    "whatsapp": "+56984415824",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Veterinaria San Francisco Coyhaique",
+    "pais": "Chile",
+    "debilidad": "Clínica veterinaria sin sitio web propio; su única presencia digital es Facebook/Instagram, agenda de horas exclusivamente por WhatsApp",
+    "email": "Recepcionsanfranciscovet@gmail.com",
+    "whatsapp": "+56938654518",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "El Guatón Criollo Talca",
+    "pais": "Chile",
+    "debilidad": "Restaurante de comida típica chilena que toma pedidos únicamente por WhatsApp de forma manual, sin sitio web ni menú digital",
+    "email": null,
+    "whatsapp": "+56999108509",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Tiendita Melipilla",
+    "pais": "Chile",
+    "debilidad": "Tienda de ropa cuyo único sitio es una plantilla gratuita del constructor Ueniweb (tiendita-melipilla.ueniweb.com), sin dominio propio ni catálogo organizado",
+    "email": null,
+    "whatsapp": "+56932970939",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Clínica Veterinaria Los Andes",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; solo página de Facebook y reserva de horas exclusivamente por WhatsApp",
+    "email": null,
+    "whatsapp": "+56942802704",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Floristería Renylu San Fernando",
+    "pais": "Chile",
+    "debilidad": "Florería con presencia solo en Facebook/Instagram; pedidos a domicilio gestionados manualmente por teléfono, sin sitio web ni tienda online",
+    "email": null,
+    "whatsapp": "+56973382731",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "La Clandestina Pizzería Puerto Montt",
+    "pais": "Chile",
+    "debilidad": "Pizzería artesanal con dos locales en Puerto Montt cuya única presencia digital es Instagram; pedidos gestionados manualmente por WhatsApp, sin menú digital ni sitio web",
+    "email": null,
+    "whatsapp": "+56920768309",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Dra. Beatriz Schrag Loosli - Dermatóloga Iquique",
+    "pais": "Chile",
+    "debilidad": "Dermatóloga clínica y estética con 3685 seguidores en Instagram; sin sitio web propio para información de tratamientos ni agendamiento online",
+    "email": null,
+    "whatsapp": "+56932520916",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Estudio Jurídico Abogado Familia Viña",
+    "pais": "Chile",
+    "debilidad": "Estudio jurídico especializado en derecho de familia y penal con solo 600 seguidores en Instagram, sin sitio web propio",
+    "email": "abogadofamiliavina@gmail.com",
+    "whatsapp": "+56989339929",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Veterinaria Las Nieves Rengo",
+    "pais": "Chile",
+    "debilidad": "Clínica veterinaria que agenda horas exclusivamente por WhatsApp; sin sitio web propio, solo presencia en Facebook y directorios de terceros",
+    "email": null,
+    "whatsapp": "+56968713951",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "DERMASKIN Cusco",
+    "pais": "Perú",
+    "debilidad": "Centro de dermatología clínica, estética, láser y cirugía plástica con página de Facebook de 730 me gusta; sin sitio web propio, agenda citas por WhatsApp",
+    "email": null,
+    "whatsapp": "+51913977171",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "HappyDent Guayaquil",
+    "pais": "Ecuador",
+    "debilidad": "Consultorio dental cuya única presencia digital es una página de Facebook (@HappyDent.pagina.oficial); no se encontró sitio web propio, agenda solo por teléfono/WhatsApp",
+    "email": null,
+    "whatsapp": "+593959477818",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Dka Motors - Taller Automotriz Quito",
+    "pais": "Ecuador",
+    "debilidad": "Taller mecánico automotriz que opera solo con página de Facebook y WhatsApp, sin sitio web ni sistema de agendamiento online",
+    "email": null,
+    "whatsapp": "+593981586624",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "The Asian Salon San José",
+    "pais": "Costa Rica",
+    "debilidad": "Salón de belleza cuya única presencia digital es Instagram (@theasiansalon.cr); agenda citas exclusivamente por WhatsApp, sin sitio web propio",
+    "email": null,
+    "whatsapp": "+50688541068",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Tour Operador Antigua Gt",
+    "pais": "Guatemala",
+    "debilidad": "Operador turístico en Antigua Guatemala con 6193 seguidores en Instagram; coordina shuttles y tours exclusivamente por WhatsApp, sin sitio web propio para reservas",
+    "email": null,
+    "whatsapp": "+50242442148",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Joseph's Beauty Salon Asunción",
+    "pais": "Paraguay",
+    "debilidad": "Uno de los salones de belleza más importantes de Asunción; reservas gestionadas exclusivamente por WhatsApp, sin sitio web propio",
+    "email": null,
+    "whatsapp": "+595985576481",
+    "servicio": "Diseño Visual"
   }
 ]
