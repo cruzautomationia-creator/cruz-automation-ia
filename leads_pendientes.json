@@ -3046,5 +3046,101 @@
     "email": null,
     "whatsapp": "+595985576481",
     "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Joyería Silver Mayoristas",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web, solo Facebook con 1.890 me gusta como único canal de venta",
+    "email": null,
+    "whatsapp": "+56935881520",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Disfraces Activa",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio, tienda con catálogo solo por Facebook y contacto directo",
+    "email": "disfracesactiva@gmail.com",
+    "whatsapp": "+56989574243",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Carnicería y Rotisería Damas Osorno",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web, pedidos solo por Facebook y WhatsApp directo",
+    "email": null,
+    "whatsapp": "+56975327233",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Imago Psicóloga",
+    "pais": "Chile",
+    "debilidad": "Sitio web en plantilla gratuita Ueniweb (imago-psicologa.ueniweb.com), sin dominio propio",
+    "email": null,
+    "whatsapp": "+56983054914",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Salón Peinarte",
+    "pais": "Chile",
+    "debilidad": "Sitio web en plantilla gratuita Ueniweb (salon-peinarte.ueniweb.com), sin dominio propio",
+    "email": null,
+    "whatsapp": "+56997087633",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Studios Merry Nails",
+    "pais": "Chile",
+    "debilidad": "Sitio web en plantilla gratuita Ueniweb (studios-merry-nails.ueniweb.com), sin dominio propio",
+    "email": null,
+    "whatsapp": "+56981495719",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Abogada Chile",
+    "pais": "Chile",
+    "debilidad": "Sitio web en plantilla gratuita Ueniweb (abogada-chile.ueniweb.com), sin dominio propio ni marca personalizada",
+    "email": null,
+    "whatsapp": "+56983631709",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Cycles Aquea",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio, presencia solo en directorios y redes sociales",
+    "email": "cyclesaquea@gmail.com",
+    "whatsapp": null,
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Ba Estudio",
+    "pais": "México",
+    "debilidad": "Sitio web en plantilla gratuita Ueniweb (ba-estudio.ueniweb.com), sin dominio propio",
+    "email": null,
+    "whatsapp": "+528180783443",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Espacio Animal Petshop",
+    "pais": "Perú",
+    "debilidad": "Sitio web en plantilla gratuita Ueniweb (espacio-animal.ueniweb.com), sin dominio propio",
+    "email": null,
+    "whatsapp": "+51963990282",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Glamour Florería",
+    "pais": "Ecuador",
+    "debilidad": "Sin sitio web, pedidos exclusivos por WhatsApp, Instagram con 3.581 seguidores",
+    "email": "glamourfloreria@gmail.com",
+    "whatsapp": "+593995255881",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "La Parvita Restaurante",
+    "pais": "Panamá",
+    "debilidad": "Sitio web en plantilla gratuita Ueniweb (la-parvita.ueniweb.com), sin dominio propio",
+    "email": null,
+    "whatsapp": "+50763614747",
+    "servicio": "Web Corporativa"
   }
 ]
