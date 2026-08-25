@@ -3142,5 +3142,165 @@
     "email": null,
     "whatsapp": "+50763614747",
     "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Mecánica Castro",
+    "pais": "Chile",
+    "debilidad": "Su único sitio web es un subdominio gratuito de Wix (squecocelu.wixsite.com/mecanicacastro), sin dominio propio ni diseño profesional, y no se encontró Instagram activo del taller.",
+    "email": "mecanica1.castro@gmail.com",
+    "whatsapp": "+56922527638",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Contreras Roa y Asociados Estudio Jurídico",
+    "pais": "Chile",
+    "debilidad": "Opera con un sitio hecho en la plantilla gratuita Ueniweb (contrerasroayasociados.ueniweb.com), sin dominio propio .cl, lo que resta seriedad a un estudio de abogados en Ñuñoa.",
+    "email": "contreras.asociados.abogados@gmail.com",
+    "whatsapp": "+56996339285",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Patbascar Contratista General",
+    "pais": "Chile",
+    "debilidad": "Sitio en plantilla gratuita Ueniweb (patbascar.ueniweb.com), sin dominio propio, sin portafolio de obras ni presencia visible en redes sociales.",
+    "email": null,
+    "whatsapp": "+56931271811",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Yaffa Estética y Peluquería Unisex",
+    "pais": "Chile",
+    "debilidad": "Sitio web construido en plantilla gratuita Ueniweb (yaffa-estetica-y-peluqueria-unisex.ueniweb.com), sin dominio propio, en un salón ubicado en Las Condes.",
+    "email": null,
+    "whatsapp": "+56993598505",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Soggiorno Salón de Belleza",
+    "pais": "Chile",
+    "debilidad": "Sitio en plantilla gratuita Ueniweb (soggiorno.ueniweb.com), sin dominio propio, en local de Galería Castilla, Viña del Mar.",
+    "email": null,
+    "whatsapp": "+56991216940",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Óptica Aurus",
+    "pais": "Chile",
+    "debilidad": "Cuenta de Instagram @opticaaurus (Rancagua) con solo 282 seguidores y 58 publicaciones; no tiene sitio web propio, solo aparece en un directorio genérico (Polomap) y su Facebook.",
+    "email": null,
+    "whatsapp": "+56979109605",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Hostal Tante Puppe",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 152 me gusta (Puerto Varas); no tiene sitio web propio, solo figura en directorios turísticos de terceros (Sernatur, Interpatagonia, Trivago) y su único email de contacto es una cuenta Hotmail genérica.",
+    "email": "tantepuppe@hotmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Ferretería Ibar",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 284 me gusta (Angol); no tiene sitio web propio, solo aparece en directorios automáticos de terceros (ferreteriass.cl, InfoisInfo, datosdepega.cl) sin marca digital propia.",
+    "email": "ferreteriaibar@gmail.com",
+    "whatsapp": "+56966673127",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Gásfiter Chillán Maestro",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con apenas 110 me gusta (Chillán) y sin sitio web propio; toda su presencia digital se reduce a esa única página de Facebook.",
+    "email": null,
+    "whatsapp": "+56972590341",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Copito Estética (Peluquería Canina a Domicilio Rancagua)",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 286 me gusta (Rancagua), sin sitio web ni cuenta de Instagram activa identificable; servicio a domicilio que depende únicamente de esa página para captar clientes.",
+    "email": null,
+    "whatsapp": "+56968270588",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Taller Automotriz Premium Service",
+    "pais": "Perú",
+    "debilidad": "Su única presencia digital es una página de Facebook con apenas 41 seguidores, sin sitio web propio ni Instagram identificado; solo aparecen menciones de terceros en TikTok, no contenido propio.",
+    "email": null,
+    "whatsapp": "+51942840971",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Barbería VIP",
+    "pais": "Perú",
+    "debilidad": "Facebook con 749 me gusta y 436 visitas registradas (Av. Fernando Belaúnde 401, Chiclayo), pero sin Instagram identificado ni sitio web propio.",
+    "email": null,
+    "whatsapp": "+51963857258",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Agentes Inmobiliarios (Bucaramanga)",
+    "pais": "Colombia",
+    "debilidad": "Página de Facebook con 540 me gusta como único canal digital, sin sitio web propio; inmobiliarias competidoras de la misma ciudad (Avanzar Inmobiliaria, Vargas Asesores Inmobiliarios) sí cuentan con dominio propio.",
+    "email": null,
+    "whatsapp": "+573015114220",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "SABOR & ARTE Panadería - Pastelería",
+    "pais": "Ecuador",
+    "debilidad": "Panadería en Cuenca con solo 325 me gusta en Facebook y sin sitio web ni catálogo digital de productos; toda su venta depende de publicaciones esporádicas en esa única red.",
+    "email": "saboryartebakery@gmail.com",
+    "whatsapp": "+593991921232",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Pet Care Vet Clínica Veterinaria",
+    "pais": "México",
+    "debilidad": "Clínica veterinaria en Calle Acatlán 16, La Paz, Puebla, sin sitio web propio (solo listada en directorios de terceros como buscoveterinaria.com.mx); su Facebook tiene apenas 361 me gusta, muy por debajo de clínicas equivalentes en la misma ciudad.",
+    "email": null,
+    "whatsapp": "+522227144799",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "FEMME Peluquería & Estética",
+    "pais": "Argentina",
+    "debilidad": "Salón en San Miguel de Tucumán cuyo único canal digital verificado es una página de Facebook con 424 me gusta; no tiene Instagram identificado ni sitio web propio.",
+    "email": "brunocarrizocarrizo94@gmail.com",
+    "whatsapp": "+5493813400008",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Asunción Dental Clinic",
+    "pais": "Paraguay",
+    "debilidad": "Clínica con más de 20 años de trayectoria (Av. Choferes del Chaco 775, Asunción) que opera únicamente vía Instagram (@asunciondentalclinic, 1.360 seguidores) y Facebook; no se encontró sitio web propio pese a ofrecer implantes y ortodoncia.",
+    "email": null,
+    "whatsapp": "+595984536880",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Emergencia Odontológica Dra. Sonia Pernía",
+    "pais": "Venezuela",
+    "debilidad": "Consultorio de urgencias odontológicas en Las Acacias, Caracas, cuya única presencia web es un blog gratuito en odontoemergenciasccs.wordpress.com (subdominio de WordPress.com, sin dominio propio) más un perfil de Instagram.",
+    "email": null,
+    "whatsapp": "+584125539106",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Japebu Bienes Raíces",
+    "pais": "Bolivia",
+    "debilidad": "Inmobiliaria con 35 años en el mercado de Cochabamba (Edif. Santa María, Oquendo entre Venezuela y Federico Blanco); su dominio propio japebu.com no resuelve en DNS (sitio caído/inexistente, confirmado por intento de conexión directo).",
+    "email": null,
+    "whatsapp": "+59172233500",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Montana Barber Shop",
+    "pais": "El Salvador",
+    "debilidad": "Barbería en San Salvador con 2.605 me gusta en Facebook pero solo 24 personas hablando de esto (engagement muy bajo), sin cuenta de Instagram activa ni sitio web encontrados.",
+    "email": null,
+    "whatsapp": "+50371508903",
+    "servicio": "Diseño Visual"
   }
 ]
