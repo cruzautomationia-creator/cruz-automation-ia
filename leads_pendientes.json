@@ -3462,5 +3462,53 @@
     "email": null,
     "whatsapp": "+593963102400",
     "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Taller y Repuestos Jeraldo",
+    "pais": "Chile",
+    "debilidad": "Taller mecánico y venta de repuestos en Illapel (Ecuador 365); sin sitio web propio, solo ficha de Facebook",
+    "email": null,
+    "whatsapp": "+56532524493",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Cabañas Oasis de Pica",
+    "pais": "Chile",
+    "debilidad": "Cabañas en el oasis de Pica con 618 me gusta en Facebook y 761 seguidores en Instagram, muy por debajo de competidores directos en la misma localidad (10.800+ y 15.100+ me gusta); sin sitio web propio",
+    "email": null,
+    "whatsapp": "+56953367973",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "ANDES PET",
+    "pais": "Chile",
+    "debilidad": "Venta de alimentos para mascotas en Los Andes (Av. Chacay 294 local A) con página de Facebook de solo 475 me gusta; sin sitio web propio",
+    "email": "ventas.andespet@gmail.com",
+    "whatsapp": "+56952042318",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Ferretería Ferrelectric",
+    "pais": "Honduras",
+    "debilidad": "Página de Facebook con solo 93 me gusta e Instagram (@ferrelectric.ec) con 685 seguidores; sin sitio web propio",
+    "email": null,
+    "whatsapp": "+50496285067",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Taller Mecánico Automotriz A&R",
+    "pais": "Bolivia",
+    "debilidad": "Página de Facebook con solo 25 me gusta, sin sitio web (taller en La Paz)",
+    "email": null,
+    "whatsapp": "+59176591422",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Floristería La Rosa de Guadalupe",
+    "pais": "Venezuela",
+    "debilidad": "Página de Facebook con solo 24 me gusta, sin sitio web propio",
+    "email": "floristerialarosadeguadalupe@gmail.com",
+    "whatsapp": "+584242165396",
+    "servicio": "Automatización WhatsApp"
   }
 ]
