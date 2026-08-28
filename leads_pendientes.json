@@ -3510,5 +3510,133 @@
     "email": "floristerialarosadeguadalupe@gmail.com",
     "whatsapp": "+584242165396",
     "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Kehr Corredores de Seguros",
+    "pais": "Chile",
+    "debilidad": "Corredora de seguros en Temuco cuyo único sitio web es un subdominio gratuito de la plataforma UENI (kehr-corredores-de-seguros.ueniweb.com), sin dominio propio.",
+    "email": null,
+    "whatsapp": "+56942975541",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Mundo Turismo Agencia de Viajes",
+    "pais": "Chile",
+    "debilidad": "Agencia de viajes en Chillán que opera solo con un subdominio gratuito UENI (mundo-turismo-agencia-de-viajes.ueniweb.com), sin dominio propio ni identidad de marca online.",
+    "email": null,
+    "whatsapp": "+56978554575",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Kinesios Kinesiología y Rehabilitación",
+    "pais": "Chile",
+    "debilidad": "Centro de kinesiología en Linares (Centro Comercial Portofino) cuyo sitio es un subdominio gratuito UENI, sin web propia; agenda solo por WhatsApp.",
+    "email": "agendame@kinesioschile.com",
+    "whatsapp": "+56936329875",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Odontomedic CH Centro Clínico Dental",
+    "pais": "Chile",
+    "debilidad": "Clínica dental en Av. Manuel Montt, Santiago, con sitio alojado en subdominio gratuito de Wix (odontomedicch.wixsite.com), sin dominio propio.",
+    "email": "odontomedicch@outlook.com",
+    "whatsapp": "+56940159256",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Cabañas Oveja Negra",
+    "pais": "Chile",
+    "debilidad": "Alojamiento turístico en Puerto Montt (Diego Barros Arana 726) que solo tiene un sitio en subdominio gratuito de Wix (726blacksheep.wixsite.com/blacksheep), sin dominio propio ni motor de reservas.",
+    "email": "726blacksheep@gmail.com",
+    "whatsapp": "+56942824331",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Veterinaria Ankupay",
+    "pais": "Chile",
+    "debilidad": "Clínica veterinaria en Talca (Calle 4 Ote #1641) cuyo único sitio es un subdominio gratuito UENI, sin dominio propio.",
+    "email": "clinicaveterinariankupay@gmail.com",
+    "whatsapp": "+56962425090",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica de Estética María José Mazzaquiod",
+    "pais": "Chile",
+    "debilidad": "Clínica de estética en San Javier (Región del Maule) cuyo único sitio es un subdominio gratuito UENI, sin dominio propio.",
+    "email": null,
+    "whatsapp": "+56954254628",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Nutrición y Salud Rancagua",
+    "pais": "Chile",
+    "debilidad": "Consulta de nutriología en Rancagua (calle Estado 47) que solo cuenta con un subdominio gratuito UENI (nutricion-y-salud-2.ueniweb.com), sin dominio propio.",
+    "email": null,
+    "whatsapp": "+56991904274",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Jardín Infantil Andalen",
+    "pais": "Chile",
+    "debilidad": "Jardín infantil y sala cuna en Viña del Mar (Pasaje 1 #80, Gómez Carreño) cuyo único sitio es un subdominio gratuito UENI, sin dominio propio.",
+    "email": null,
+    "whatsapp": "+56967517288",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Óptica Online CL",
+    "pais": "Chile",
+    "debilidad": "Óptica en Santiago que opera únicamente con un subdominio gratuito UENI (opticaonline-cl.ueniweb.com), sin dominio propio ni tienda online formal.",
+    "email": null,
+    "whatsapp": "+56992045173",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Arquitecto Andrés Mozzatti - Estudio de Arquitectura",
+    "pais": "Argentina",
+    "debilidad": "Estudio de arquitectura en Rosario cuya única presencia web es una página gratuita en negocio.site (constructor automático de Google), sin dominio ni sitio corporativo propio.",
+    "email": "arq_mozzatti@yahoo.com.ar",
+    "whatsapp": "+5493415619387",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Dentz Clínica Dental",
+    "pais": "Guatemala",
+    "debilidad": "Clínica dental en Ciudad de Guatemala con más de 15 años de trayectoria pero solo presencia en negocio.site (sitio gratuito de Google), sin web propia.",
+    "email": null,
+    "whatsapp": "+50231026812",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Santa Fé de las Lajas Promotora Inmobiliaria",
+    "pais": "Panamá",
+    "debilidad": "Promotora inmobiliaria con proyecto activo en Chame (Panamá Oeste) cuya única presencia web es una página gratuita negocio.site, sin sitio propio.",
+    "email": null,
+    "whatsapp": "+5076670920",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Veterinaria K-nine",
+    "pais": "Honduras",
+    "debilidad": "Clínica veterinaria en Comayagua cuya única web es una página gratuita negocio.site, sin dominio propio.",
+    "email": null,
+    "whatsapp": "+50498555524",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Dystec Dental Clinic",
+    "pais": "República Dominicana",
+    "debilidad": "Clínica odontológica en Santo Domingo con presencia web limitada a una página gratuita negocio.site, sin sitio corporativo propio.",
+    "email": null,
+    "whatsapp": "+18096851223",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Espacio HD Agencia Inmobiliaria",
+    "pais": "México",
+    "debilidad": "Agencia inmobiliaria en Álvaro Obregón, Ciudad de México, sin sitio web propio: solo cuenta con una página gratuita negocio.site.",
+    "email": null,
+    "whatsapp": "+525554149366",
+    "servicio": "Web Corporativa"
   }
 ]
