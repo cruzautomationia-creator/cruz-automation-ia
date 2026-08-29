@@ -3638,5 +3638,149 @@
     "email": null,
     "whatsapp": "+525554149366",
     "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Pet's 4 Patitas",
+    "pais": "Chile",
+    "debilidad": "Farmacia veterinaria en San Vicente de Tagua Tagua con página de Facebook de solo 28 me gusta y sin sitio web propio, solo listada en directorios de terceros para despacho a domicilio",
+    "email": null,
+    "whatsapp": "+56942968325",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Constructora FLC",
+    "pais": "Chile",
+    "debilidad": "Constructora sin sitio web propio; única presencia digital es una página de Facebook con solo 26 me gusta, usando correo Gmail genérico como único canal de contacto",
+    "email": "constructoraflc@gmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Mi Pinceladas (Sala Cuna y Jardín Infantil)",
+    "pais": "Chile",
+    "debilidad": "Sitio antiguo abandonado en subdominio gratuito de Wix que compite en buscadores con su dominio actual, generando confusión; sin redes sociales activas verificables",
+    "email": "direccion.pinceladas@gmail.com",
+    "whatsapp": "+56968136060",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Rocío Rojas Abogada",
+    "pais": "Chile",
+    "debilidad": "Sitio con páginas casi duplicadas por ciudad/trámite, plantilla SEO genérica de bajo costo sin identidad de marca propia; sin redes sociales profesionales activas verificables",
+    "email": "rojasorregor@gmail.com",
+    "whatsapp": "+56965963143",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Cafetería y Hostal Sur y Magia",
+    "pais": "Chile",
+    "debilidad": "Hostal listado en Booking, TripAdvisor y Sernatur pero con página de Facebook de solo ~35 me gusta, presencia social casi inexistente para un negocio que depende de reservas online",
+    "email": null,
+    "whatsapp": "+56985458993",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "S&C Corretaje",
+    "pais": "Chile",
+    "debilidad": "Inmobiliaria cuyo dominio propio syccorretaje.cl no resuelve (dominio caído) y cuya página de Facebook tiene solo 343 me gusta, sin sitio web funcional",
+    "email": "p.2894carcat54@gmail.com",
+    "whatsapp": "+56999791484",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Veterinaria Patagonia Móvil",
+    "pais": "Chile",
+    "debilidad": "Servicio veterinario a domicilio con alta demanda de agendamiento manual; dominio vetmovilpatagonia.cl no resuelve (caído) y Facebook con solo 381 me gusta, sin sitio operativo",
+    "email": "vetmovilpatagonia@gmail.com",
+    "whatsapp": "+56995546142",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Jardín Infantil y Sala Cuna Gotitas de Vida",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; toda su presencia digital es una página de Facebook con solo 301 me gusta, sin catálogo/información de matrícula online",
+    "email": "comitejardingotitasdevida@hotmail.com",
+    "whatsapp": "+56956681507",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Oscar Llanos - Contador Público y Auditor",
+    "pais": "Chile",
+    "debilidad": "Sitio web sobre plataforma gratuita Webnode (contadorestemuco.webnode.cl), sin dominio propio ni diseño profesional",
+    "email": null,
+    "whatsapp": "+56984186164",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Multi Menú Arica",
+    "pais": "Chile",
+    "debilidad": "Servicio de almuerzos/delivery con convenios a empresas; página de Facebook con solo 397 me gusta y más de 9 meses sin publicaciones, sin canal de pedidos por WhatsApp automatizado ni sitio web propio",
+    "email": "multimenuarica@gmail.com",
+    "whatsapp": "+56934855224",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Sabores Caseros",
+    "pais": "Chile",
+    "debilidad": "Local de comida variada en Chañaral con página de Facebook de solo 376 me gusta y presencia en Instagram fragmentada en varias cuentas sin consolidar, sin sitio web",
+    "email": null,
+    "whatsapp": "+56988382709",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Cafetería Guanaqueros café",
+    "pais": "Chile",
+    "debilidad": "Cafetería boutique de pastelería artesanal con página de Facebook de 700 me gusta pero solo 14 personas hablando de esto (engagement muy bajo, página casi inactiva), sin sitio web propio",
+    "email": "cafeteriaguanaqueroscafe@gmail.com",
+    "whatsapp": "+56997318235",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Diner Food Truck",
+    "pais": "Chile",
+    "debilidad": "Food truck en Antofagasta que depende exclusivamente de comisiones de Uber Eats/Rappi/PedidosYa para pedidos; página de Facebook con solo 555 me gusta y sin canal propio de pedidos por WhatsApp",
+    "email": null,
+    "whatsapp": "+56930550952",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Clínica Dental Especializada San José",
+    "pais": "Nicaragua",
+    "debilidad": "Página de Facebook con solo 765 me gusta y sin sitio web propio, solo presencia en Facebook/Instagram",
+    "email": null,
+    "whatsapp": "+50577071895",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Veterinaria Vida Animal",
+    "pais": "Honduras",
+    "debilidad": "Sin sitio web propio; atención y agenda gestionadas solo por Facebook (2402 me gusta) e Instagram",
+    "email": null,
+    "whatsapp": "+50489333375",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Veterinaria Patas y Huellas",
+    "pais": "Panamá",
+    "debilidad": "Opera servicio de urgencias 24h sin sitio web moderno propio identificable; presencia limitada a Facebook/Instagram",
+    "email": "patasyhuellas@vetpatasyhuellas.com",
+    "whatsapp": "+50762840188",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Dental Medica GDL",
+    "pais": "México",
+    "debilidad": "Página de Facebook con solo 47 me gusta, sin sitio web propio dedicado a la clínica",
+    "email": "odontologia.gdl@medicadelaciudad.com",
+    "whatsapp": "+523338831080",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Asunción Inmobiliaria",
+    "pais": "Paraguay",
+    "debilidad": "Página de Facebook con únicamente 7 me gusta, sin sitio web propio",
+    "email": "e_juridico_asuncion@hotmail.com",
+    "whatsapp": "+59521498637",
+    "servicio": "Web Corporativa"
   }
 ]
