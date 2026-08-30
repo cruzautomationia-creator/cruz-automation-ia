@@ -3782,5 +3782,101 @@
     "email": "e_juridico_asuncion@hotmail.com",
     "whatsapp": "+59521498637",
     "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Ghetto Tattoo",
+    "pais": "Chile",
+    "debilidad": "Su dominio propio ghettotattoo.cl ya no muestra contenido de tatuajes (título indexado 'Los mejores suplementos y precios'), sitio roto/con contenido irrelevante; presencia real vive solo en Instagram y Facebook sin sitio funcional",
+    "email": "supplyinktattoo@gmail.com",
+    "whatsapp": "+56932060141",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Muebleria.mt",
+    "pais": "Chile",
+    "debilidad": "Fábrica de sofás (venta mayorista y detalle) en Santiago que opera únicamente vía Facebook (facebook.com/Muebleria.mt1), sin sitio web propio ni catálogo online",
+    "email": "muebleria.mt@gmail.com",
+    "whatsapp": "+56965740496",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Contador Iquique",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 50 me gusta y última publicación de marzo de 2024 (más de 2 años de inactividad); sin sitio web propio para servicio de constitución de empresas y asesoría contable/tributaria",
+    "email": null,
+    "whatsapp": "+56952150017",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Estética integral (Constanza)",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook en Rancagua con solo 127 me gusta, muy por debajo de competidores directos de la misma ciudad (325 a 17.092 me gusta); sin sitio web propio, agenda solo por WhatsApp/Facebook",
+    "email": null,
+    "whatsapp": "+56944820881",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Agencia TSX Viajes Oficial",
+    "pais": "Chile",
+    "debilidad": "Agencia de turismo en Pucón con solo 69 me gusta en Facebook frente a otras agencias de la comuna con 635 a más de 69.000 me gusta; no aparece con sitio web propio en directorios de turismo de Pucón",
+    "email": null,
+    "whatsapp": "+56983508687",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Raquel Lorca Propiedades",
+    "pais": "Chile",
+    "debilidad": "Corredora de propiedades en Iquique con página de Facebook de solo 352 me gusta, considerablemente menor que otras corredoras de la misma ciudad (824 a 7.725 me gusta); sin sitio web propio",
+    "email": null,
+    "whatsapp": "+56994543542",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Joyas Cid",
+    "pais": "Chile",
+    "debilidad": "Joyería de plata en La Serena con página de Facebook de solo 95 me gusta, muy por debajo de otras joyerías de la misma ciudad (180 a 1.265 me gusta); sin sitio web ni tienda online",
+    "email": null,
+    "whatsapp": "+56931929365",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Architectural Studio",
+    "pais": "Perú",
+    "debilidad": "Su sitio web oficial architectural.pe (anunciado en su propia ficha de Facebook) no resuelve, dominio caído/inexistente; su Facebook tiene solo 566 me gusta",
+    "email": "studio@architectural.pe",
+    "whatsapp": "+51446133930",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "GRCHMovil",
+    "pais": "Bolivia",
+    "debilidad": "Tienda de reparación de móviles en La Paz con página de Facebook de solo 550 me gusta, sin sitio web propio, presencia digital limitada a esa única página",
+    "email": null,
+    "whatsapp": "+59169948838",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Taller de Joyería Servín",
+    "pais": "México",
+    "debilidad": "Facebook con 960 me gusta pero solo 2 personas hablando de esto (interacción prácticamente nula); sin sitio web propio ni presencia de e-commerce",
+    "email": null,
+    "whatsapp": "+524426122034",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Óptica (Optica.valencia)",
+    "pais": "Venezuela",
+    "debilidad": "Página de Facebook con apenas 293 me gusta y solo 1 persona hablando de esto; negocio de más de 30 años operando solo con esa ficha, sin sitio web",
+    "email": null,
+    "whatsapp": "+584140984068",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Escuela De Choferes Juan Carlos",
+    "pais": "República Dominicana",
+    "debilidad": "Negocio con más de 45 años de trayectoria pero sin sitio web propio; su Facebook tiene solo 916 me gusta, dependiendo únicamente de Instagram/Facebook para captar alumnos",
+    "email": null,
+    "whatsapp": "+18099717630",
+    "servicio": "Automatización WhatsApp"
   }
 ]
