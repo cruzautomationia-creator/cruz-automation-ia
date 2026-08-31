@@ -3878,5 +3878,133 @@
     "email": null,
     "whatsapp": "+18099717630",
     "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Puerto Pet Clínica Veterinaria",
+    "pais": "Chile",
+    "debilidad": "Sitio puertopetvalpo.cl es una landing estática de una sola página (URL con ancla index.html#clients1-2j), típica de plantillas básicas antiguas, sin blog ni secciones dinámicas",
+    "email": null,
+    "whatsapp": "+56941297269",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Ascencio Abogados & Cía (Abogado Laboral Concepción)",
+    "pais": "Chile",
+    "debilidad": "Pese a tener sitio propio ascencioycia.cl, su página de Facebook 'Abogado Laboral Concepcion' registra apenas 22 me gusta, presencia en redes prácticamente inexistente",
+    "email": "contacto@ascencioycia.cl",
+    "whatsapp": "+56930204387",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Patricia Chible Corretajes",
+    "pais": "Chile",
+    "debilidad": "Corredora unipersonal que usa una cuenta de Gmail personal como contacto comercial principal en vez de correo con dominio propio, sin identidad visual profesional",
+    "email": "pchiblecontreras@gmail.com",
+    "whatsapp": "+56989001524",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Asprintec (Arquitectura, Ingeniería y Construcción)",
+    "pais": "Chile",
+    "debilidad": "Tiene dominio propio asprintec.cl pero usa casilla de Gmail genérica como correo de contacto principal, inconsistencia que resta profesionalismo a su imagen digital",
+    "email": "asprintec@gmail.com",
+    "whatsapp": "+56972944609",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Jardín Infantil Eluney",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio; única presencia digital es Facebook con 387 me gusta y contacto vía correo Gmail genérico, sin dominio institucional pese a ser jardín infantil pagado",
+    "email": "Jieluney@gmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "HYE Contadores Auditores Ltda.",
+    "pais": "Chile",
+    "debilidad": "Opera desde 2015 pero no tiene perfil de Instagram ni Facebook propio en múltiples búsquedas dirigidas; alcance digital limitado a sitio institucional básico sin actividad en redes",
+    "email": null,
+    "whatsapp": "+56989756736",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Cabañas Casa de Campo",
+    "pais": "Chile",
+    "debilidad": "Alojamiento turístico en La Serena sin sitio web propio (solo aparece en agregadores como Booking); canal principal es Instagram @cabanascasadecampo con 2.010 seguidores",
+    "email": "casadecamporuta5@gmail.com",
+    "whatsapp": "+56982194822",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Cabañas Isla Mágica",
+    "pais": "Chile",
+    "debilidad": "Cabañas de turismo en Ancud, Chiloé (Instagram @islamagicaancud, 2.609 seguidores) que reservan solo por WhatsApp/Instagram, sin sitio web propio pese a ser negocio de alojamiento turístico",
+    "email": null,
+    "whatsapp": "+56951796568",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "La Pica de Los Tatas",
+    "pais": "Chile",
+    "debilidad": "Restaurante familiar en Molina (ganador Mejor Empanada de Molina 2025) con presencia digital muy débil: Instagram con solo 127 seguidores, sin sitio web propio, solo Facebook y ficha de Tripadvisor",
+    "email": "claudia.montecinos@hotmail.com",
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Clínica Veterinaria San Bernardo",
+    "pais": "Perú",
+    "debilidad": "Solo presencia en Facebook (~446 likes) y listados en directorios (Páginas Amarillas Perú, PlanetaPeru); no se encontró sitio web propio",
+    "email": "karivet@hotmail.com",
+    "whatsapp": "+51949855015",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Barbería La Heroica",
+    "pais": "El Salvador",
+    "debilidad": "Opera solo con Facebook e Instagram; no tiene sitio web propio, únicamente contacto telefónico y por redes",
+    "email": "corte.barba.sa@gmail.com",
+    "whatsapp": "+50375503642",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Clínica Dental Pro Salud Bucal",
+    "pais": "Costa Rica",
+    "debilidad": "No tiene sitio web propio; solo aparece en Facebook, Waze y el directorio HuliHealth, con un enlace genérico wa.link como único canal de contacto digital",
+    "email": null,
+    "whatsapp": "+50688181772",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Barbería Bonito y Bello",
+    "pais": "Paraguay",
+    "debilidad": "No se encontró sitio web ni página de Facebook propia identificable; solo aparece en directorios locales de barberías de Asunción con WhatsApp como único contacto",
+    "email": null,
+    "whatsapp": "+595992011111",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Fabulous Boutique",
+    "pais": "Bolivia",
+    "debilidad": "Vende su catálogo de ropa (vestidos, chaquetas, accesorios) exclusivamente por Facebook y WhatsApp; no tiene tienda online ni sitio web propio",
+    "email": "fabulous.ropa.exclusiva@gmail.com",
+    "whatsapp": "+59167545647",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Peluquería Canina Ody",
+    "pais": "Argentina",
+    "debilidad": "Presencia únicamente en Facebook; no tiene sitio web, solo aparece listada en directorios (Páginas Amarillas Argentina, Rosario.com.ar)",
+    "email": null,
+    "whatsapp": "+5493413055301",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Clínica Veterinaria Los Cachorros",
+    "pais": "Guatemala",
+    "debilidad": "No tiene sitio web ni presencia visible en redes sociales propias; solo aparece listada en directorios locales (AditelGT, GuiaGT, AquiEnGuate) con correo de Hotmail como contacto",
+    "email": "cuper_cc@hotmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
   }
 ]
