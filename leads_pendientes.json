@@ -4006,5 +4006,165 @@
     "email": "cuper_cc@hotmail.com",
     "whatsapp": null,
     "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Automotriz S.S.",
+    "pais": "Chile",
+    "debilidad": "No cuenta con sitio web propio; toda su presencia digital es una página de Facebook (Galvarino 2092, Concepción) sin catálogo de servicios ni reservas online",
+    "email": null,
+    "whatsapp": "+56986320694",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Lavandería La Solución",
+    "pais": "Chile",
+    "debilidad": "Lleva más de 10 años operando sin sitio web propio; su único contacto digital es Facebook y un correo Gmail personal",
+    "email": "lavanderialasolucion@gmail.com",
+    "whatsapp": "+56991630945",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Imprenta Golondrina",
+    "pais": "Chile",
+    "debilidad": "Con más de 30 años de trayectoria, mantiene dos páginas de Facebook distintas y sin coordinar (imprentagolondrina e imprentagolondrina289) y no tiene sitio web propio",
+    "email": null,
+    "whatsapp": "+56986490140",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Óptica Escalada",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio; su único contacto público es un correo Hotmail y una página de Facebook sin catálogo de productos",
+    "email": "opticaescalada_220@hotmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Newcicle",
+    "pais": "Chile",
+    "debilidad": "Su sitio web está construido en la plantilla gratuita Ueniweb (newcicle.ueniweb.com), sin dominio propio, diseño genérico y con información mínima de servicios",
+    "email": null,
+    "whatsapp": "+56968188238",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Agencia de Informaciones y Servicios Turísticos",
+    "pais": "Chile",
+    "debilidad": "Su sitio web listado (turismopucon.com) no resuelve/está caído pese a tener más de 20 años de trayectoria en turismo aventura; solo queda operativa su página de Facebook",
+    "email": "Gaetekimberly@yahoo.com",
+    "whatsapp": "+56996535744",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Vidriería Iquique",
+    "pais": "Chile",
+    "debilidad": "No cuenta con sitio web propio; solo aparece en Facebook con contacto vía Gmail personal, sin catálogo de productos ni cotizador online",
+    "email": "e.maza@gmail.com",
+    "whatsapp": "+56998595004",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Don Pizza Chillán",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web ni sistema de pedidos online; opera solo por Facebook y un correo Gmail, sin automatización de pedidos por WhatsApp",
+    "email": "Donpizzachillan@gmail.com",
+    "whatsapp": "+56982244682",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Muebles Vikings",
+    "pais": "Chile",
+    "debilidad": "Empresa con 50 años de trayectoria sin sitio web propio; su único contacto digital es Facebook/Instagram y un correo Gmail, sin catálogo online de productos",
+    "email": "losmueblesvikings@gmail.com",
+    "whatsapp": null,
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Box Nahuen",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio; su única presencia digital es un listado en el directorio AgendaPro y un correo Gmail, sin sistema propio de reserva de clases",
+    "email": "boxnahuen@gmail.com",
+    "whatsapp": "+56981543682",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Confección y Estampado Soole",
+    "pais": "Chile",
+    "debilidad": "Su sitio web (confecciones-soole.ueniweb.com) es una plantilla gratuita genérica de Ueniweb, sin dominio propio ni fotos reales de sus productos deportivos",
+    "email": null,
+    "whatsapp": "+56999915690",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Kurü Tattoo Valdivia",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio; solo Facebook y un correo Gmail, sin portafolio profesional online de sus trabajos de tatuaje",
+    "email": "tattokuru@gmail.com",
+    "whatsapp": "+56932398744",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Mecánica Automotriz HHG",
+    "pais": "Perú",
+    "debilidad": "No cuenta con sitio web propio; solo página de Facebook con contacto vía Gmail, sin catálogo de servicios ni agenda online",
+    "email": "automotrizhhg@gmail.com",
+    "whatsapp": "+51997644256",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Providencia Pan",
+    "pais": "Argentina",
+    "debilidad": "Panadería de masa madre sin sitio web propio; su único contacto digital es Facebook y un correo Gmail",
+    "email": "providenciamasamadre@gmail.com",
+    "whatsapp": "+5493412782214",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Mechuditos Dog",
+    "pais": "Colombia",
+    "debilidad": "Peluquería canina a domicilio sin sitio web propio; opera solo mediante un video de presentación en Facebook y WhatsApp, sin sistema de reservas online",
+    "email": null,
+    "whatsapp": "+573112839365",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Panadería Confitería Nueva Paso de la Arena",
+    "pais": "Uruguay",
+    "debilidad": "Panadería familiar con más de 100 años de historia sin sitio web propio; su único contacto digital es Facebook y un correo Hotmail",
+    "email": "confiteriapasodelaarena@hotmail.com",
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Taller Arreglos De Costura",
+    "pais": "España",
+    "debilidad": "No tiene sitio web propio; solo aparece en directorios de servicios con contacto por correo Hotmail",
+    "email": "masell63@hotmail.es",
+    "whatsapp": "+34617343664",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Servicio Automotriz GCGroup",
+    "pais": "Ecuador",
+    "debilidad": "Su sitio web está construido en Carrd (servicioautomotrizbygcgroup.carrd.co), una plantilla gratuita de una sola página, sin dominio propio ni información completa de servicios",
+    "email": null,
+    "whatsapp": "+593987555808",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Miami Elite Barber Studio",
+    "pais": "Estados Unidos",
+    "debilidad": "No tiene sitio web propio; solo presencia en Facebook e Instagram, con contacto por correo Outlook",
+    "email": "MiamiEliteBarberStudio@outlook.com",
+    "whatsapp": null,
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Dog's Garden Grooming & Spa",
+    "pais": "México",
+    "debilidad": "No tiene sitio web propio; solo Facebook con contacto vía Hotmail, sin sistema de reservas online para citas de grooming",
+    "email": "dogsgardenpuebla@hotmail.com",
+    "whatsapp": null,
+    "servicio": "Automatización WhatsApp"
   }
 ]
