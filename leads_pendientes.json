@@ -4238,5 +4238,125 @@
     "email": null,
     "whatsapp": "+50768462756",
     "servicio": "Landing Page"
+  },
+  {
+    "nombre": "QuillotaVet Veterinaria",
+    "pais": "Chile",
+    "debilidad": "Clínica veterinaria en Quillota sin sitio web propio; su única presencia digital es Instagram (@quillotavet.veterinaria), a diferencia de competidores locales como Hospital Clínico Veterinario Quillota que sí tienen dominio propio",
+    "email": "quillotavet@gmail.com",
+    "whatsapp": "+56988312399",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Panadería y Pastelería Lucy",
+    "pais": "Chile",
+    "debilidad": "Panadería en Ovalle con Instagram de solo 214 seguidores, sin catálogo digital ni automatización de pedidos pese a operar activamente",
+    "email": "panaderia.lucy.ov@gmail.com",
+    "whatsapp": "+56532490549",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Amasandería y Pastelería Don Moisés",
+    "pais": "Chile",
+    "debilidad": "Amasandería en Ovalle cuyos pedidos se gestionan manualmente por WhatsApp personal, sin catálogo digital ni sistema de pedidos automatizado",
+    "email": null,
+    "whatsapp": "+56992511116",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Gasfitería y Calefacción Puerto Varas",
+    "pais": "Chile",
+    "debilidad": "Servicio de gasfitería y calefacción en Puerto Varas cuyo único canal de contacto es WhatsApp, sin sitio web ni sistema de agendamiento online",
+    "email": null,
+    "whatsapp": "+56997649175",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Servicios Handyman Puerto Varas",
+    "pais": "Chile",
+    "debilidad": "Servicio de gasfitería y jardinería a domicilio en Puerto Varas que coordina todo manualmente por WhatsApp, sin sitio web ni catálogo de servicios",
+    "email": null,
+    "whatsapp": "+56982994919",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Gasfiter Puerto Montt (Instagram)",
+    "pais": "Chile",
+    "debilidad": "Servicio de reparación de calefones y gasfitería cuya única presencia digital es una cuenta de Instagram (@gasfiter.puertomontt), sin sitio web ni sistema de agendamiento",
+    "email": null,
+    "whatsapp": "+56965556356",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Abogada Melipilla (Camila Valdebenito)",
+    "pais": "Chile",
+    "debilidad": "Abogada independiente en Melipilla cuya única presencia digital es una página de Facebook (fb.me/abogadamelipilla), sin sitio web propio",
+    "email": null,
+    "whatsapp": "+56954154426",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Dental Salud Oral Linares",
+    "pais": "Chile",
+    "debilidad": "Clínica dental en Linares cuya única presencia digital es Instagram (@saludorallinares), sin sitio web propio para agendamiento ni información de tratamientos",
+    "email": null,
+    "whatsapp": "+56994001421",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Integral Linares",
+    "pais": "Chile",
+    "debilidad": "Clínica dental en Mario Dueñas 611, Linares, cuya única presencia digital es Instagram (@clinica.integral.linares), sin sitio web propio pese a competir con otras clínicas dentales de la zona que sí tienen dominio propio",
+    "email": null,
+    "whatsapp": "+56969026820",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Taller Mecánico Don Juan Herrera",
+    "pais": "Chile",
+    "debilidad": "Taller mecánico en Chillán cuyo único canal de contacto es WhatsApp, sin sitio web ni sistema de agendamiento online",
+    "email": null,
+    "whatsapp": "+56997139821",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Ride Service Chile (taller de motos)",
+    "pais": "Chile",
+    "debilidad": "Taller de reparación de motos en Chillán Viejo cuyo único canal de contacto es WhatsApp, sin sitio web ni catálogo de servicios",
+    "email": null,
+    "whatsapp": "+56952301761",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Hangar Mecánica Chillán",
+    "pais": "Chile",
+    "debilidad": "Taller mecánico en Santa Blanca, Chillán, cuyo único canal de contacto es teléfono/WhatsApp, sin sitio web ni sistema de agendamiento online",
+    "email": null,
+    "whatsapp": "+56973692350",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Veterinaria Trinidad",
+    "pais": "Perú",
+    "debilidad": "Clínica veterinaria en Trujillo (pasaje Los Mirlos #155, Urb. Los Pinos) cuya única presencia digital es una página de Facebook, sin sitio web propio para agendamiento",
+    "email": null,
+    "whatsapp": "+51942243214",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Floristería Tuti",
+    "pais": "Colombia",
+    "debilidad": "Floristería en Bogotá con Instagram de solo 1.225 seguidores (@floristeriatuti), sin sitio web ni catálogo digital organizado; toma pedidos manualmente por WhatsApp",
+    "email": null,
+    "whatsapp": "+573108017983",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "LH Barbería",
+    "pais": "Ecuador",
+    "debilidad": "Barbería en Quito que agenda citas exclusivamente por WhatsApp, sin sitio web ni presencia relevante en redes sociales",
+    "email": null,
+    "whatsapp": "+593995646830",
+    "servicio": "Landing Page"
   }
 ]
