@@ -4358,5 +4358,165 @@
     "email": null,
     "whatsapp": "+593995646830",
     "servicio": "Landing Page"
+  },
+  {
+    "nombre": "García Corretaje de Propiedades",
+    "pais": "Chile",
+    "debilidad": "Corredora de propiedades en Curicó (más de años de trayectoria) sin sitio web propio; su única presencia digital es Instagram @garciacorretajes_ y contacto directo por WhatsApp/email",
+    "email": "garciacorretajes@gmail.com",
+    "whatsapp": "+56981341832",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Gimnasio Valle San Eugenio",
+    "pais": "Chile",
+    "debilidad": "Gimnasio de barrio en Talcahuano (Pasaje 17 casa 5823, Valle San Eugenio) sin sitio web; toda su presencia digital es Instagram @gimnasiovalle, sin sistema de inscripción o reserva de clases online",
+    "email": null,
+    "whatsapp": "+56968995334",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Spa de Toy (Peluquería Canina)",
+    "pais": "Chile",
+    "debilidad": "Peluquería canina en Villa Alemana sin sitio web propio; su única presencia digital es Instagram @spadetoy, sin catálogo de servicios organizado",
+    "email": null,
+    "whatsapp": "+56956338788",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Floristería Alejandra Quillota",
+    "pais": "Chile",
+    "debilidad": "Florería con más de 25 años de trayectoria en Blanco Encalada 129, Quillota; su dominio floristeriaalejandraquillota.cl muestra únicamente una página de contraseña (/password/), sin sitio funcional accesible al público",
+    "email": "floristeriaalejandraquillota@gmail.com",
+    "whatsapp": "+56985041029",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Jardín Infantil Tiramisú",
+    "pais": "Chile",
+    "debilidad": "Jardín infantil en Talca sin sitio web propio; su única presencia digital es Instagram @tiramisujardin, sin información de matrícula ni proyecto educativo accesible online",
+    "email": null,
+    "whatsapp": "+56999496760",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Kids Home Talca",
+    "pais": "Chile",
+    "debilidad": "Jardín infantil y after school kids home en Talca sin sitio web propio; su única presencia digital es Instagram @kidshometalca",
+    "email": null,
+    "whatsapp": "+56934089872",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Tigo Tapicería Automotriz",
+    "pais": "Chile",
+    "debilidad": "Taller de tapicería automotriz en Rancagua sin sitio web propio; su única presencia digital es Instagram @tigotapiceria",
+    "email": null,
+    "whatsapp": "+56986256938",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Cerrajería Araucaria",
+    "pais": "Chile",
+    "debilidad": "Cerrajero en Valdivia con 4.046 seguidores en Instagram (@cerrajeriaaraucaria) pero sin sitio web propio ni sistema de agendamiento, dependiendo solo de WhatsApp",
+    "email": null,
+    "whatsapp": "+56968275709",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Ruta 66 Food Truck Concepción",
+    "pais": "Chile",
+    "debilidad": "Food truck en Los Lirios 310, Concepción, cuya única presencia digital es Instagram @foodtruck_ruta66, pedidos coordinados manualmente por WhatsApp sin sistema de pedidos online",
+    "email": null,
+    "whatsapp": "+56963185495",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Peluquería Canina Rancagua (Perruquería)",
+    "pais": "Chile",
+    "debilidad": "Peluquería canina en Calle Calama, Villa Nelson Pereira, Rancagua, sin sitio web propio; su única presencia digital es Instagram @perruqueriarancagua",
+    "email": null,
+    "whatsapp": "+56942393592",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Alma Odontología",
+    "pais": "Chile",
+    "debilidad": "Clínica dental en Av. Manuel Peñafiel Olivares #1480 Of 317, Ovalle, sin sitio web propio (a diferencia de otras clínicas dentales de Ovalle que sí tienen dominio propio); solo Instagram y WhatsApp",
+    "email": null,
+    "whatsapp": "+56948904921",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Centro Veterinario Libertad",
+    "pais": "Chile",
+    "debilidad": "Clínica veterinaria en Libertad 469, San Antonio, que ofrece consultas, vacunas y cirugías; sin sitio web propio, solo contacto por teléfono/WhatsApp",
+    "email": null,
+    "whatsapp": "+56957469792",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Servicio Automotriz OS Garage Ltda",
+    "pais": "Chile",
+    "debilidad": "Taller mecánico multimarca en Diagonal 23 y media Norte D 35, Talca, sin sitio web propio; agenda y consultas solo por WhatsApp e Instagram",
+    "email": null,
+    "whatsapp": "+56981810472",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Vet City Panamá",
+    "pais": "Panamá",
+    "debilidad": "Clínica veterinaria en Ciudad de Panamá con 1.580 seguidores en Instagram (@vetcitypty) dirigida por el Dr. Jean Carlos Pineda, sin sitio web propio para agendamiento",
+    "email": null,
+    "whatsapp": "+50769474539",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Salón de Belleza Flert",
+    "pais": "El Salvador",
+    "debilidad": "Cadena de salones de belleza en El Salvador (Instagram @flert.sv) sin sitio web propio, solo contacto telefónico y WhatsApp",
+    "email": null,
+    "whatsapp": "+50375662378",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Jazba Automotriz",
+    "pais": "Perú",
+    "debilidad": "Taller mecánico en Parque Industrial, Wanchaq, Cusco, sin sitio web propio; único canal de contacto es WhatsApp",
+    "email": null,
+    "whatsapp": "+51957085927",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Odontología Bioestética",
+    "pais": "Bolivia",
+    "debilidad": "Clínica dental en Calle Tupac Amaru Nro 1827, Cochabamba, sin sitio web propio; contacto solo por teléfono y WhatsApp",
+    "email": null,
+    "whatsapp": "+59165722821",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Orthodontics Clínica Dental Trujillo",
+    "pais": "Perú",
+    "debilidad": "Clínica dental especializada en ortodoncia y estética dental en Trujillo con solo 641 seguidores en Instagram (@orthodontics.trujillo), sin sitio web propio",
+    "email": null,
+    "whatsapp": "+51970399960",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Jose Vargas Studio de Belleza",
+    "pais": "Ecuador",
+    "debilidad": "Salón de belleza en Guayaquil (peluquería, spa, uñas, maquillaje y cejas) sin sitio web propio; solo presencia en Facebook y WhatsApp",
+    "email": null,
+    "whatsapp": "+593996778926",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Inmobiliaria Sanchez JDN",
+    "pais": "Colombia",
+    "debilidad": "Inmobiliaria con 20 años de trayectoria en Barranquilla (venta, arriendo y avalúos) sin sitio web propio; su única presencia digital es Instagram @inmobiliaria.sanchezjdn",
+    "email": null,
+    "whatsapp": "+573013643949",
+    "servicio": "Web Corporativa"
   }
 ]
