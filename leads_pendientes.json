@@ -4518,5 +4518,149 @@
     "email": null,
     "whatsapp": "+573013643949",
     "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Gasfitería Temuco y Padre Las Casas",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 26 me gusta y 30 seguidores, sin sitio web, coordinación de servicios de gasfitería solo por llamada/WhatsApp sin sistema organizado",
+    "email": "Pablomartinezhuenchupan@gmail.com",
+    "whatsapp": "+56959784347",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Melilab Laboratorio Clínico Veterinario",
+    "pais": "Chile",
+    "debilidad": "Laboratorio clínico veterinario en Melipilla con solo 168 me gusta en Facebook y sin sitio web propio pese a atender pequeños y grandes animales",
+    "email": "Melilabvet@gmail.com",
+    "whatsapp": "+56931955373",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Taller Mecánico SRM",
+    "pais": "Chile",
+    "debilidad": "Taller mecánico en Calama con solo 110 me gusta en Facebook, sin sitio web, coordinación de citas y cotizaciones solo manual por teléfono",
+    "email": "sigi_ruiz_41@hotmail.com",
+    "whatsapp": "+56997982388",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Pekín Jardín Infantil",
+    "pais": "Chile",
+    "debilidad": "Jardín infantil particular en Antofagasta con solo 57 me gusta en Facebook y sin sitio web para mostrar programas educativos, matrículas e información a apoderados",
+    "email": "pekinjardininfantil@gmail.com",
+    "whatsapp": "+56999100488",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Cerrajería Saavedra Viña del Mar",
+    "pais": "Chile",
+    "debilidad": "Cerrajería 24/7 en Viña del Mar con solo 228 me gusta en Facebook, sin sitio web, atención de emergencias coordinada solo por llamada telefónica",
+    "email": null,
+    "whatsapp": "+56982556927",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Taller de Bicicletas Guido 2",
+    "pais": "Chile",
+    "debilidad": "Taller de bicicletas en Talcahuano con 548 me gusta en Facebook pero sin sitio web ni catálogo de servicios y precios visible online",
+    "email": null,
+    "whatsapp": "+56959803527",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Taller Llancahué",
+    "pais": "Chile",
+    "debilidad": "Taller de carpintería en Puerto Montt con 752 me gusta en Facebook, sin sitio web ni portafolio digital de sus productos de madera hechos a mano",
+    "email": "tallerllancahue@gmail.com",
+    "whatsapp": "+56934390394",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "SCAuto Servicio Automotriz",
+    "pais": "Chile",
+    "debilidad": "Servicio automotriz en Rancagua con solo 53 me gusta en Facebook, sin sitio web, agendamiento de citas y diagnósticos solo manual por teléfono",
+    "email": "scautoscanner@gmail.com",
+    "whatsapp": "+56937268328",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Gasfiter Octava",
+    "pais": "Chile",
+    "debilidad": "Página de gasfitería técnica en Concepción con solo 48 me gusta en Facebook, sin sitio web, atención coordinada solo por teléfono",
+    "email": null,
+    "whatsapp": "+56974717530",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Peluquería Canina Pelucones",
+    "pais": "Chile",
+    "debilidad": "Peluquería canina en Rancagua con 280 me gusta en Facebook, sin sitio web, agenda de citas gestionada solo de forma manual",
+    "email": "amflores.kne.00@gmail.com",
+    "whatsapp": "+56978960481",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Florería Ikebana",
+    "pais": "Chile",
+    "debilidad": "Florería en Punta Arenas con 494 me gusta en Facebook, sin sitio web propio para pedidos online ni catálogo de arreglos florales",
+    "email": null,
+    "whatsapp": "+56977344996",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "DVR Gasfitería Rancagua",
+    "pais": "Chile",
+    "debilidad": "Empresa de gasfitería en Rancagua con 509 me gusta en Facebook, sin sitio web, detección de fugas y mantención coordinada solo por teléfono",
+    "email": null,
+    "whatsapp": "+56995608311",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Imagen Peluquería Arequipa",
+    "pais": "Perú",
+    "debilidad": "Centro de belleza en Arequipa con 1.165 me gusta en Facebook, sin sitio web propio, agenda de citas solo por teléfono",
+    "email": null,
+    "whatsapp": "+51954686306",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Patrimonio Café",
+    "pais": "Uruguay",
+    "debilidad": "Cafetería de especialidad en Montevideo con solo 223 me gusta en Facebook, sin catálogo visual atractivo online ni presencia de marca consistente en redes",
+    "email": "contacto@patrimoniocafe.com",
+    "whatsapp": "+59824008901",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Compañía Animal Veterinaria",
+    "pais": "Colombia",
+    "debilidad": "Veterinaria en Bucaramanga con 634 seguidores en Facebook, sin sitio web propio, pedidos y consultas coordinadas solo por WhatsApp sin sistema organizado",
+    "email": "companianimal@outlook.com",
+    "whatsapp": "+573177994293",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Providencia Pan Rosario",
+    "pais": "Argentina",
+    "debilidad": "Panadería artesanal de masa madre en Rosario con presencia solo en Instagram/Facebook (cerca de 1.000 me gusta), sin sitio web ni sistema de pedidos automatizado, coordinación manual por WhatsApp",
+    "email": "providenciamasamadre@gmail.com",
+    "whatsapp": "+543412782214",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Clínica Dental Alcivar Guayaquil",
+    "pais": "Ecuador",
+    "debilidad": "Clínica dental en Guayaquil con 463 me gusta en Facebook, sin sitio web propio para mostrar servicios y agendar citas online",
+    "email": null,
+    "whatsapp": "+593988797615",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Tapicería El Rayo Rancagua",
+    "pais": "Chile",
+    "debilidad": "Taller de tapicería automotriz y de muebles en Rancagua con más de 30 años de trayectoria, 973 me gusta en Facebook pero sin sitio web ni catálogo digital de trabajos realizados",
+    "email": null,
+    "whatsapp": "+56967860570",
+    "servicio": "Diseño Visual"
   }
 ]
