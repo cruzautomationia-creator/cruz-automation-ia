@@ -4662,5 +4662,181 @@
     "email": null,
     "whatsapp": "+56967860570",
     "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Tapicería Automotriz Valans Talca",
+    "pais": "Chile",
+    "debilidad": "Taller de tapicería automotriz en Talca (7 Sur 3807) con página de Facebook de 147 me gusta como único canal digital, sin sitio web propio",
+    "email": "Manuelvaldescrisostomo@gmail.com",
+    "whatsapp": "+56977459786",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Constructora Catalán",
+    "pais": "Chile",
+    "debilidad": "Sitio web (ccatalan.cl) con estructura obsoleta tipo constructor de páginas antiguo, incluyendo una página sin terminar rotulada Intranet/untitled (ccatalan.cl/untitled); usa teléfono fijo con formato antiguo, sin presencia de WhatsApp visible",
+    "email": "info@ccatalan.cl",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "PROVIDENCIA Arquitectos",
+    "pais": "Chile",
+    "debilidad": "Solo tiene cuenta de Instagram (@providencia.arquitectos, ~1820 seguidores) como presencia digital, sin sitio web propio encontrado; el contacto se maneja por Gmail personal en vez de un dominio corporativo",
+    "email": "providenciarquitectos@gmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Fotografía Pardo",
+    "pais": "Chile",
+    "debilidad": "Estudio fotográfico (Etchevers 218, Viña del Mar) sin sitio web propio; su Instagram (@fotografia_pardo) tiene solo 694 seguidores y 57 publicaciones, y su página de Facebook apenas 288 me gusta",
+    "email": null,
+    "whatsapp": "+56995845750",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Floreria Florist Peru",
+    "pais": "Perú",
+    "debilidad": "Negocio floral operando en Lima desde 1984, pero su página de Facebook tiene solo 329 me gusta, cifra muy baja para un negocio con más de 40 años de trayectoria; sin actividad de campañas ni contenido reciente relevante",
+    "email": null,
+    "whatsapp": "+51940401701",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Cerrajero Taller De Llaves Achumani - La Paz",
+    "pais": "Bolivia",
+    "debilidad": "Cerrajería de barrio (zona Achumani, La Paz) cuya única presencia digital es una página de Facebook llamada CerrajeroBolivia, sin sitio web ni catálogo de servicios online; toda la gestión de pedidos depende de un único número de WhatsApp",
+    "email": null,
+    "whatsapp": "+59175217538",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Consultorio Dental MVD",
+    "pais": "Uruguay",
+    "debilidad": "Consultorio dental que opera solo con página de Facebook e Instagram (@clinicadental.mvd), sin sitio web propio, a diferencia de otras clínicas de Montevideo que sí tienen dominio propio",
+    "email": "consultorio.dental.mvd@gmail.com",
+    "whatsapp": "+59896615700",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Panadería San Antonio (Lo de Cuchicuchi)",
+    "pais": "Guatemala",
+    "debilidad": "Panadería artesanal con más de 80 años de historia (horno de leña) en Antigua Guatemala, sin sitio web; su única presencia digital es Facebook e Instagram (@lo_de_cuchicuchi) con actividad limitada pese a la trayectoria del negocio",
+    "email": "lodecuchicuchi1940@gmail.com",
+    "whatsapp": "+50278325660",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Floristería los Angeles",
+    "pais": "Costa Rica",
+    "debilidad": "Floristería en San Rafael, Desamparados (San José) sin sitio web propio; opera únicamente con página de Facebook e Instagram para tomar pedidos",
+    "email": "Floristerialosangeles77@gmail.com",
+    "whatsapp": "+50663650665",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Gimnasio En Forma",
+    "pais": "España",
+    "debilidad": "Gimnasio de barrio en León con más de 60 valoraciones (4.8/5) pero sin sitio web propio; presencia digital limitada a Facebook y directorios de terceros, con correo de contacto en dominio Hotmail",
+    "email": "enformajcgs@hotmail.es",
+    "whatsapp": "+34987239001",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "CEMVET Centro Médico Veterinario",
+    "pais": "Argentina",
+    "debilidad": "Clínica veterinaria en Córdoba capital sin sitio web propio; su presencia online se reduce a Facebook y fichas en directorios veterinarios de terceros",
+    "email": "cemvetcordoba@gmail.com",
+    "whatsapp": "+543518638716",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Tapicería y Decoración Fina",
+    "pais": "México",
+    "debilidad": "Taller de tapicería y decoración de muebles con más de 35 años en Puebla, sin sitio web propio; su único enlace listado en directorios apunta a su cuenta de Instagram, no a una página propia",
+    "email": null,
+    "whatsapp": "+522227118502",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Perrukeria Canina",
+    "pais": "Chile",
+    "debilidad": "Negocio familiar de peluquería canina en Melipilla con página de Facebook de 503 me gusta, sin sitio web propio; depende solo de Facebook para agendar horas",
+    "email": null,
+    "whatsapp": "+56951173919",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "HIGAS Gasfitería Los Ángeles",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 8 me gusta (prácticamente sin actividad ni alcance), sin sitio web propio",
+    "email": "servicios@serviciosag.cl",
+    "whatsapp": "+56962245852",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Foto Estudio Chevere",
+    "pais": "Chile",
+    "debilidad": "Estudio fotográfico tradicional de Talca con página de Facebook de solo 80 me gusta, sin sitio web, pese a décadas de trayectoria y haber cambiado recientemente de local",
+    "email": "fotochevere@hotmail.com",
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Clínica Dental Tamaya",
+    "pais": "Chile",
+    "debilidad": "No cuenta con sitio web propio funcional; solo tiene página de Facebook (1.067 me gusta) para agendar horas",
+    "email": "dr.jorge.tapia@gmail.com",
+    "whatsapp": "+56532329048",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Cerrajería Talca",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con 364 me gusta y solo 3 personas hablando de esto, sin sitio web propio; depende de contacto telefónico directo",
+    "email": "cerrajeriayservicios@gmail.com",
+    "whatsapp": "+56990101031",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Vidriería González Chillán",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con 196 me gusta, sin sitio web propio (solo aparece listada en directorios externos)",
+    "email": "vidrieriagonzalez2005@gmail.com",
+    "whatsapp": "+56977336617",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "4 Patitas San Vicente",
+    "pais": "Chile",
+    "debilidad": "Farmacia veterinaria en San Vicente de Tagua Tagua con página de Facebook de solo 28 me gusta, sin sitio web propio",
+    "email": null,
+    "whatsapp": "+56995790137",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Cafetería Artes y Oficios El Almendral",
+    "pais": "Chile",
+    "debilidad": "Cafetería comunitaria en San Felipe con página de Facebook de solo 21 me gusta; sin sitio web ni catálogo digital propio",
+    "email": "extensionalmendral@gmail.com",
+    "whatsapp": "+56997032205",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Restaurant No Me Olvides",
+    "pais": "Chile",
+    "debilidad": "Restaurant en Rengo con página de Facebook de solo 95 me gusta, sin sitio web ni menú digital",
+    "email": null,
+    "whatsapp": "+56722513853",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Pastelería María Isabel",
+    "pais": "Chile",
+    "debilidad": "Pastelería en San Felipe con página de Facebook de solo 220 me gusta, sin sitio web ni tienda online para pedidos",
+    "email": null,
+    "whatsapp": "+56945285060",
+    "servicio": "Automatización redes"
   }
 ]
