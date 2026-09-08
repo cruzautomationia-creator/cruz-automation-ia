@@ -5006,5 +5006,157 @@
     "email": null,
     "whatsapp": "+59165037870",
     "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Wolf Gym Rancagua",
+    "pais": "Chile",
+    "debilidad": "Gimnasio sin sitio web propio; opera únicamente vía Instagram (@wolfgymrancagua) y Facebook (gimnasio.wolf), sin sistema de reservas online",
+    "email": null,
+    "whatsapp": "+56512596496",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Sala Cuna y Jardín Infantil Mis Primeros Pasos (La Serena)",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; su única presencia digital es Facebook e Instagram (@mis.primeros.pasos._) y fichas en directorios municipales de terceros",
+    "email": null,
+    "whatsapp": "+56966697353",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Salón Cecilia Bahamondez (Punta Arenas)",
+    "pais": "Chile",
+    "debilidad": "Salón de belleza con 5810 seguidores en Instagram y 5031 me gusta en Facebook, pero sin sitio web propio para reservas ni catálogo de servicios",
+    "email": null,
+    "whatsapp": "+56993835261",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Charly Bike (Taller de Bicicletas Temuco)",
+    "pais": "Chile",
+    "debilidad": "Taller de bicicletas sin sitio web; toda su operación depende de una página de Facebook básica sin catálogo de servicios ni repuestos",
+    "email": null,
+    "whatsapp": "+56974403993",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Claudia Marín Corredora de Propiedades (Iquique)",
+    "pais": "Chile",
+    "debilidad": "Corredora de propiedades sin sitio web propio; solo cuenta con Facebook y una ficha genérica en una plataforma de listados de terceros (inmo.co)",
+    "email": "claudiamarinpropiedades@gmail.com",
+    "whatsapp": "+56958644865",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Veterinaria Agustina (Curicó)",
+    "pais": "Chile",
+    "debilidad": "Veterinaria sin sitio web propio; agenda de horas y consultas se gestionan solo por Facebook, WhatsApp y una ficha en AgendaPro",
+    "email": null,
+    "whatsapp": "+56976192180",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Estética Claga (Rancagua)",
+    "pais": "Chile",
+    "debilidad": "Centro de estética sin sitio web propio; opera únicamente a través de una página de Facebook básica sin catálogo de tratamientos",
+    "email": null,
+    "whatsapp": "+56936230790",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Electricidad Automotriz y Mecánica SOLUTION (Osorno)",
+    "pais": "Chile",
+    "debilidad": "Taller de electricidad automotriz sin sitio web; contacto y cotizaciones se gestionan manualmente por WhatsApp y Facebook",
+    "email": null,
+    "whatsapp": "+56942581475",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Comsoser Ferretería Industrial (Puerto Montt)",
+    "pais": "Chile",
+    "debilidad": "Ferretería industrial sin sitio web propio; pedidos y cotizaciones se gestionan solo por teléfono y WhatsApp",
+    "email": null,
+    "whatsapp": "+56984450781",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Abogados UP Soluciones (Rancagua)",
+    "pais": "Chile",
+    "debilidad": "Estudio jurídico sin sitio web propio; su única presencia es una ficha en un directorio de terceros y contacto por WhatsApp",
+    "email": null,
+    "whatsapp": "+56951669115",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Veterinaria Atacama Pets (Copiapó)",
+    "pais": "Chile",
+    "debilidad": "Clínica veterinaria sin sitio web propio; toda su presencia digital es una página de Facebook básica",
+    "email": null,
+    "whatsapp": "+56976181520",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Panadería Belgrado (Rosario)",
+    "pais": "Argentina",
+    "debilidad": "Panadería familiar sin sitio web propio; toda su presencia digital es Instagram (@panaderiabelgrado) y Facebook",
+    "email": null,
+    "whatsapp": "+543414251886",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Veterinaria San Juan (San Salvador)",
+    "pais": "El Salvador",
+    "debilidad": "Clínica veterinaria con 6271 seguidores en Instagram (@veterinariasanjuan) pero sin sitio web propio para agendamiento",
+    "email": "vetsanjuan2012@gmail.com",
+    "whatsapp": "+50378037687",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "L&L Medicina Estética Dra. García (Guadalajara)",
+    "pais": "México",
+    "debilidad": "Clínica de medicina estética sin sitio web propio; opera únicamente vía Instagram (@l.dra.garcia.11) y WhatsApp",
+    "email": null,
+    "whatsapp": "+523327956368",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Especialidades Centro Veterinario (Ciudad de Guatemala)",
+    "pais": "Guatemala",
+    "debilidad": "Clínica veterinaria sin sitio web propio; su única presencia digital es una página de Facebook básica",
+    "email": null,
+    "whatsapp": "+50223126728",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Chulisimos (Peluquería Canina y Felina, Lima)",
+    "pais": "Perú",
+    "debilidad": "Peluquería canina y felina sin sitio web propio; opera únicamente por Facebook (chulisimos) y teléfono",
+    "email": null,
+    "whatsapp": "+51963462941",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Costa Rica Dental Design (San José)",
+    "pais": "Costa Rica",
+    "debilidad": "Clínica dental sin sitio web propio; su única presencia digital es una página de Facebook (CostaRicaDentalDesign)",
+    "email": null,
+    "whatsapp": "+50622368392",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Vetercorp (Santa Cruz de la Sierra)",
+    "pais": "Bolivia",
+    "debilidad": "Clínica veterinaria con más de 20 años de experiencia pero sin sitio web propio; solo cuenta con página de Facebook",
+    "email": null,
+    "whatsapp": "+59175012114",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "La Mejor Barbería en Panama (Barber Cesar Ink)",
+    "pais": "Panamá",
+    "debilidad": "Barbería sin sitio web propio; opera únicamente vía Facebook y contacto telefónico directo",
+    "email": "2591cesar@gmail.com",
+    "whatsapp": "+50769065629",
+    "servicio": "Diseño Visual"
   }
 ]
