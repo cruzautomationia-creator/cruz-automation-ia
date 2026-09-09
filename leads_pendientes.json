@@ -5294,5 +5294,53 @@
     "email": "tallereltecnico32@gmail.com",
     "whatsapp": null,
     "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Clínica San Francisco San Vicente",
+    "pais": "Chile",
+    "debilidad": "Clínica dental sin sitio web propio; su única presencia online es Instagram (@clinicasanfranciscosanvcte, 1411 seguidores) y una ficha en AgendaPro, sin dominio ni página institucional propia, San Vicente de Tagua Tagua",
+    "email": null,
+    "whatsapp": "+56939334428",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Peluquería Infantil Jireh",
+    "pais": "Chile",
+    "debilidad": "Peluquería infantil en Bollenar, Melipilla, con página de Facebook de solo 321 me gusta, sin sitio web ni Instagram; agenda citas únicamente por teléfono/WhatsApp de forma manual",
+    "email": "jirehkids.melipilla@hotmail.com",
+    "whatsapp": "+56931232919",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Veterinaria Móvil Puente Alto",
+    "pais": "Chile",
+    "debilidad": "Servicio veterinario a domicilio con Facebook de solo 480 me gusta; opera con dos números de celular distintos sin sistema de agendamiento automatizado",
+    "email": null,
+    "whatsapp": "+56949637283",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Clínica Dental Mirident",
+    "pais": "Chile",
+    "debilidad": "Clínica dental en Nueva Imperial (Araucanía) con página de Facebook de apenas 35 me gusta y sin ningún sitio web propio",
+    "email": null,
+    "whatsapp": "+56975121862",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Survisión Óptica Villarrica",
+    "pais": "Chile",
+    "debilidad": "Óptica en Villarrica sin sitio web propio, con Facebook de apenas 80 me gusta frente a competidores locales con más de 900; depende solo de redes sociales para todo su negocio",
+    "email": null,
+    "whatsapp": "+56997924269",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Taller Mecánico Tito Shago",
+    "pais": "Chile",
+    "debilidad": "Taller mecánico en Curanilahue (Biobío) con página de Facebook de solo 320 me gusta, sin sitio web ni sistema de agendamiento; coordinación de trabajos solo por llamada/WhatsApp manual",
+    "email": null,
+    "whatsapp": "+56975820801",
+    "servicio": "Automatización WhatsApp"
   }
 ]
