@@ -5158,5 +5158,141 @@
     "email": "2591cesar@gmail.com",
     "whatsapp": "+50769065629",
     "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Peluspet Peluquería Canina",
+    "pais": "Chile",
+    "debilidad": "Cuenta de Instagram @peluspet con solo 346 seguidores y 50 publicaciones, sin sitio web propio, agenda sus citas manualmente por WhatsApp (Pudahuel, Santiago)",
+    "email": null,
+    "whatsapp": "+56993641746",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Hostal Beraca",
+    "pais": "Chile",
+    "debilidad": "Su dominio propio hostalberaca.cl no resuelve (DNS caído, sitio inexistente); única presencia real es una página de Facebook básica (Cochrane, Aysén)",
+    "email": "Beracaredlich@gmail.com",
+    "whatsapp": "+56990759027",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Ferretería Perquilauquen",
+    "pais": "Chile",
+    "debilidad": "Su único sitio web es una minipágina gratuita del generador Ueniweb (plantilla básica, sin diseño propio ni identidad de marca), Cauquenes, Maule",
+    "email": null,
+    "whatsapp": "+56977571127",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Nahuen",
+    "pais": "Chile",
+    "debilidad": "Clínica dental sin sitio web propio; toda su presencia digital se limita a Facebook e Instagram (@clinicanahuen) con actividad básica, Illapel",
+    "email": null,
+    "whatsapp": "+56920709888",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "360.sushi",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con solo 224 me gusta, sin sitio web propio (solo un link externo de pedidos en ola.click sin marca propia), San Bernardo",
+    "email": "360sushi.sanbernardo@gmail.com",
+    "whatsapp": "+56971779705",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Vulcanización Don Jaime",
+    "pais": "Chile",
+    "debilidad": "Taller con página de Facebook de solo 320 me gusta, sin sitio web ni catálogo de servicios online, coordina todo por teléfono, La Reina",
+    "email": null,
+    "whatsapp": "+56981238720",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Escuela de Conductores Cool Drive Maipú",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio; toda su presencia son perfiles de Facebook e Instagram sin sistema de agendamiento online para clases, Maipú",
+    "email": "cooldrive.maipu@gmail.com",
+    "whatsapp": "+56979681875",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Escuela de Conductores F.U.",
+    "pais": "Chile",
+    "debilidad": "Su único sitio es una microsite gratuita autogenerada de Google Negocios (negocio.site), no un sitio corporativo propio, pese a tener buena base de seguidores en Instagram, Pudahuel",
+    "email": null,
+    "whatsapp": "+56977811391",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Jardín Infantil Remolino",
+    "pais": "Chile",
+    "debilidad": "Jardín infantil sin sitio web propio, presencia solo en Facebook (1034 me gusta) y TikTok, sin página informativa para matrículas, Quilicura",
+    "email": "jardininfantilremolino@hotmail.com",
+    "whatsapp": "+56997571077",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Centro Odontológico Maxidental",
+    "pais": "Venezuela",
+    "debilidad": "Página de Facebook con 1421 me gusta pero última publicación de noviembre 2024 (~21 meses sin actividad); no se encontró sitio web propio, solo Facebook",
+    "email": "Centroodontologicogaleria@gmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Square Biz Barbershop",
+    "pais": "Estados Unidos",
+    "debilidad": "Página de Facebook con solo 197 me gusta, sin sitio web propio (solo aparece en Yelp e Instagram), sin sistema de reservas online",
+    "email": "squarebizbarbershop@gmail.com",
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Constructora Muñoz & Bonache",
+    "pais": "Bolivia",
+    "debilidad": "Marca fragmentada en al menos 3 páginas de Facebook distintas (2643 me gusta en la principal) sin sitio web unificado ni catálogo de proyectos online",
+    "email": null,
+    "whatsapp": "+59162739373",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Autoescuela San Sebastian",
+    "pais": "España",
+    "debilidad": "Página de Facebook con solo 93 me gusta, sin sitio web para consultar precios, horarios o inscribirse a clases",
+    "email": "autoescuelasansebastianpsp@outlook.es",
+    "whatsapp": null,
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "CIMVET-Veterinaria",
+    "pais": "Perú",
+    "debilidad": "Presencia dividida en al menos 4 páginas de Facebook distintas (clínica, farmacia online, Latam, perfil personal) sin sitio web propio que unifique servicios",
+    "email": null,
+    "whatsapp": "+51959571877",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Azul Spa Morelia",
+    "pais": "México",
+    "debilidad": "Opera solo vía Facebook (1134 me gusta) y WhatsApp, sin sitio web para reservar citas o mostrar catálogo de tratamientos",
+    "email": null,
+    "whatsapp": "+524433699553",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Veterinaria Valkiria",
+    "pais": "Uruguay",
+    "debilidad": "Sin sitio web propio: solo aparece listada en directorios de terceros (1122.com.uy, veterinarios.com.uy) y Facebook con 1424 me gusta",
+    "email": null,
+    "whatsapp": "+59892550906",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Taller El Técnico (Ecuador)",
+    "pais": "Ecuador",
+    "debilidad": "Solo presencia en Facebook (2093 me gusta) y TikTok, sin sitio web ni WhatsApp Business visible, atención únicamente por mensajes de Facebook",
+    "email": "tallereltecnico32@gmail.com",
+    "whatsapp": null,
+    "servicio": "Automatización WhatsApp"
   }
 ]
