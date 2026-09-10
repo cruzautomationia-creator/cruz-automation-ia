@@ -5438,5 +5438,93 @@
     "email": null,
     "whatsapp": "+5115330051",
     "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Negocios Inmobiliarios Los Ángeles",
+    "pais": "Chile",
+    "debilidad": "Corredora de propiedades sin sitio web ni reseñas en Google/Facebook pese a operar activamente; publica todo el catálogo solo en Facebook (1.328 seguidores)",
+    "email": "ventasdeloteslosangeles@gmail.com",
+    "whatsapp": "+56996130403",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Mundo Pets Talca",
+    "pais": "Chile",
+    "debilidad": "Tienda de mascotas sin sitio web propio; depende 100% de su página de Facebook para catálogo y pedidos",
+    "email": null,
+    "whatsapp": "+56975937765",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Mi Láser Curicó",
+    "pais": "Chile",
+    "debilidad": "Centro de estética láser con más de 3.200 seguidores en Facebook pero sin sitio web propio ni sistema de reservas online, todo se agenda por mensajes de Facebook",
+    "email": "milasercurico@gmail.com",
+    "whatsapp": "+56968507206",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Gomachupicchuperu",
+    "pais": "Perú",
+    "debilidad": "Agencia de turismo en Cusco sin sitio web propio; opera solo con página de Facebook y correo Gmail personal como único contacto formal",
+    "email": "caceresliz125@gmail.com",
+    "whatsapp": "+51983997755",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Dr. Jorge Azócar - Cirugía Plástica y Medicina Estética",
+    "pais": "Colombia",
+    "debilidad": "Sitio web alojado en subdominio gratuito de Wix (azocarcirujano.wixsite.com/plastico), sin dominio propio",
+    "email": "azocarcirujano@gmail.com",
+    "whatsapp": "+573208613017",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Lazo Estudio de Arquitectura",
+    "pais": "El Salvador",
+    "debilidad": "Estudio de arquitectura en San Salvador sin sitio web propio; presencia digital reducida a una página de Facebook, contacto vía Gmail",
+    "email": "lazoestudiodearquitectura@gmail.com",
+    "whatsapp": "+50322985062",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Slimming Gym & Fitness",
+    "pais": "Ecuador",
+    "debilidad": "Gimnasio en Quito sin sitio web; único canal digital es Facebook más un enlace acortado de WhatsApp (walink.co), sin página propia",
+    "email": null,
+    "whatsapp": "+593988518398",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Restaurante La Batalla México",
+    "pais": "México",
+    "debilidad": "Restaurante en Ecatepec con sitio web en subdominio gratuito de Wix (angelmc3.wixsite.com/la-batalla-mexico) con plantilla genérica y URL de usuario personal, sin dominio propio",
+    "email": null,
+    "whatsapp": "+525554139258",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Titanium Fitness and Wellness",
+    "pais": "Bolivia",
+    "debilidad": "Gimnasio en La Paz sin sitio web propio; presencia digital limitada únicamente a una página de Facebook",
+    "email": null,
+    "whatsapp": "+59179159409",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Spa Keila Barrera",
+    "pais": "Venezuela",
+    "debilidad": "Spa en Caracas sin sitio web; opera solo con página de Facebook y correo Gmail personal como contacto",
+    "email": "spakeilabarrera@gmail.com",
+    "whatsapp": "+584129040175",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Inversiones Inmobiliarias Guatemala",
+    "pais": "Guatemala",
+    "debilidad": "Inmobiliaria en Mixco sin sitio web propio; gestiona ventas de propiedades solo vía Facebook y correo Gmail",
+    "email": "ventasinversionesinmobiliarias@gmail.com",
+    "whatsapp": "+50253402454",
+    "servicio": "Web Corporativa"
   }
 ]
