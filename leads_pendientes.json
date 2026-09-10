@@ -5342,5 +5342,101 @@
     "email": null,
     "whatsapp": "+56975820801",
     "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Sala Cuna y Jardín Infantil Manzanitas Kids",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; toda su presencia digital es una página de Facebook (dirección Valdivia 639, Los Ángeles)",
+    "email": null,
+    "whatsapp": "+56953523685",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Veterinaria El Molino",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web; solo Facebook y fichas en directorios externos (Av. Barros Arana 750, Lautaro)",
+    "email": null,
+    "whatsapp": "+56958803148",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Ferretería Olate",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; presencia limitada a Facebook y listados tipo Mercantil.com (Chillán)",
+    "email": null,
+    "whatsapp": "+56936307791",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Ventus Arquitectura",
+    "pais": "Chile",
+    "debilidad": "Estudio de arquitectura en Punta Arenas sin sitio web, solo muestra proyectos en Facebook",
+    "email": "contacto@ventusarquitectura.com",
+    "whatsapp": "+56985708394",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Óptica Paula Zúñiga",
+    "pais": "Chile",
+    "debilidad": "Óptica en Rancagua sin sitio web propio; solo Facebook e Instagram (Astorga 277)",
+    "email": "paula@opticaspaulazuniga.cl",
+    "whatsapp": "+56988282440",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Zona Estética Valdivia",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web propio; agenda reservas manualmente repartidas en varios WhatsApp personales distintos por servicio (García Reyes #662)",
+    "email": null,
+    "whatsapp": "+56996413383",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Olympus Masajes Spa",
+    "pais": "Chile",
+    "debilidad": "Spa de masajes en Villa Alemana sin sitio web, solo Facebook (Troncos Viejos)",
+    "email": null,
+    "whatsapp": "+56962443771",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Floristería Las Pérgolas",
+    "pais": "Chile",
+    "debilidad": "Floristería en Linares sin sitio web; opera solo por Instagram/Facebook",
+    "email": null,
+    "whatsapp": "+56946893748",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "OH MY DOG Mascota",
+    "pais": "Chile",
+    "debilidad": "Tienda de alimento/accesorios para mascotas en Talcahuano sin sitio web, solo Facebook",
+    "email": null,
+    "whatsapp": "+56965119908",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Restaurante Graymar",
+    "pais": "España",
+    "debilidad": "Restaurante en Villaverde (Madrid) con más de 370 reseñas en Google/Restaurant Guru (4.2/5), pero su único sitio web es un subdominio gratuito de Wix (masy225567.wixsite.com/graymar) sin dominio propio",
+    "email": null,
+    "whatsapp": "+34657456868",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Aventura Travel Colombia",
+    "pais": "Colombia",
+    "debilidad": "Operador turístico en Suesca con registro RNT 117963, cuyo único sitio es un subdominio gratuito de Wix (aventuratravelcolo2.wixsite.com/website)",
+    "email": "aventura.travelcolombia@gmail.com",
+    "whatsapp": "+573173748605",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Atik Perú Travel S.A.C.",
+    "pais": "Perú",
+    "debilidad": "Agencia de viajes registrada operando desde 2009 en Los Olivos (Lima), cuyo único sitio es un subdominio gratuito de Wix (atikperutravel5.wixsite.com/turismo)",
+    "email": null,
+    "whatsapp": "+5115330051",
+    "servicio": "Landing Page"
   }
 ]
