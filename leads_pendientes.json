@@ -5526,5 +5526,149 @@
     "email": "ventasinversionesinmobiliarias@gmail.com",
     "whatsapp": "+50253402454",
     "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Clínica Dental Puerta Sur",
+    "pais": "Chile",
+    "debilidad": "Puerto Montt: no tiene sitio web propio; su única presencia digital es Instagram (@clinicadental.puertasur) y Facebook, sin dominio ni página corporativa donde agendar o ver servicios",
+    "email": null,
+    "whatsapp": "+56923905370",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "GDS Constructora",
+    "pais": "Chile",
+    "debilidad": "Temuco: sin sitio web; opera solo con página de Facebook de 665 me gusta cuya última publicación es de junio 2024 (más de un año sin actividad), sin presencia digital para mostrar proyectos",
+    "email": "gds1577@gmail.com",
+    "whatsapp": "+56937086060",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Veterinaria a Domicilio Amor Animal Osorno",
+    "pais": "Chile",
+    "debilidad": "Osorno: sin sitio web; funciona únicamente a través de página de Facebook con 509 me gusta, sin landing page ni sistema de reservas online para su servicio de atención veterinaria a domicilio",
+    "email": null,
+    "whatsapp": "+56979166997",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "La Cuisine Bistró",
+    "pais": "Chile",
+    "debilidad": "Viña del Mar: restaurante desde 1983 pero su Instagram (@lacuisinebistro_) tiene apenas 69 seguidores y no se encontró sitio web propio, solo fichas en directorios turísticos",
+    "email": null,
+    "whatsapp": "+56950025749",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Cabañas Las Palmas de Chanavayita",
+    "pais": "Chile",
+    "debilidad": "Iquique (playa Chanavayita): sin sitio web propio; presencia digital limitada a página de Facebook (4.306 me gusta) y fichas en directorios de terceros, sin sistema de reservas online",
+    "email": "laspalmasiloca@gmail.com",
+    "whatsapp": "+56990787685",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "La Barbería de Nicanor",
+    "pais": "Chile",
+    "debilidad": "Calama: sin sitio web propio; opera únicamente vía Instagram (@labarberiadenicanor, 988 seguidores) y coordina todas las reservas manualmente por WhatsApp, sin sistema de agendamiento online",
+    "email": null,
+    "whatsapp": "+56976490284",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Cabañas Pinamar",
+    "pais": "Chile",
+    "debilidad": "La Serena (Avenida del Mar): complejo de 21 cabañas sin sitio web propio; su página de Facebook (696 me gusta) ni siquiera tiene URL personalizada, depende de Booking.com y directorios externos",
+    "email": "cabanaspinamar.chile@gmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Gasfitería Ramos 24 Horas",
+    "pais": "Chile",
+    "debilidad": "Santiago: página de Facebook llamada literalmente con el número de teléfono en el nombre, 711 seguidores, sin catálogo de servicios ni sistema de reservas; gestión de solicitudes 100% manual por llamada o WhatsApp",
+    "email": null,
+    "whatsapp": "+56961485055",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Multiservice Cerrajería Chillán",
+    "pais": "Chile",
+    "debilidad": "Chillán: presencia digital mínima, solo una publicación suelta en Facebook con el número de contacto en el texto, sin catálogo de servicios ni flujo de atención automatizado, gestión manual por llamada/WhatsApp",
+    "email": "rodrigorios725@gmail.com",
+    "whatsapp": "+56936239576",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Churros Españoles Artesanales",
+    "pais": "Chile",
+    "debilidad": "Maipú/Padre Hurtado/Peñaflor: página de Facebook con 2.320 me gusta pero promoción basada en videos sueltos anunciando pedidos al WhatsApp, sin catálogo de productos ni menú fijo, coordinación de puntos de venta 100% manual",
+    "email": null,
+    "whatsapp": "+56941744647",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Chiclayo Dental",
+    "pais": "Perú",
+    "debilidad": "Chiclayo: cuenta de Instagram @chiclayodental.com.pe con solo 1.119 seguidores para una clínica dental; las citas se coordinan solo por un celular personal, sin sistema de reservas automatizado",
+    "email": null,
+    "whatsapp": "+51913023474",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Veterinaria Lucas",
+    "pais": "Perú",
+    "debilidad": "Arequipa (Sachaca): solo 556 seguidores en Instagram (@veterinarialucassn); a diferencia de otras veterinarias de Arequipa, no tiene sitio web propio, solo apariciones en directorios genéricos",
+    "email": null,
+    "whatsapp": "+51959283040",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "El Bronx Barbería",
+    "pais": "Argentina",
+    "debilidad": "Rosario: Instagram (@barberiaelbronxrosario) con 3.354 seguidores pero siguiendo a 7.601 cuentas (ratio invertido, típico de crecimiento sin estrategia), sin sitio web propio",
+    "email": null,
+    "whatsapp": "+543413821553",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Veterinaria Mendoza",
+    "pais": "Argentina",
+    "debilidad": "Mendoza: cuenta de Instagram (@clinica_veterinaria_mendoza) con solo 545 seguidores; a diferencia de otras veterinarias de la ciudad no cuenta con sitio web propio",
+    "email": null,
+    "whatsapp": "+542612271382",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Restaurante La 22",
+    "pais": "Colombia",
+    "debilidad": "Bucaramanga: usa 5 números de WhatsApp personales distintos para pedidos/domicilios sin línea centralizada; su sitio web solo carga en http:// (sin https) y luce desactualizado",
+    "email": "restaurantela22@hotmail.com",
+    "whatsapp": "+573163760214",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Restaurante Ricuras",
+    "pais": "Colombia",
+    "debilidad": "Bucaramanga: marca fragmentada en al menos 3 cuentas de Instagram distintas (@restaurantericuras, @ricuras.rte, @restoricurascolombianas) y sin sitio web propio, solo un Linktree",
+    "email": null,
+    "whatsapp": "+573174129050",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Barberos Medina",
+    "pais": "México",
+    "debilidad": "León, Guanajuato: solo 508 seguidores en Instagram (@barberosmedina) y 539 me gusta en Facebook, sin sitio web ni estrategia de contenido visible",
+    "email": null,
+    "whatsapp": "+524771570211",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Blue Gym Toluca",
+    "pais": "México",
+    "debilidad": "Toluca: no tiene sitio web propio, solo aparece en directorios de terceros (Yelp, Fresha, Citiservi); su Instagram (@bluegymtoluca) tiene apenas 841 seguidores",
+    "email": null,
+    "whatsapp": "+527222783927",
+    "servicio": "Diseño Visual"
   }
 ]
