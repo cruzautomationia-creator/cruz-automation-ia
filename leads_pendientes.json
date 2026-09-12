@@ -5734,5 +5734,125 @@
     "email": null,
     "whatsapp": "+595981947578",
     "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Comercial Panchita",
+    "pais": "Chile",
+    "debilidad": "Cuenta de Instagram @comercialpanchitaafta con solo 49 seguidores y 138 publicaciones; venden ropa y juguetes al por mayor y menor sin ningún sitio web ni catálogo digital, todo el proceso de venta es manual",
+    "email": null,
+    "whatsapp": "+56942708958",
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Juguetes de Madera Antofagasta (Antoys)",
+    "pais": "Chile",
+    "debilidad": "Instagram @antoys_antofagasta con 1.344 seguidores y sin sitio web propio; todas las ventas y envíos a nivel nacional se coordinan manualmente por WhatsApp, sin carrito de compra ni catálogo online",
+    "email": null,
+    "whatsapp": "+56953898688",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Pulso Masajes",
+    "pais": "Chile",
+    "debilidad": "Instagram @pulsomasajes tiene 2.984 seguidores pero solo 5 publicaciones totales (actividad prácticamente nula pese al volumen de seguidores) y sin sistema de agendamiento online, solo por WhatsApp",
+    "email": null,
+    "whatsapp": "+56954085126",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Matías Libros",
+    "pais": "Chile",
+    "debilidad": "Instagram @matiaslibros24 con 5.364 seguidores pero sin tienda online ni sitio web propio; toda la venta de libros nuevos y usados se hace por mensajes de WhatsApp uno a uno, sin catálogo digital",
+    "email": null,
+    "whatsapp": "+56999100564",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Kinestésic",
+    "pais": "Chile",
+    "debilidad": "Instagram @kinestesic con 1.152 seguidores; el agendamiento de horas y cotización de tratamientos kinesiológicos se realiza exclusivamente por mensaje de WhatsApp, sin sistema de reservas automatizado",
+    "email": null,
+    "whatsapp": "+56983767541",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Swim Up (Ser Feliz en el Agua)",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook SwimUpCl con solo 908 me gusta y actividad de publicación baja; escuela de natación para bebés y niños sin sitio web ni landing con información de cursos/horarios",
+    "email": null,
+    "whatsapp": "+56962323172",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Turistour",
+    "pais": "Chile",
+    "debilidad": "Sitio web turistour.cl con diseño anticuado (estructura tipo directorio de hace años, sin diseño responsive moderno) para una empresa de turismo con más de 30 años de trayectoria en Chiloé; reservas se derivan a email/WhatsApp manual",
+    "email": "reservas@turistour.cl",
+    "whatsapp": "+56942623484",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Distribuidora La Regional",
+    "pais": "Chile",
+    "debilidad": "Página de Facebook con 5.495 me gusta pero solo 46 personas hablando de esto (engagement muy bajo), sin sitio web ni catálogo online; pedidos de abarrotes y bebidas al por mayor en Chillán se coordinan por WhatsApp manual",
+    "email": null,
+    "whatsapp": "+56962437148",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Ferretería LP",
+    "pais": "Chile",
+    "debilidad": "Instagram @ferreteria_lp con 1.234 seguidores y sin sitio web propio; pedidos y despacho gratuito dentro de San Antonio se gestionan manualmente por WhatsApp, sin catálogo digital de productos",
+    "email": null,
+    "whatsapp": "+56965859772",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Academia Versátil Music",
+    "pais": "México",
+    "debilidad": "Promociona un dominio propio no funcional; su presencia web real es una plantilla gratuita de Wix, con identidad dispersa e inconsistente entre Facebook, Instagram, TikTok y YouTube, sin sitio profesional ni sistema de agendamiento online",
+    "email": null,
+    "whatsapp": "+525574110030",
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Sala de Belleza Bella Dama",
+    "pais": "Nicaragua",
+    "debilidad": "Su única presencia digital es una página de Facebook con menos de 3.000 me gusta y ninguna web propia; solo aparece listada en directorios genéricos de terceros en lugar de tener canal propio de reservas",
+    "email": null,
+    "whatsapp": "+50588626616",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Juguetelindo Distribuidora",
+    "pais": "Ecuador",
+    "debilidad": "Distribuidora de juguetes cuya única vitrina digital es una página de Facebook con 3.049 me gusta; no cuenta con tienda online ni catálogo digital, todo pedido se gestiona manualmente por WhatsApp",
+    "email": null,
+    "whatsapp": "+593963292407",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Fisioterapia y Kinesiología a Domicilio Sucre Bolivia",
+    "pais": "Bolivia",
+    "debilidad": "Servicio de kinesiología/fisioterapia a domicilio con solo 2.119 me gusta en Facebook como único canal, sin sitio web ni sistema de reservas online, pese a requerir coordinación de horarios y direcciones para atención domiciliaria",
+    "email": null,
+    "whatsapp": "+59177123404",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Ferretería MC",
+    "pais": "Argentina",
+    "debilidad": "Ferretería de barrio en Béccar (San Isidro) con página de Facebook de solo 552 me gusta, sin sitio web; su único contacto formal es un correo Gmail personal (no corporativo), lo que la hace invisible en búsquedas de ferreterías online",
+    "email": "aamlombana@gmail.com",
+    "whatsapp": null,
+    "servicio": "Web Corporativa"
+  },
+  {
+    "nombre": "Veterinaria Pet Shop Perú",
+    "pais": "Perú",
+    "debilidad": "Cuenta de Instagram con apenas 156 seguidores y 35 publicaciones como única presencia digital, sin sitio web, pese a operar dos locales físicos (Lima y Trujillo)",
+    "email": null,
+    "whatsapp": "+51960939363",
+    "servicio": "Automatización redes"
   }
 ]
