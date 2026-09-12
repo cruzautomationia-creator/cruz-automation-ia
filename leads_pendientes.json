@@ -5670,5 +5670,69 @@
     "email": null,
     "whatsapp": "+527222783927",
     "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Escuela de Conductores Magallanes",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web propio (solo aparece en directorios como Mercantil.com y revisiontecnica-chile.com); su única presencia digital activa es una página de Facebook sin actividad relevante, sin catálogo de cursos ni sistema de agendamiento online",
+    "email": "esc.cond.magallanespa2018@gmail.com",
+    "whatsapp": "+56974454132",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Serena Bike",
+    "pais": "Chile",
+    "debilidad": "Su sitio web está construido en la plantilla gratuita Ueni (serenabike.ueniweb.com), genérica, sin dominio propio ni carrito de compra funcional para su catálogo de piezas de bicicleta",
+    "email": null,
+    "whatsapp": "+56953681437",
+    "servicio": "E-Commerce"
+  },
+  {
+    "nombre": "Cerrajero Viña del Mar (Aberturas Viña)",
+    "pais": "Chile",
+    "debilidad": "Sin sitio web; su única presencia es Instagram @aberturas.vina con solo 308 seguidores, 254 seguidos y apenas 53 publicaciones en total, típico de una cuenta con muy poco crecimiento orgánico",
+    "email": null,
+    "whatsapp": "+56991281244",
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Tapicería AutoShop Osorno",
+    "pais": "Chile",
+    "debilidad": "No tiene sitio web; su única vitrina digital es una página de Facebook con apenas 218 me gusta, sin catálogo de trabajos ni sistema de cotización online",
+    "email": null,
+    "whatsapp": "+56953280134",
+    "servicio": "Landing Page"
+  },
+  {
+    "nombre": "Servi PC",
+    "pais": "El Salvador",
+    "debilidad": "Servicio técnico de computadores en San Salvador sin sitio web oficial; su único canal digital verificado es una página de Facebook",
+    "email": "servipc015@gmail.com",
+    "whatsapp": null,
+    "servicio": "Automatización WhatsApp"
+  },
+  {
+    "nombre": "Chul Catering & Gourmet",
+    "pais": "República Dominicana",
+    "debilidad": "Página de Facebook con apenas 39 me gusta, sin sitio web propio, para un servicio de catering en Santo Domingo",
+    "email": "gratereauxmercedes304@gmail.com",
+    "whatsapp": null,
+    "servicio": "Diseño Visual"
+  },
+  {
+    "nombre": "Luna Estudio Fotográfico",
+    "pais": "Perú",
+    "debilidad": "Estudio fotográfico en Chiclayo sin sitio web propio; depende únicamente de Instagram (2.257 seguidores) y Facebook (1.999 me gusta), sin presencia web formal para reservas",
+    "email": null,
+    "whatsapp": "+51925663526",
+    "servicio": "Automatización redes"
+  },
+  {
+    "nombre": "Auto Escuela Yan Kar",
+    "pais": "Paraguay",
+    "debilidad": "Escuela de conducir en Asunción sin sitio web propio; solo Facebook con 2.733 me gusta, sin sistema online de inscripción a cursos",
+    "email": null,
+    "whatsapp": "+595981947578",
+    "servicio": "Landing Page"
   }
 ]
